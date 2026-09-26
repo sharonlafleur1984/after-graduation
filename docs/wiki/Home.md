@@ -8,7 +8,7 @@ A planner that helps every high school student map out life after graduation, wi
 
 | | |
 |---|---|
-| **Where we are** | Personal site locked on Netlify. Sample-data copy in GitHub. Now learning if people value it. |
+| **Where we are** | Personal site locked on Netlify. A copy of the code is in GitHub, ready to rebuild in React. Now learning if people value it. |
 | **Business status** | Not a business yet. Test first, then decide (no later than Feb 2027). |
 | **Who it's for** | Every high school student. The IEP layer is optional. |
 | **Next milestone** | Usability round done (Oct 2026) |
