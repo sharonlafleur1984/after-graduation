@@ -150,14 +150,4 @@ Open an idea below for the full reasoning and sources.
 
 </details>
 
-<details>
-<summary><b>Open tasks</b> (until a task tracker is set up)</summary>
-
-| Task | Who |
-|---|---|
-| Check Google for old copies of the personal site | Sharon |
-| Write down roughly how many hours the planner took to build | Sharon |
-| Set up React + TypeScript + Storybook | Claude |
-| Recruit 6 to 8 people for usability sessions | Sharon |
-
-</details>
+**Tasks** live in [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues). Each one says the problem it solves and when it's done.

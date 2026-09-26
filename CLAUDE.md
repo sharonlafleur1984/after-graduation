@@ -20,7 +20,8 @@ After Graduation: a planner that helps every high school student map out life af
 |---|---|
 | `docs/wiki/Home.md` | You need the big picture or current status |
 | `docs/wiki/Roadmap.md` | Deciding what to work on next |
-| `docs/wiki/Backlog.md` | Looking for a specific fix, idea or open task |
+| `docs/wiki/Backlog.md` | Looking for a specific fix or idea |
+| [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues) | Tasks: who's doing what. Every task states its problem and when it's done. |
 | `docs/wiki/Decisions.md` | Checking why something was decided |
 | `docs/wiki/Business-Evaluation.md` | Questions about market, pricing or business viability |
 | `docs/wiki/Sources.md` | You need the source for a fact |
