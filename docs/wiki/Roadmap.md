@@ -4,6 +4,8 @@
 
 **Current objective:** find out whether students and families value this enough to use it and pay for it, before building more. ([Business Evaluation](Business-Evaluation))
 
+**We'll know it worked when:** most usability testers can finish the key tasks on their own, and 3 or more of 10 families pay.
+
 **Last updated:** September 25, 2026
 
 ## Now / Next / Later
@@ -11,8 +13,8 @@
 | Now | Next | Later |
 |---|---|---|
 | **Learn if it's easy to use:** usability sessions with students and parents | **Learn if families return:** a small beta with accounts | **Grow:** a second state and more schools |
-| **Learn if families would pay:** priced offer to 10 families | **Keep data private:** accounts with parent consent | **Partner:** schools, nonprofits or funders |
-| **Build the foundation:** design system and React rebuild | **Every student:** content that works for any student, IEP layer optional | |
+| **Learn if families would pay:** priced offer to 10 families | **Families trust us with their data:** accounts with parent consent | **Partner:** schools, nonprofits or funders |
+| **Code others can build on:** a design system and tested React version of the prototype | **Any student can use it:** content for every student, IEP layer optional | |
 
 Each item is a problem to solve, not a feature. Detailed work lives in the [Backlog](Backlog).
 
@@ -27,11 +29,11 @@ Each item is a problem to solve, not a feature. Detailed work lives in the [Back
 
 ## Top risks
 
-| Risk | Type | Next step |
-|---|---|---|
-| Nobody pays | Value / viability | Priced offer to 10 families |
-| Free tools are good enough for most families | Value | Ask about it in usability sessions |
-| Minors' data handled badly | Viability (legal) | Privacy policy and consent before collecting real data |
+| Risk | Type | Owner | Next step |
+|---|---|---|---|
+| Nobody pays | Value / viability | Sharon | Priced offer to 10 families |
+| Free tools are good enough for most families | Value | Sharon | Ask about it in usability sessions |
+| Minors' data handled badly | Viability (legal) | Sharon | Privacy policy and consent before collecting real data |
 
 ---
 
