@@ -9,7 +9,7 @@ A planner that helps every high school student map out life after graduation, wi
 | | |
 |---|---|
 | **Where we are** | Prototype is safe and in GitHub. Now learning if people value it. |
-| **Business status** | Not a business yet. Test first, decide around Feb 2027. |
+| **Business status** | Not a business yet. Test first, then decide (no later than Feb 2027). |
 | **Who it's for** | Every high school student. The IEP layer is optional. |
 | **Next milestone** | Usability round done (Oct 2026) |
 
@@ -37,7 +37,7 @@ Where we're going: **[Roadmap](Roadmap)**. Every idea and task: **[Backlog](Back
 ## Key decisions (open for detail)
 
 <details>
-<summary><b>Should this become a business?</b> Not yet. Test first, decide around Feb 2027.</summary>
+<summary><b>Should this become a business?</b> Not yet. Test first, then decide (no later than Feb 2027).</summary>
 
 - Verdict: **Needs more evidence.** A big venture-backed app: don't build.
 - Three cheap tests (families, schools, grant funding) decide it.

@@ -1,6 +1,6 @@
 # Business Evaluation
 
-**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. As of Sep 25, 2026 it's aimed at **all students**, with the IEP layer optional ([see update](#update-all-students-iep-optional)). Don't build more product. Run three cheap tests first, then decide around **February 2027**.
+**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. As of Sep 25, 2026 it's aimed at **all students**, with the IEP layer optional ([see update](#update-all-students-iep-optional)). Don't build more product. Run three cheap tests first, then decide, **no later than February 2027**.
 
 - **Prepared for:** Sharon LaFleur, September 25, 2026
 - **Original:** a 39-page PDF with three parts (market research, viability verdict, business plan)
@@ -203,7 +203,7 @@
 | **2. Schools** | Ask 3 to 5 transition coordinators what budget they'd pay from | At least one names a real budget at **$15+ per student** (or $3K+ per district) |
 | **3. Grant path** | Find one funder and one group to keep each state's content up to date | Both exist, at about $11K to $21K per state per year for every 1,000 students |
 
-**Decision point (about Feb 2027):** build **at most one** route, in one state, only if its test passes. If none pass, stop. The tool stays a personal planner.
+**Decision point (as soon as the tests report, no later than Feb 2027):** build **at most one** route, in one state, only if its test passes. If none pass, stop. The tool stays a personal planner.
 
 <details>
 <summary>Open for Stage 0: do these first</summary>
