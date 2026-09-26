@@ -6,7 +6,7 @@ The Claude skills and tools used on this project, and what each one does.
 
 ## Claude skills
 
-Read the full skills: [product-designer](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/product-designer/SKILL.md), [product-project-manager](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/product-project-manager/SKILL.md) [portfolio-frontend-build](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/portfolio-frontend-build/SKILL.md) and [content-writer](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/content-writer/SKILL.md). These are read-only copies; the working versions live in Sharon's Claude account.
+The full skills, Sharon's process and project templates live in **[How I work](https://github.com/sharonlafleur1984/how-i-work)**, a separate repo shared by all her projects. The working versions of the skills live in her Claude account.
 
 | Skill | What it does | When it's used |
 |---|---|---|

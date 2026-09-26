@@ -8,6 +8,7 @@ After Graduation: a planner that helps every high school student map out life af
 
 ## Rules
 
+- **How Sharon works:** the process, skills and templates live in [how-i-work](https://github.com/sharonlafleur1984/how-i-work). This file only covers what's specific to After Graduation.
 - **Public repo.** Never commit real personal data. Sample data only. Nothing about the original student.
 - **No em dashes** in anything written for Sharon.
 - **Every fact needs a source link,** or a label saying it's an estimate.

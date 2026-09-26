@@ -32,7 +32,7 @@ Every big choice, newest first. Open one to see why.
 - **Decided by:** Sharon
 - **Decision:** nothing enters the component library until it passes automatic checks (tokens only, every state shown, accessibility, tests) and a design review. Sharon approves only judgment calls: a new component or pattern, a new color meaning, a new animation, or anything that changes how the product feels.
 - **Why:** keeps quality high as the library grows, without Sharon reviewing every small change.
-- **Details:** [product-designer skill, section 9](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/product-designer/SKILL.md)
+- **Details:** [product-designer skill, section 9](https://github.com/sharonlafleur1984/how-i-work/blob/main/skills/product-designer/SKILL.md)
 
 </details>
 
