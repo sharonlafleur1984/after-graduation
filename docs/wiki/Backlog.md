@@ -18,7 +18,7 @@ Every idea, fix and request, in one place.
 </details>
 
 <details>
-<summary><b>Ideas</b>: problems worth solving, not yet decided (15)</summary>
+<summary><b>Ideas</b>: problems worth solving, not yet decided (16)</summary>
 
 Every idea starts with the problem. For competitor features we asked: what problem does it solve, and is there a better or more current way to solve it? If not, copy it. If yes, use the better way.
 
@@ -39,6 +39,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 13 | The big title pushes the content down | Title size that adjusts to the screen | Ready for your decision |
 | 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
+| 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
 
 **Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
@@ -206,6 +207,15 @@ Open an idea below for the full reasoning and sources.
 - **What it could be:** a few jobs that need only a high school diploma, with typical pay, next to the college and trade school paths. It could also help parents show why more school might be worth it.
 - **Starting evidence:** in 2025, median weekly pay was $966 with a high school diploma, $1,135 with an associate degree, and $1,578 with a bachelor's degree ([U.S. Bureau of Labor Statistics](https://www.bls.gov/emp/tables/unemployment-earnings-education.htm)).
 - **Research still needed:** who already shows this well, and where to get pay for specific jobs.
+
+</details>
+
+<details>
+<summary>💡 <b>16. Problem: students who want to study abroad can't plan for schools outside the US</b></summary>
+
+- **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
+- **What it could be:** a third choice in onboarding, after "Only my state" and "Open to other states" ([onboarding issue #24](https://github.com/sharonlafleur1984/after-graduation/issues/24)).
+- **Research still needed:** how many students want this, where to get school and cost data outside the US, and how US federal aid works abroad.
 
 </details>
 
