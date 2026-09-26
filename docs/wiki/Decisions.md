@@ -5,6 +5,17 @@
 Every big choice, newest first. Open one to see why.
 
 <details>
+<summary><b>Sep 26, 2026:</b> Use PostHog to track use during the beta</summary>
+
+- **Decided by:** Sharon
+- **Decision:** PostHog's free plan tracks logins, return visits, shares and session recordings in Study 3, with typed answers hidden.
+- **Why:** the same kind of insight as Pendo, without paying for it.
+- **Other options considered:** counting logins and shares ourselves in Supabase (most private, but no recordings or charts); Microsoft Clarity (couldn't confirm how Microsoft uses the data).
+- **Details:** [Research Plan, Study 3](Research-Plan#study-3-beta-with-accounts)
+
+</details>
+
+<details>
 <summary><b>Sep 26, 2026:</b> Storybook gate: checks decide most things, Sharon decides matters of taste</summary>
 
 - **Decided by:** Sharon

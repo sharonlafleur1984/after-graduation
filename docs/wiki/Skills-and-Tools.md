@@ -24,3 +24,4 @@ Read the full skills: [product-designer](https://github.com/sharonlafleur1984/af
 | Storybook | A page for every component, like a living design system | Link added once built |
 | Figma | Designs, synced with the code's design tokens | Link added once connected |
 | Supabase | Accounts and saved progress (later phase) | Set up when accounts are built |
+| PostHog | Shows how often families log in, come back and share, for the beta ([Research Plan](Research-Plan#study-3-beta-with-accounts)) | Set up with accounts |

@@ -94,7 +94,12 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 <summary><b>The setup</b>: 10 to 20 families use it for real, after accounts are built</summary>
 
 - **Feedback button** on every screen: "What's confusing or missing?"
-- **Simple usage tracking:** which sections get opened, how often people return. Counts only, never answers or personal details.
+- **Usage tracking with [PostHog](https://posthog.com/pricing)** (free up to 1 million events and 5,000 recordings a month). It shows:
+  - How often each person logs in, and whether they come back week to week
+  - How often they click Share, and how many visits come from shared links
+  - Which sections get opened, and where people stop
+  - Session recordings, with every typed answer hidden
+- **Tracking rules:** turned on only after the privacy policy mentions it. Counts and clicks only, never answers or personal details.
 - **Monthly 15-minute check-in** with a few families
 - **Success looks like:** families come back at least monthly, and at least one says they'd recommend it
 
