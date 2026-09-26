@@ -27,7 +27,7 @@ After Graduation: a planner that helps every high school student map out life af
 | `docs/wiki/Sources.md` | You need the source for a fact |
 | `docs/wiki/Research-Plan.md` | Planning usability sessions or tests with families |
 | `docs/wiki/Skills-and-Tools.md` | Checking which Claude skills and tools this project uses |
-| `docs/evaluation/*.pdf` | Only if the wiki summary isn't enough. PDFs are expensive to read. |
+| `docs/evaluation/*.pdf` | Almost never. Version 1, historic record only, not current. The current truth is `docs/wiki/Business-Evaluation.md`. PDFs are also expensive to read. |
 | `index.html` | Working on the prototype, or checking how a screen behaves before rebuilding it |
 
 ## Skills to use

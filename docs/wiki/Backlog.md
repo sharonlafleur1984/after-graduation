@@ -1,10 +1,10 @@
 # Backlog
 
+**Last updated:** September 26, 2026
+
 Every idea, fix and request, in one place.
 
 **How an idea moves:** Idea (problem written down) → Researched (options, evidence, a recommendation) → your decision → Decided. Nothing comes to you for a decision until it's researched.
-
-**Last updated:** September 25, 2026
 
 <details>
 <summary><b>Decided</b>: will build (3)</summary>
@@ -34,13 +34,13 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 8 | Trade-path students need real hands-on openings | Better idea: link the federal apprenticeship finder | Needs evidence from families |
 | 9 | Families start the FAFSA and stall | Copy: checklist, from the official source | Needs evidence from families |
 | 10 | Cost and earnings data goes stale | Better idea: pull from College Scorecard | Needs evidence from families |
-| 11 | Picking a rank that's already taken is confusing | Swap the two schools, show names, add Undo | ✅ Researched: ready for you |
-| 12 | The same kind of thing looks different in different places | Fix it once in the design tokens during the rebuild | ✅ Researched: ready for you |
-| 13 | The big title pushes the content down | Title size that adjusts to the screen | ✅ Researched: ready for you |
-| 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | ✅ Researched: ready for you |
+| 11 | Picking a rank that's already taken is confusing | Swap the two schools, show names, add Undo | Ready for your decision |
+| 12 | The same kind of thing looks different in different places | Fix it once in the design tokens during the rebuild | Ready for your decision |
+| 13 | The big title pushes the content down | Title size that adjusts to the screen | Ready for your decision |
+| 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
 
-**Next step:** ideas 1 to 10 get tested in the usability sessions ([Research Plan](Research-Plan)). Ideas 11 to 14 are ready for your decision.
+**Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
 Open an idea below for the full reasoning and sources.
 

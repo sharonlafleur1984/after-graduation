@@ -54,7 +54,9 @@ Top to bottom, nothing else. Now/Next/Later was designed to be understood in abo
 4. **What does success look like?** One sentence with a measurable result.
 5. **Milestones:** see section 5.
 6. **What could go wrong:** at most 3 rows, see section 6.
-7. **Where things live:** one line of links. "Last updated" goes at the bottom.
+7. **Where things live:** one line of links.
+
+"Last updated" sits at the top of every planning page, right under the title, so readers know how fresh it is before they trust it ([Stanford Web Credibility, guideline 8](https://credibility.stanford.edu/guidelines/)).
 
 Review it monthly, and treat it as a living plan. Grade it by problems solved, not dates hit ([Product Roadmaps Relaunched, via ProductPlan](https://www.productplan.com/learn/product-roadmaps-relaunched)).
 
@@ -162,3 +164,4 @@ If any answer is yes, bring one short suggestion.
 - 2026-09-25: Created from Inspired, PM skill libraries, and research on AI and PM roles.
 - 2026-09-25: Added the 3-second rule, problem-first roadmap format, milestone rule, and idea flow.
 - 2026-09-26: Added growth mindset, self-review, and self-healing.
+- 2026-09-26: Moved "Last updated" to the top of pages. Sharon caught that a date at the bottom gives no context.

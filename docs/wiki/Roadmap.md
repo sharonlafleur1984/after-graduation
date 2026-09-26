@@ -1,8 +1,10 @@
 # Roadmap
 
+**Last updated:** September 26, 2026
+
 | Now | Next | Later |
 |---|---|---|
-| **Is it easy to use?** Usability sessions | **Do families come back?** A small beta with accounts | **Grow:** a second state and more schools |
+| **Is it easy and fun to use?** Usability sessions | **Do families come back and stay engaged?** A small beta with accounts | **Grow:** a second state and more schools |
 | **Will families pay?** A priced offer to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
 | **Foundation:** design system, React and Storybook | **Every student:** content for any student, IEP layer optional | |
 
@@ -19,9 +21,12 @@ Each milestone is the finish line for something in Now or Next, or a point where
 | Milestone | Done when | Timing |
 |---|---|---|
 | Usability round done | 6 to 8 sessions run and the top problems listed | Aiming for Oct 2026 |
+| Family test done | 10 families offered a paid plan, and the results counted | Aiming for Jan 2027 |
 | Foundation ready | React, Storybook and design tokens set up, with tests running | Not set yet |
-| **Decision gate** | Family test results are in. Build one route, or stop. | **As soon as the family test reports.** Latest: Feb 2027 |
+| **Decision gate** | Test results are in, and we decide: build one route, or stop. | **As soon as the family test reports.** Latest: Feb 2027 |
 | Beta ready | Accounts, privacy and consent in place, and families using it for real | After the decision gate |
+
+The decision gate is the point where the test results decide whether we build.
 
 **Why Feb 2027 is the latest:** the build needs about 6 months to be ready for next fall's juniors (Aug 2027). Deciding earlier is better.
 
@@ -43,8 +48,4 @@ Each milestone is the finish line for something in Now or Next, or a point where
 | Families think free tools are good enough | Nobody switches to us | Asking about it in the usability sessions |
 | A family's private information leaks | Students get hurt and trust is gone | Getting consent and a privacy policy before collecting any real data |
 
----
-
 **Where things live:** [Backlog](Backlog) for ideas. [Issues](https://github.com/sharonlafleur1984/after-graduation/issues) for tasks. [Decisions](Decisions) for choices made. [Research Plan](Research-Plan) for how we learn.
-
-**Last updated:** September 25, 2026

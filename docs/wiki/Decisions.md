@@ -1,6 +1,48 @@
 # Decisions
 
+**Last updated:** September 26, 2026
+
 Every big choice, newest first. Open one to see why.
+
+<details>
+<summary><b>Sep 26, 2026:</b> Use PostHog to track use during the beta</summary>
+
+- **Decided by:** Sharon
+- **Decision:** PostHog's free plan tracks logins, return visits, shares and session recordings in Study 3, with typed answers hidden.
+- **Why:** the same kind of insight as Pendo, without paying for it.
+- **Other options considered:** counting logins and shares ourselves in Supabase (most private, but no recordings or charts); Microsoft Clarity (couldn't confirm how Microsoft uses the data).
+- **Details:** [Research Plan, Study 3](Research-Plan#study-3-beta-with-accounts)
+
+</details>
+
+<details>
+<summary><b>Sep 26, 2026:</b> Storybook gate: checks decide most things, Sharon decides matters of taste</summary>
+
+- **Decided by:** Sharon
+- **Decision:** nothing enters the component library until it passes automatic checks (tokens only, every state shown, accessibility, tests) and a design review. Sharon approves only judgment calls: a new component or pattern, a new color meaning, a new animation, or anything that changes how the product feels.
+- **Why:** keeps quality high as the library grows, without Sharon reviewing every small change.
+- **Details:** [product-designer skill, section 9](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/product-designer/SKILL.md)
+
+</details>
+
+<details>
+<summary><b>Sep 25, 2026:</b> Ideas get researched before they come to Sharon</summary>
+
+- **Decided by:** Sharon
+- **Decision:** every idea starts with the problem it solves, then moves Idea → Researched → Sharon's decision → Decided.
+- **Why:** no decision gets made without the options and evidence in front of her.
+- **Details:** [Backlog](Backlog)
+
+</details>
+
+<details>
+<summary><b>Sep 25, 2026:</b> Track tasks in GitHub Issues</summary>
+
+- **Decided by:** Sharon
+- **Decision:** tasks live in [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues), each with one owner, the problem it solves, and when it's done.
+- **Why:** keeps tasks next to the code, and keeps the Roadmap free of to-dos.
+
+</details>
 
 <details>
 <summary><b>Sep 25, 2026:</b> Build for all students, with the IEP layer optional</summary>
@@ -9,7 +51,7 @@ Every big choice, newest first. Open one to see why.
 - **Decision:** the planner works for every high school student. Accommodations, IEP and VR dates, and disability aid are an optional layer turned on in settings.
 - **Why:** the planning itself (schools, costs, aid, deadlines, trade paths) helps every student, not just students with IEPs.
 - **Trade-off:** a bigger audience, but more free competitors. The IEP layer becomes what sets it apart.
-- **Details:** [Business Evaluation, update](Business-Evaluation#update-all-students-iep-optional)
+- **Details:** [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-an-optional-iep-layer)
 
 </details>
 
@@ -29,7 +71,7 @@ Every big choice, newest first. Open one to see why.
 - **Decided by:** Sharon
 - **Decision:** Netlify password protection, plus a "don't show in search" tag and robots.txt.
 - **Why:** the evaluation found the personal site was readable by anyone.
-- **Still to do:** check Google for old copies.
+- **Still to do:** check Google for old copies ([Issue #10](https://github.com/sharonlafleur1984/after-graduation/issues/10)).
 
 </details>
 
