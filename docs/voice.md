@@ -41,8 +41,8 @@ Pick one word for a thing and never switch.
 | path | track, route | 4-year college, 2-year college, or trade school |
 | trade school | vocational school, tech school | Certificate and hands-on training programs |
 | Preseason | | Middle school: before the planner's seasons start |
-| Season 1 | | High school |
-| Season 2 | | College or trade school, whatever comes after high school |
+| Season 1 | | High school, including junior and senior year |
+| Season 2 | | After high school: college, trade school, or whatever comes next |
 | junior year, senior year | junior season, senior season | The years inside a season. A season is a stage of school, never a school year. |
 | plan | profile, account | Everything a student has picked and saved |
 | family | household, user | The student and the parents using the planner |
