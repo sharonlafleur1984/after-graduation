@@ -2,22 +2,21 @@
 
 **Last updated:** September 26, 2026
 
-A planner that helps every high school student map out life after graduation, with an optional layer for students with IEPs or 504 plans. It started as a Claude artifact built for one student and is now becoming a real product.
+A planner that helps every high school student map out life after graduation, with an optional Accommodations section for students with an IEP or 504 plan. It started as a Claude artifact built for one student and is now becoming a real product.
 
 ## At a glance
 
 | | |
 |---|---|
 | **Where we are** | Learning whether families value it, before building more. The code is in GitHub with sample data. |
-| **Business status** | Not a business yet. Cheap tests decide it. |
-| **Who it's for** | Every high school student. The IEP layer is optional. |
+| **Business status** | Not a business yet. Free for families; cheap tests decide how it pays for itself. |
+| **Who it's for** | Every high school student. Accommodations is optional. |
 | **Next milestone** | Usability round done (aiming for Oct 2026) |
 
 Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every task: [Issues](https://github.com/sharonlafleur1984/after-graduation/issues).
 
 ## Needs your decision
 
-- **Are the school and grant tests still happening, or only the family test?** The [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide) has three tests. The [Roadmap](Roadmap) only plans the family test.
 - **Ideas 11 to 14 are researched and ready.** See the [Backlog](Backlog).
 
 ## Links
@@ -42,10 +41,10 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 </details>
 
 <details>
-<summary><b>Who is it for?</b> Every student. The IEP layer is optional, turned on in settings.</summary>
+<summary><b>Who is it for?</b> Every student. Accommodations is optional, turned on in settings.</summary>
 
-- Bigger audience, more competitors. The IEP layer is what sets it apart.
-- Details: [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-an-optional-iep-layer)
+- Bigger audience, more competitors. Accommodations is what sets it apart.
+- Details: [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-optional-accommodations)
 
 </details>
 

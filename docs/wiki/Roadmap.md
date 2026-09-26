@@ -5,14 +5,14 @@
 | Now | Next | Later |
 |---|---|---|
 | **Is it easy and fun to use?** Usability sessions | **Do families come back and stay engaged?** A small beta with accounts | **Grow:** a second state and more schools |
-| **Will families pay?** A priced offer to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
-| **Foundation:** design system, React and Storybook | **Every student:** content for any student, IEP layer optional | |
+| **Will families pay for extras?** The planner is free; an extra offered to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
+| **Foundation:** design system, React and Storybook | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
 
 **Hypothesis:** high school students and their parents would like to see a clear, personal path to life after graduation, whether that's college or trade school.
 
 **Problem to solve:** we don't know yet if families value this enough to use it and pay for it.
 
-**What does success look like?** Most testers finish the key tasks on their own, and 3 or more of 10 families pay.
+**What does success look like?** Most testers finish the key tasks on their own, and 3 or more of 10 families put down a deposit for a paid extra.
 
 ## Milestones
 
@@ -21,10 +21,10 @@ Each milestone is the finish line for something in Now or Next, or a point where
 | Milestone | Done when | Timing |
 |---|---|---|
 | Usability round done | 6 to 8 sessions run and the top problems listed | Aiming for Oct 2026 |
-| Family test done | 10 families offered a paid plan, and the results counted | Aiming for Jan 2027 |
+| Family test done | 10 families offered a paid extra, and the results counted | Aiming for Jan 2027 |
 | Foundation ready | React, Storybook and design tokens set up, with tests running | Not set yet |
 | **Decision gate** | Test results are in, and we decide: build one route, or stop. | **As soon as the family test reports.** Latest: Feb 2027 |
-| Beta ready | Accounts, privacy and consent in place, and families using it for real | After the decision gate |
+| Beta ready | Onboarding, accounts, privacy and consent in place, and families using it for real | After the decision gate |
 
 The decision gate is the point where the test results decide whether we build.
 
