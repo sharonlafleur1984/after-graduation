@@ -13,7 +13,7 @@ A planner that helps every high school student map out life after graduation, wi
 | **Who it's for** | Every high school student. The IEP layer is optional. |
 | **Next milestone** | Usability round done (Oct 2026) |
 
-Where we're going: **[Roadmap](Roadmap)**. Every idea and task: **[Backlog](Backlog)**.
+Where we're going: **[Roadmap](Roadmap)**. Every idea: **[Backlog](Backlog)**. Every task: **[Issues](https://github.com/sharonlafleur1984/after-graduation/issues)**.
 
 ## Pages
 
@@ -32,6 +32,7 @@ Where we're going: **[Roadmap](Roadmap)**. Every idea and task: **[Backlog](Back
 | What | Link |
 |---|---|
 | Code repository | [sharonlafleur1984/after-graduation](https://github.com/sharonlafleur1984/after-graduation) |
+| Tasks | [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues) |
 | Storybook | Not built yet |
 | Project files (private) | [Google Drive](https://drive.google.com/drive/folders/1KV3qijRzc-j42pj-1_vRv-1etwju2hLs) |
 | Project entry (private) | [Notion, Life Hub Projects](https://app.notion.com/p/3e78df3da83881bea679dac568d42b74) |
