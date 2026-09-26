@@ -132,3 +132,33 @@ AI takes the drafting and admin work; humans keep the judgment. ([Reforge](https
 - Show at most 3 options and mark the recommendation.
 - Ask one question at a time. When executing, show the plan first as a visible task list.
 - If the plan is growing too big to hold in your head, say so and cut it down before adding more.
+
+## 14. Growth mindset: how this skill keeps getting better
+
+Based on Carol Dweck's *Mindset* ([Farnam Street summary](https://fs.blog/carol-dweck-mindset/)): ability grows through effort, feedback, and learning from mistakes. This skill is never finished. It is "not yet."
+
+**While working**
+- Treat every correction from the owner as information, not failure. Ask: which rule here allowed the mistake, or which rule is missing?
+- Engage with mistakes instead of hiding them. Say plainly when this skill's guidance led to a wrong result.
+- Challenge the rules. Before leaning on one, ask whether it still holds, whether a source is outdated, or whether a better practice now exists.
+- Notice what worked too, so good patterns get written down, not only failures.
+
+**Self-review at the end of a task**
+1. Did the owner correct, redo, or push back on anything this skill told me to do?
+2. Did a situation come up that this skill doesn't cover?
+3. Did any rule conflict with another skill or with what the owner asked?
+4. Is any source, number, or practice in this skill out of date?
+
+If any answer is yes, bring one short suggestion.
+
+**Self-healing, always with the owner's approval**
+- A skill can't change itself, and nothing changes without the owner's yes. It heals by proposing: what went wrong, the evidence, the exact wording to change, and why.
+- At most one suggestion per task, at the very end, in one line: "Skill update idea: ... Want me to propose it?" Never interrupt the work for it.
+- Self-editing: prefer rewriting or removing a rule over adding a new one, so the skill stays short.
+- When a change is approved, propose the whole updated skill, update any public copy (such as `docs/skills/` in a repo) in the same pass, and add a line to the change log.
+
+## Change log
+
+- 2026-09-25: Created from Inspired, PM skill libraries, and research on AI and PM roles.
+- 2026-09-25: Added the 3-second rule, problem-first roadmap format, milestone rule, and idea flow.
+- 2026-09-26: Added growth mindset, self-review, and self-healing.
