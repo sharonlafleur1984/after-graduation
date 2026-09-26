@@ -8,18 +8,20 @@ A planner that helps every high school student map out life after graduation, wi
 
 | | |
 |---|---|
-| **Where we are** | Phase 2 of 8: prototype is in GitHub, rebuild is next |
+| **Where we are** | Prototype is safe and in GitHub. Now learning if people value it. |
 | **Business status** | Not a business yet. Test first, decide around Feb 2027. |
 | **Who it's for** | Every high school student. The IEP layer is optional. |
-| **Next step** | Merge the prototype, then start the React + Storybook rebuild |
+| **Next milestone** | Usability round done (Oct 2026) |
 
-Full plan, next steps and the list of product updates: **[Roadmap](Roadmap)**
+Where we're going: **[Roadmap](Roadmap)**. Every idea and task: **[Backlog](Backlog)**.
 
 ## Pages
 
 | Page | What's there |
 |---|---|
-| [Roadmap](Roadmap) | Phases, next steps, and every update waiting for the coded version |
+| [Roadmap](Roadmap) | Where we're going: Now, Next, Later, milestones and risks |
+| [Backlog](Backlog) | Every idea, fix and open task |
+| [Research Plan](Research-Plan) | How we'll get feedback from students and parents |
 | [Business Evaluation](Business-Evaluation) | Is this a business? The verdict, the tests, the numbers |
 | [Sources](Sources) | Every source, with a link and whether we verified it |
 | [Decisions](Decisions) | Every big choice and why |
