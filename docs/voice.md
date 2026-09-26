@@ -33,7 +33,8 @@ Pick one word for a thing and never switch.
 | school | college (when you mean all of them) | Any place after high school: 4-year, 2-year, or trade school |
 | path | track, route | 4-year college, 2-year college, or trade school |
 | trade school | vocational school, tech school | Certificate and hands-on training programs |
-| season | year, section | One school year in the planner (junior, senior) |
+| Season 1, Season 2 | section, phase | A planner section. Each season covers one school year: for a junior, Season 1 is junior year and Season 2 is senior year. |
+| junior year, senior year | junior season, senior season | The school years themselves. Never mix the two: say "Season 1" or "junior year," never "junior season." |
 | plan | profile, account | Everything a student has picked and saved |
 | family | household, user | The student and the parents using the planner |
 | aid | financial assistance | Scholarships, grants and federal aid, together |
@@ -43,7 +44,7 @@ Pick one word for a thing and never switch.
 
 | Instead of | Write |
 |---|---|
-| "Great job! You're amazing! 🎉" | "Junior season: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
+| "Great job! You're amazing! 🎉" | "Season 1: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | "Simply select your schools." | "Pick a few schools to start. You can change them any time." |
 | "Heads up, this one's a stretch!" (money) | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
 | "Error: invalid input." | "That date's in the past. Pick a date after today." |

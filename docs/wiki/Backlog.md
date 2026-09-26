@@ -95,7 +95,7 @@ Open an idea below for the full reasoning and sources.
 - **Verdict:** better idea. Connect results to both trade and college paths, which is our edge.
 - **Where it shows up** (Sharon, Sep 26, 2026):
   - In onboarding, as an optional step when a student picks "Not sure yet" for paths ([issue #25](https://github.com/sharonlafleur1984/after-graduation/issues/25))
-  - As a task in the student's current season (junior, senior, or whichever they're in), so they can take it later if they skip it at setup
+  - As a task in the student's current season (whichever school year they're in), so they can take it later if they skip it at setup
 
 </details>
 
