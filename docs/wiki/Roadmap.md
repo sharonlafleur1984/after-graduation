@@ -8,8 +8,6 @@
 | **Will families pay for extras?** The planner is free; an extra offered to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
 | **Foundation:** design system, React and Storybook | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
 
-Everything here works toward [the big question on the Dashboard](Home#the-big-question).
-
 ## Milestones
 
 Each milestone is the finish line for something in Now or Next, or a point where we make a big decision.
