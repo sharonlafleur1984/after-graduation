@@ -33,7 +33,7 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 | Tasks | [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues) |
 | Storybook | Not built yet |
 | Project files (private) | [Google Drive](https://drive.google.com/drive/folders/1KV3qijRzc-j42pj-1_vRv-1etwju2hLs) |
-| Project entry (private) | [Notion, Life Hub Projects](https://app.notion.com/p/3e78df3da83881bea679dac568d42b74) |
+| Project entry (private) | [Notion, Projects](https://app.notion.com/p/3e78df3da83881bea679dac568d42b74) |
 
 ## Key decisions
 

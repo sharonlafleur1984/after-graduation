@@ -32,4 +32,4 @@ When you add or remove a document, update its row in `docs/wiki/Documents.md` in
 ## Outside the repo (private)
 
 - Project files: Google Drive, "After Graduation" folder (private originals, never copied here)
-- Project entry: Notion, Life Hub Projects, "After Graduation"
+- Project entry: Notion, Projects, "After Graduation"
