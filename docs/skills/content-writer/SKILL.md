@@ -171,4 +171,4 @@ Writing to Sharon herself follows `working-with-sharon`. This skill is for every
 - 2026-09-26: Added voice files, Sharon's answers on fun, money, wiki voice and emoji, and material from articles she shared.
 - 2026-09-26: Added show-first, teens and lingo, light metaphors, and respectful names.
 - 2026-09-26: Ran the skill on itself: tables for rules and examples, shorter lines, headings that say something. Em dashes moved to "cut on sight."
-- 2026-09-26: Added words that can hurt (Google, Microsoft, NCDJ), action buttons on empty and error states, and a timeless wiki example.
+- 2026-09-26: Added words that can hurt across disability, race, nationality, gender, age and family (Google, Microsoft, NCDJ, UW, GLAAD), action buttons on empty and error states, and a timeless wiki example.
