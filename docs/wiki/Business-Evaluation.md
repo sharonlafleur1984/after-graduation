@@ -6,14 +6,14 @@
 
 **How to read this page:** every source linked here was checked. Only the exceptions are marked, as "partly verified" or "disagrees." The full check is on [Sources](Sources).
 
-## Who it's for: every high school student, with an optional IEP layer
+## Who it's for: every high school student, with optional Accommodations
 
-The planner works for every student. The IEP pieces (accommodations, IEP dates, disability aid, and Vocational Rehabilitation, the state agency that helps people with disabilities find work) are an optional layer turned on in settings.
+The planner works for every student. Accommodations is an optional section, turned on in settings, for students with an IEP or 504 plan. It adds accommodations, IEP dates, disability aid, and Vocational Rehabilitation (the state agency that helps people with disabilities find work).
 
-**Why it matters:** a much bigger audience, but a more crowded market. The IEP layer is what makes it stand out, not the whole product.
+**Why it matters:** a much bigger audience, but a more crowded market. Accommodations is what makes it stand out, not the whole product.
 
 <details>
-<summary><b>How big is the audience?</b> About 3.7 million juniors a year. Roughly 1 in 6 students would use the IEP layer.</summary>
+<summary><b>How big is the audience?</b> About 3.7 million juniors a year. Roughly 1 in 6 students would use Accommodations.</summary>
 
 | Fact | Number | Source |
 |---|---|---|
@@ -47,7 +47,7 @@ Many students don't take the standard path, and the ones who don't get the least
 
 ## Who else does this? Many tools, but none give families trade paths and a personal timeline
 
-**The gap that still looks open:** no free product for families that (1) gives trade and certificate paths equal weight, (2) builds a dated personal timeline, and (3) explains why each school fits this student. Plus the optional IEP layer, which only CollegeCountdown partly covers.
+**The gap that still looks open:** no free product for families that (1) gives trade and certificate paths equal weight, (2) builds a dated personal timeline, and (3) explains why each school fits this student. Plus optional Accommodations, which only CollegeCountdown partly covers.
 
 <details>
 <summary><b>The competitors</b></summary>

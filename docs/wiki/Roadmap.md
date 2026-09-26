@@ -6,7 +6,7 @@
 |---|---|---|
 | **Is it easy and fun to use?** Usability sessions | **Do families come back and stay engaged?** A small beta with accounts | **Grow:** a second state and more schools |
 | **Will families pay for extras?** The planner is free; an extra offered to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
-| **Foundation:** design system, React and Storybook | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools, seasons and aid. IEP layer optional. | |
+| **Foundation:** design system, React and Storybook | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
 
 **Hypothesis:** high school students and their parents would like to see a clear, personal path to life after graduation, whether that's college or trade school.
 

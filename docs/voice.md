@@ -24,11 +24,11 @@ How After Graduation sounds. The craft rules (plain language, no flattery, no co
 
 ## Turn the fun down for
 
-Money, deadlines, disability and the IEP layer, errors, and privacy. Be warm and plain there, never cute.
+Money, deadlines, disability and Accommodations, errors, and privacy. Be warm and plain there, never cute.
 
 ## Emoji
 
-Only in real celebrations, like finishing a season. One at most. Never around money, errors, privacy, or in the wiki.
+Only in real celebrations, like finishing a school year. One at most. Never around money, errors, privacy, or in the wiki.
 
 ## Words we use
 
@@ -36,22 +36,25 @@ Pick one word for a thing and never switch.
 
 | Say | Not | Means |
 |---|---|---|
-| school | college (when you mean all of them) | Any place after high school: 4-year, 2-year, or trade school |
+| school | | Any place after high school, when you mean all of them: colleges and trade schools |
+| college | school (when you mean only colleges) | 4-year and 2-year colleges only. Say "college" when you mean college. |
 | path | track, route | 4-year college, 2-year college, or trade school |
 | trade school | vocational school, tech school | Certificate and hands-on training programs |
-| Season 1, Season 2 | section, phase | A planner section. Each season covers one school year: for a junior, Season 1 is junior year and Season 2 is senior year. |
-| junior year, senior year | junior season, senior season | The school years themselves. Never mix the two: say "Season 1" or "junior year," never "junior season." |
+| Preseason | | Middle school: before the planner's seasons start |
+| Season 1 | | High school |
+| Season 2 | | College or trade school, whatever comes after high school |
+| junior year, senior year | junior season, senior season | The years inside a season. A season is a stage of school, never a school year. |
 | plan | profile, account | Everything a student has picked and saved |
 | family | household, user | The student and the parents using the planner |
 | aid | financial assistance | Scholarships, grants and federal aid, together |
-| IEP layer | disability mode, special ed section | The optional IEP and 504 content turned on in settings |
+| Accommodations | IEP layer, disability mode, special ed section | The optional section for students with an IEP or 504 plan, turned on in settings. "Special ed section" is offensive; never use it. |
 
 ## Examples
 
 | Instead of | Write |
 |---|---|
 | "Let's make it smaller." | "Picking schools is a lot. Let's break it down." |
-| "Great job! You're amazing! 🎉" | "Season 1: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
+| "Great job! You're amazing! 🎉" | "Junior year: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | "Simply select your schools." | "Pick a few schools to start. You can change them any time." |
 | "Heads up, this one's a stretch!" (money) | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
 | "Error: invalid input." | "That date's in the past. Pick a date after today." |

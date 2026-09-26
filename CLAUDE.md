@@ -4,7 +4,7 @@ Start here. This file tells Claude (and any developer) where everything lives, s
 
 ## What this is
 
-After Graduation: a planner that helps every high school student map out life after graduation, with an optional IEP/504 layer. The current code is a single-file prototype (`index.html`) with sample data. It is being rebuilt in React + TypeScript + Storybook.
+After Graduation: a planner that helps every high school student map out life after graduation, with an optional Accommodations section for students with an IEP or 504 plan. The current code is a single-file prototype (`index.html`) with sample data. It is being rebuilt in React + TypeScript + Storybook.
 
 ## Rules
 

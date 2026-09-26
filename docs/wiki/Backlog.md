@@ -11,7 +11,7 @@ Every idea, fix and request, in one place.
 
 | Item | Why | From | Added |
 |---|---|---|---|
-| Settings toggle to turn the IEP layer on or off | Product is now for all students | Sharon | Sep 25, 2026 |
+| Settings toggle to turn Accommodations on or off | Product is now for all students | Sharon | Sep 25, 2026 |
 | Saving works across devices without erasing answers | One device can overwrite another | Business evaluation | Sep 25, 2026 |
 | Personal content loads only after sign-in | It was readable in the public page | Business evaluation | Sep 25, 2026 |
 
@@ -28,7 +28,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 2 | Aid offer letters hide the real cost | Better idea: compare in the standard federal format | Needs evidence from families |
 | 3 | Student and parent plan separately and can erase each other's work | Copy: one shared plan | Needs evidence from families |
 | 4 | Finding scholarships takes hours | Better idea: link the free federal finder | Needs evidence from families |
-| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz, offered in onboarding and as a task in their current season | Needs evidence from families |
+| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz, offered in onboarding and as a task in their current school year | Needs evidence from families |
 | 6 | Students have questions when no counselor is free | Skip for now: open-ended AI chat | Needs evidence from families |
 | 7 | Keeping teens engaged for about 20 months | Partly copy: progress yes, leaderboards no | Needs evidence from families |
 | 8 | Trade-path students need real hands-on openings | Better idea: link the federal apprenticeship finder | Needs evidence from families |
@@ -95,7 +95,7 @@ Open an idea below for the full reasoning and sources.
 - **Verdict:** better idea. Connect results to both trade and college paths, which is our edge.
 - **Where it shows up** (Sharon, Sep 26, 2026):
   - In onboarding, as an optional step when a student picks "Not sure yet" for paths ([issue #25](https://github.com/sharonlafleur1984/after-graduation/issues/25))
-  - As a task in the student's current season (whichever school year they're in), so they can take it later if they skip it at setup
+  - As a task in the student's current school year, so they can take it later if they skip it at setup
 
 </details>
 
@@ -229,7 +229,7 @@ Open an idea below for the full reasoning and sources.
 <summary>💡 <b>17. Problem: middle schoolers who want to get ahead have nothing to plan</b></summary>
 
 - **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
-- **Context:** a middle schooler sees one "High school" season with the whole list, and nothing to do yet. That's on purpose for most students.
+- **Context:** middle school is the Preseason. A middle schooler sees Season 1 (high school) as one whole list, and nothing to do yet. That's on purpose for most students.
 - **What it could be:** for very motivated students, optional extras they can add in middle school: extracurriculars, volunteer work and internships.
 - **Research still needed:** how many families want this, and which activities actually help later.
 
@@ -241,7 +241,7 @@ Open an idea below for the full reasoning and sources.
 - **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
 - **Who:** very involved parents, often aiming for highly selective colleges, who want to map out their child's path years ahead.
 - **Why it could matter for the business:** these families already spend on planning help, like private admissions consultants at about $4,000 to $12,000 a package ([Dewey Smart, 2026](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide), partly verified, secondary source). Starting early means more years as a customer. Sharon's call: no extra charge for starting early.
-- **What it could be:** a parent-led plan that starts in elementary school, then hands off to the student's seasons in high school.
+- **What it could be:** a parent-led plan that starts in elementary school, then hands off to Season 1 when the student starts high school.
 - **Research still needed:** how many parents want this, and what they'd actually plan that early.
 
 </details>

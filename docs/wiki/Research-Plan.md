@@ -51,7 +51,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 1. What was the most useful part? The most fun? The least?
 2. What would make you come back to this next month?
 3. If a friend were planning for after high school, would you tell them about this? Why or why not?
-4. **IEP layer:** "Some students have an IEP or 504 plan. We could add a section for accommodations and extra deadlines that you turn on in settings." Would that be useful, confusing, or not relevant to you?
+4. **Accommodations:** "Some students have an IEP or 504 plan. We could add an Accommodations section, with their accommodations and extra deadlines, that you turn on in settings." Would that be useful, confusing, or not relevant to you?
 5. The planner will be free. Which of these extras would you pay for, and what would feel fair? (Show 3 or 4 ideas, like text reminders for deadlines or a person reviewing your plan. Just listen. Don't pitch.)
 6. **Problem check:** show the list of problems 1 to 10 from the [Backlog](Backlog). "Which of these have you actually run into? Pick up to three." This tells us which ideas are worth building.
 
@@ -65,7 +65,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 | Task success | Finished / finished with help / didn't finish, per task |
 | Where people got stuck | Notes with timestamps |
 | Fun and appeal | Most fun and least favorite parts, and whether they'd tell a friend |
-| IEP layer reaction | Useful / confusing / not relevant, split by IEP and non-IEP families |
+| Accommodations reaction | Useful / confusing / not relevant, split by IEP and non-IEP families |
 | Price reaction | What felt fair, in their words |
 | Problems families have hit | Count of picks for each Backlog problem, across all sessions |
 
@@ -164,7 +164,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 | If... | Then... |
 |---|---|
 | Study 1 finds big usability problems | Fix them in the React rebuild before Study 3 |
-| Study 1 shows non-IEP families find the IEP layer confusing | Keep it off by default, turned on in settings |
+| Study 1 shows non-IEP families find Accommodations confusing | Keep it off by default, turned on in settings |
 | Study 2: 3 or more of 10 place a deposit | That route passes the decision gate |
 | Study 2: 2 of 10 place a deposit | Run one more round of 10 |
 | Study 2: 0 or 1 pay | Keep it free for families, and look to schools or funders |

@@ -56,13 +56,13 @@ Every big choice, newest first. Open one to see why.
 </details>
 
 <details>
-<summary><b>Sep 25, 2026:</b> Build for all students, with the IEP layer optional</summary>
+<summary><b>Sep 25, 2026:</b> Build for all students, with Accommodations optional</summary>
 
 - **Decided by:** Sharon
-- **Decision:** the planner works for every high school student. Accommodations, IEP and VR dates, and disability aid are an optional layer turned on in settings.
+- **Decision:** the planner works for every high school student. Accommodations is an optional section turned on in settings, for students with an IEP or 504 plan: accommodations, IEP and VR dates, and disability aid.
 - **Why:** the planning itself (schools, costs, aid, deadlines, trade paths) helps every student, not just students with IEPs.
-- **Trade-off:** a bigger audience, but more free competitors. The IEP layer becomes what sets it apart.
-- **Details:** [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-an-optional-iep-layer)
+- **Trade-off:** a bigger audience, but more free competitors. Accommodations becomes what sets it apart.
+- **Details:** [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-optional-accommodations)
 
 </details>
 
