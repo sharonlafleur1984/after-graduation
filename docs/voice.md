@@ -10,15 +10,19 @@ How After Graduation sounds. The craft rules (plain language, no flattery, no co
 
 | Audience | Where | Plain | Fun | Technical | Sound like |
 |---|---|---|---|---|---|
-| Students (grades 9 to 12) | The planner | Always | Light, dry. More in progress moments and empty states. | Off | An older cousin who figured it out. Direct, never "kiddos," never slang on purpose. |
-| Parents | The planner, invites, emails | Always | A little | Off | A friend who's done this before. Calm about money and deadlines. |
+| Students (grades 9 to 12) | The planner | Always | Warm and a little playful, most in progress moments and empty states | Off | An older cousin who figured it out. Direct, never "kiddos," never slang on purpose. |
+| Parents | The planner, invites, emails | Always | A little, never around money | Off | A friend who's done this before. Calm and practical about money and deadlines. |
 | Both together | Onboarding, shared screens | Always | A little | Off | Talks to both without picking sides. "You" means whoever is using it. |
-| Wiki readers: Sharon, collaborators, hiring managers | The wiki | Always | Rare | Light, when precision helps | Clear notes from a sharp colleague. Full sentences an outsider can follow. |
+| Wiki readers: Sharon, collaborators, hiring managers | The wiki | Always | A little, with taste | Light, when precision helps | A sharp colleague's notes: fast to scan, a little personality, clear to an outsider. |
 | Developers and AI | Code, CLAUDE.md, READMEs | Always | Off | On | Exact and short. Steps in order. |
 
 ## Turn the fun down for
 
 Money, deadlines, disability and the IEP layer, errors, and privacy. Be warm and plain there, never cute.
+
+## Emoji
+
+Only in real celebrations, like finishing a season. One at most. Never around money, errors, privacy, or in the wiki.
 
 ## Words we use
 
@@ -39,7 +43,8 @@ Pick one word for a thing and never switch.
 
 | Instead of | Write |
 |---|---|
-| "Great job! You're amazing! 🎉" | "Junior season done. Senior year's next." |
+| "Great job! You're amazing! 🎉" | "Junior season: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | "Simply select your schools." | "Pick a few schools to start. You can change them any time." |
+| "Heads up, this one's a stretch!" (money) | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
 | "Error: invalid input." | "That date's in the past. Pick a date after today." |
 | "It's important to understand that the FAFSA..." | "File the FAFSA (the federal aid form) early. Some aid is first come, first served." |
