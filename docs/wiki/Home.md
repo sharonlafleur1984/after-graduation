@@ -1,31 +1,24 @@
 # After Graduation: Dashboard
 
-A planner that helps every high school student map out life after graduation, with an optional layer for students with IEPs or 504 plans. It started as a Claude artifact built for one student and is now becoming a real product.
+**Last updated:** September 26, 2026
 
-**Last updated:** September 25, 2026
+A planner that helps every high school student map out life after graduation, with an optional layer for students with IEPs or 504 plans. It started as a Claude artifact built for one student and is now becoming a real product.
 
 ## At a glance
 
 | | |
 |---|---|
-| **Where we are** | Personal site locked on Netlify. A copy of the code is in GitHub. Now learning if people value it. |
-| **Business status** | Not a business yet. Test first, then decide (no later than Feb 2027). |
+| **Where we are** | Learning whether families value it, before building more. The code is in GitHub with sample data. |
+| **Business status** | Not a business yet. Cheap tests decide it. |
 | **Who it's for** | Every high school student. The IEP layer is optional. |
-| **Next milestone** | Usability round done (Oct 2026) |
+| **Next milestone** | Usability round done (aiming for Oct 2026) |
 
-Where we're going: **[Roadmap](Roadmap)**. Every idea: **[Backlog](Backlog)**. Every task: **[Issues](https://github.com/sharonlafleur1984/after-graduation/issues)**.
+Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every task: [Issues](https://github.com/sharonlafleur1984/after-graduation/issues).
 
-## Pages
+## Needs your decision
 
-| Page | What's there |
-|---|---|
-| [Roadmap](Roadmap) | Where we're going: Now, Next, Later, milestones and risks |
-| [Backlog](Backlog) | Every idea, fix and open task |
-| [Research Plan](Research-Plan) | How we'll get feedback from students and parents |
-| [Business Evaluation](Business-Evaluation) | Is this a business? The verdict, the tests, the numbers |
-| [Sources](Sources) | Every source, with a link and whether we verified it |
-| [Decisions](Decisions) | Every big choice and why |
-| [Skills and Tools](Skills-and-Tools) | The Claude skills and tools used on this project |
+- **Are the school and grant tests still happening, or only the family test?** The [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide) has three tests. The [Roadmap](Roadmap) only plans the family test.
+- **Ideas 11 to 14 are researched and ready.** See the [Backlog](Backlog).
 
 ## Links
 
@@ -37,13 +30,13 @@ Where we're going: **[Roadmap](Roadmap)**. Every idea: **[Backlog](Backlog)**. E
 | Project files (private) | [Google Drive](https://drive.google.com/drive/folders/1KV3qijRzc-j42pj-1_vRv-1etwju2hLs) |
 | Project entry (private) | [Notion, Life Hub Projects](https://app.notion.com/p/3e78df3da83881bea679dac568d42b74) |
 
-## Key decisions (open for detail)
+## Key decisions
 
 <details>
-<summary><b>Should this become a business?</b> Not yet. Test first, then decide (no later than Feb 2027).</summary>
+<summary><b>Should this become a business?</b> Not yet. Test first, then decide.</summary>
 
-- Verdict: **Needs more evidence.** A big venture-backed app: don't build.
-- Three cheap tests (families, schools, grant funding) decide it.
+- Verdict: needs more evidence. A big venture-funded company: don't build.
+- Cheap tests with families, schools and funders decide it.
 - Details: [Business Evaluation](Business-Evaluation)
 
 </details>
@@ -52,7 +45,7 @@ Where we're going: **[Roadmap](Roadmap)**. Every idea: **[Backlog](Backlog)**. E
 <summary><b>Who is it for?</b> Every student. The IEP layer is optional, turned on in settings.</summary>
 
 - Bigger audience, more competitors. The IEP layer is what sets it apart.
-- Details: [Business Evaluation, update](Business-Evaluation#update-all-students-iep-optional)
+- Details: [Business Evaluation](Business-Evaluation#who-its-for-every-high-school-student-with-an-optional-iep-layer)
 
 </details>
 
@@ -63,3 +56,5 @@ Where we're going: **[Roadmap](Roadmap)**. Every idea: **[Backlog](Backlog)**. E
 - Details: [Decisions](Decisions)
 
 </details>
+
+All decisions, newest first: [Decisions](Decisions).

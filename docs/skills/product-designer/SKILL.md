@@ -53,7 +53,31 @@ You can't design what you don't understand.
 - **Motion:** follows principle 2. Short, purposeful, and interruptible, with a reduced-motion version.
 - **Avoid AI sameness:** default AI output converges on the same look (indigo, gradients, identical section order) ([homogenization research](https://doi.org/10.1145/3772318.3790758)). Spend boldness in one memorable place that fits this product.
 
-## 5. Accessibility (WCAG 2.2 AA, every component)
+## 5. Content and information architecture
+
+Words and structure are design. On text-heavy pages (docs, wikis, dashboards, forms), they are most of the design.
+
+**Information architecture: can people find it?** ([NN/g: IA vs navigation](https://www.nngroup.com/articles/ia-vs-navigation/), [Morville's UX honeycomb](https://semanticstudios.com/user_experience_design/))
+- Group by how people think, not how the system or team is organized. Test groupings with a card sort when unsure ([NN/g card sorting](https://www.nngroup.com/articles/card-sorting-definition/)).
+- Every page has one job. If a page does two jobs, split it. If two pages do one job, merge them.
+- One clear home for each piece of information; everything else links to it.
+- A top-level hub page gives the big picture and leads into every category.
+- Labels are the words users would use, and each label means one thing everywhere.
+- Don't add empty categories. Add a category when its first real page exists.
+
+**Content: can people understand it fast?**
+- The answer first, then detail ([NN/g inverted pyramid](https://www.nngroup.com/articles/inverted-pyramid/)). People scan in an F-pattern, so front-load headings and the first words of each line ([NN/g](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)).
+- Headings say what the section tells you, not just its topic.
+- Short sentences, plain words, one idea per line ([Digital.gov plain language](https://digital.gov/guides/plain-language/principles)).
+- Every section says why it matters to the reader.
+- Emphasis is rare. If more than one phrase per section is bold, nothing stands out.
+- Consistent terms: pick one word for a thing and never switch.
+- Show freshness: "Last updated" sits at the top, right under the title, so readers know how old the page is before they trust it ([Stanford Web Credibility, guideline 8](https://credibility.stanford.edu/guidelines/)).
+- Cut anything that doesn't help the reader decide or act.
+
+**Content review checklist:** Is the page's job clear in 3 seconds? Is anything said twice? Are labels consistent across pages? Does every heading tell you something? Is the date visible? What can be cut?
+
+## 6. Accessibility (WCAG 2.2 AA, every component)
 
 - Text contrast 4.5:1; UI parts and icons 3:1 ([1.4.3](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), [1.4.11](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html))
 - Color is never the only signal (1.4.1)
@@ -64,7 +88,7 @@ You can't design what you don't understand.
 - Reduced motion honored (2.3.3)
 - Plain language at about an 8th-grade reading level
 
-## 6. Designing AI and agentic experiences
+## 7. Designing AI and agentic experiences
 
 AI changes the interaction from telling the computer how, step by step, to telling it what outcome you want ([NN/g](https://www.nngroup.com/articles/ai-paradigm/)). Sources: [Microsoft Human-AI Interaction guidelines](https://www.microsoft.com/en-us/research/blog/guidelines-for-human-ai-interaction-design/), [Google PAIR Guidebook](https://pair.withgoogle.com/guidebook-v2/chapter/explainability-trust/), [Apple HIG: Generative AI](https://developer.apple.com/design/human-interface-guidelines/generative-ai).
 
@@ -79,22 +103,22 @@ AI changes the interaction from telling the computer how, step by step, to telli
 9. **Design for two users:** people and the agents that read the page. Agents read structure, not looks, so semantic HTML matters twice (single source: [dev.to](https://dev.to/ssmancha/the-accessibility-tree-is-the-new-api-1hm4)).
 10. **Never trust AI-generated UI by default.** It often misses accessibility basics like target size and keyboard access ([Web4All 2025](https://dl.acm.org/doi/10.1145/3800424.3800430)). Every generated screen goes through the same review as hand-made work.
 
-The agentic field is young: re-check this section often (see section 11).
+The agentic field is young: re-check this section often (see section 12).
 
-## 7. Reviewing designs
+## 8. Reviewing designs
 
-**Heuristic review** ([NN/g](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)): walk each key task, check against the 10 heuristics, the Laws of UX, section 5, and Sharon's principles. Rate each issue ([severity 0 to 4](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)): 0 not a problem, 1 cosmetic, 2 minor, 3 major, 4 blocks release. Lead with the fix, not just the flaw.
+**Heuristic review** ([NN/g](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/)): walk each key task, check against the 10 heuristics, the Laws of UX, the content and structure checks in section 5, accessibility in section 6, and Sharon's principles. Review the words and the organization, not just the look: on text-heavy pages, content is the design. Rate each issue ([severity 0 to 4](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)): 0 not a problem, 1 cosmetic, 2 minor, 3 major, 4 blocks release. Lead with the fix, not just the flaw.
 
 **Critique** ([Discussing Design](https://www.oreilly.com/library/view/discussing-design/9781491902394/)): critique the work against its goals, never the person. Separate a reaction ("I don't like it") from analysis ("this hides the primary action"). Bring evidence over opinion.
 
-## 8. The Storybook gate
+## 9. The Storybook gate
 
 Nothing enters the component library until it passes. Automatic checks decide most things; Sharon decides matters of taste.
 
 **Automatic (must pass)**
 - Uses tokens only; no one-off values
 - Every state shown: default, hover, focus, active, disabled, loading, empty, error
-- Accessibility checks pass (section 5 and the automated scan)
+- Accessibility checks pass (section 6 and the automated scan)
 - Visual snapshot reviewed; tests pass
 - Docs page: purpose, when to use, when not to, do and don't, accessibility note
 
@@ -108,7 +132,7 @@ Nothing enters the component library until it passes. Automatic checks decide mo
 - A new animation
 - Anything that changes how the product feels
 
-## 9. The skills people overlook
+## 10. The skills people overlook
 
 Hiring research and experience agree: craft is the price of admission; these are the differentiators ([NN/g career advice](https://www.nngroup.com/articles/ux-career-advice/), [MeasuringU](https://measuringu.com/what-hiring-managers-want-and-what-ux-practitioners-do/)).
 
@@ -121,11 +145,11 @@ Hiring research and experience agree: craft is the price of admission; these are
 - **Business and systems sense.** Connect design choices to the problem, the business, and the whole product.
 - **Curiosity and humility.** You are not the user. Test.
 
-## 10. Measuring design
+## 11. Measuring design
 
 Pick a few design measures per project, tied to its goals ([Vitaly Friedman, Design KPIs and UX Metrics](https://www.linkedin.com/pulse/design-kpis-ux-metrics-vitaly-friedman), [Smashing Magazine](https://www.smashingmagazine.com/2022/04/boosting-ux-with-design-kpis/)): task success rate, time to complete key tasks, error rate and recovery, System Usability Scale, and WCAG AA coverage. Re-test the same tasks over time.
 
-## 11. Growth mindset: how this skill keeps getting better
+## 12. Growth mindset: how this skill keeps getting better
 
 Based on Carol Dweck's *Mindset* ([Farnam Street summary](https://fs.blog/carol-dweck-mindset/)): ability grows through effort, feedback, and learning from mistakes. This skill is never finished. It is "not yet."
 
@@ -146,7 +170,7 @@ Based on Carol Dweck's *Mindset* ([Farnam Street summary](https://fs.blog/carol-
 - Prefer rewriting or removing a rule over adding one, so the skill stays short.
 - When a change is approved, propose the whole updated skill, update any public copy in the same pass, and add a line to the change log.
 
-## 12. Working with Sharon
+## 13. Working with Sharon
 
 Follow `working-with-sharon`: answer first, up to 3 bullets, a caveat when it matters, at most 3 options with a recommendation, one question at a time, and no change without her yes.
 
@@ -154,3 +178,4 @@ Follow `working-with-sharon`: answer first, up to 3 bullets, a caveat when it ma
 
 - 2026-09-26: Created from About Face, Laws of UX, NN/g, WCAG 2.2, Microsoft, Google PAIR and Apple AI guidance, design system governance research, hiring research, Sharon's design principles, and 30+ articles she shared.
 - 2026-09-26: Fixed the design KPIs source link.
+- 2026-09-26: Added content design and information architecture, and made content part of every review. Found when the first wiki review skipped copy and structure.

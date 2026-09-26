@@ -1,18 +1,18 @@
 # Research Plan
 
-**Goal:** learn whether students and parents understand the planner, value it, and would pay for it, before building more.
+**Last updated:** September 26, 2026
 
-**Last updated:** September 25, 2026
+**Goal:** learn whether students and parents understand the planner, value it, and would pay for it, before building more.
 
 ## The three studies
 
 | # | Study | Answers | When | Needs accounts? |
 |---|---|---|---|---|
-| 1 | Usability sessions | Can they use it? What do they love or skip? | Oct 2026 | No |
+| 1 | Usability sessions | Is it easy to use? Is it fun? Would they look for it on their own? | Oct 2026 | No |
 | 2 | Priced offer | Will anyone pay? Which group? | Oct 2026 to Jan 2027 | No |
-| 3 | Beta with accounts | Do they come back? What gets used? | After accounts are built | Yes |
+| 3 | Beta with accounts | Do they come back? Do they stay engaged over months? | After accounts are built | Yes |
 
-Each study decides whether the next one is worth doing. Results feed the business decision (as soon as the family test reports, no later than Feb 2027) ([Business Evaluation](Business-Evaluation)).
+Each study decides whether the next one is worth doing. Results feed the decision gate on the [Roadmap](Roadmap#milestones).
 
 ---
 
@@ -46,12 +46,13 @@ Each study decides whether the next one is worth doing. Results feed the busines
 
 For each task, note: did they finish, where did they get stuck, what did they say.
 
-**Wrap-up (10 min)**
-1. What was the most useful part? The least?
+**Wrap-up (12 min)**
+1. What was the most useful part? The most fun? The least?
 2. What would make you come back to this next month?
-3. Would a student use this on their own, or with a parent?
+3. If a friend were planning for after high school, would you tell them about this? Why or why not?
 4. **IEP layer:** "Some students have an IEP or 504 plan. We could add a section for accommodations and extra deadlines that you turn on in settings." Would that be useful, confusing, or not relevant to you?
 5. If this cost money, what would feel fair? (Just listen. Don't pitch.)
+6. **Problem check:** show the list of problems 1 to 10 from the [Backlog](Backlog). "Which of these have you actually run into? Pick up to three." This tells us which ideas are worth building.
 
 </details>
 
@@ -62,9 +63,10 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 |---|---|
 | Task success | Finished / finished with help / didn't finish, per task |
 | Where people got stuck | Notes with timestamps |
-| Favorite and least favorite parts | Wrap-up answers |
+| Fun and appeal | Most fun and least favorite parts, and whether they'd tell a friend |
 | IEP layer reaction | Useful / confusing / not relevant, split by IEP and non-IEP families |
 | Price reaction | What felt fair, in their words |
+| Problems families have hit | Count of picks for each Backlog problem, across all sessions |
 
 </details>
 
@@ -80,7 +82,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 - **Pay first, then collect data.** Families see only the sample demo before paying.
 - **Track:** how each family heard about it, and how many hours you spent selling and building each plan
 - **Promise in writing:** if the test ends, they choose continued access through senior year, or a full refund plus a PDF of their plan
-- Full rules: [Business Evaluation, section 4](Business-Evaluation)
+- The pass mark and money math: [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide)
 
 </details>
 
