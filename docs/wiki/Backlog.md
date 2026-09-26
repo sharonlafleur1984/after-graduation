@@ -42,7 +42,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
 | 17 | Middle schoolers who want to get ahead have nothing to plan | Optional extras: extracurriculars, volunteering, internships | Needs research. Not for the first release. |
 | 18 | Parents who want to plan from elementary school have no long-range tool | A long-range parent plan that starts early, at the same price | Needs research. Not for the first release. |
-| 19 | Utah already pays for a statewide planning platform, so schools may not buy another | Offer a free one-year pilot that fills the gaps, not a replacement | Needs research |
+| 19 | Utah already pays for a statewide planning platform, so schools may not buy another | Pilot at one school first, then a pitch program for districts | Needs research |
 
 **Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
@@ -254,10 +254,14 @@ Open an idea below for the full reasoning and sources.
 - **Is there a better way than competing head-on?** Yes. Replacing a state-funded, law-backed platform is unlikely. Fill what it doesn't do instead:
   - The announcement mentions no IEP or special education features
   - It's built for schools, not for parents planning at home
-- **What the pilot could be:** free for one school year for special education transition coordinators in one or two districts. It pairs with Test 2 in the [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide), which already asks coordinators what they'd pay.
+- **The plan, in order** (Sharon, Sep 26, 2026):
+  1. **One pilot school.** Free for the whole school, starting in February, in exchange for collecting feedback and usage data.
+  2. **Permission slips.** A separate step before any student data is collected: parent permission and student agreement.
+  3. **A pitch and presentation program.** Built from the pilot's results, to offer districts a free one-year pilot. Pairs with Test 2 in the [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide).
 - **Caveats:**
   - Schools will likely need a student data privacy agreement before any pilot. Check Utah's rules first.
   - A free year still costs your time for support and content.
+  - A whole-school pilot needs the built product: onboarding, accounts and privacy. On today's [Roadmap](Roadmap) those come after the decision gate, so the timing needs a look.
 - **Research still needed:** whether coordinators see the gap, and whether YouScience plans IEP features.
 
 </details>
