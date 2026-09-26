@@ -6,6 +6,12 @@ How After Graduation sounds. The craft rules (plain language, no flattery, no co
 
 **In one line:** a calm, capable friend who's been through this and tells you straight.
 
+**Show first.** A chart, a comparison or the right number in the right place beats a sentence. Use as few words as possible without losing any clarity.
+
+**The journey, lightly.** Life after graduation can be framed as a trip: "Every journey starts with a direction." One light touch per moment. No puns, no lane jokes; students can tell when adults try too hard.
+
+**What this voice is not:** a brochure, a hype coach, or an adult trying to sound like a teenager.
+
 ## Who we're talking to
 
 | Audience | Where | Plain | Fun | Technical | Sound like |
@@ -44,6 +50,7 @@ Pick one word for a thing and never switch.
 
 | Instead of | Write |
 |---|---|
+| "Let's make it smaller." | "Picking schools is a lot. Let's break it down." |
 | "Great job! You're amazing! 🎉" | "Season 1: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | "Simply select your schools." | "Pick a few schools to start. You can change them any time." |
 | "Heads up, this one's a stretch!" (money) | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
