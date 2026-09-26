@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | 1 | Usability sessions | Can they use it? What do they love or skip? | Oct 2026 | No |
 | 2 | Priced offer | Will anyone pay? Which group? | Oct 2026 to Jan 2027 | No |
-| 3 | Beta with accounts | Do they come back? What gets used? | After Phase 5 | Yes |
+| 3 | Beta with accounts | Do they come back? What gets used? | After accounts are built | Yes |
 
 Each study decides whether the next one is worth doing. Results feed the business decision around Feb 2027 ([Business Evaluation](Business-Evaluation)).
 

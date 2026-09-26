@@ -2,6 +2,7 @@
 
 - [Dashboard](Home)
 - [Roadmap](Roadmap)
+- [Backlog](Backlog)
 - [Research Plan](Research-Plan)
 - [Business Evaluation](Business-Evaluation)
 - [Sources](Sources)
