@@ -2,7 +2,7 @@
 
 **Last updated:** September 26, 2026
 
-How After Graduation sounds. The craft rules (plain language, no flattery, no condescending words) come from the [content-writer skill](https://github.com/sharonlafleur1984/how-i-work/blob/main/skills/content-writer/SKILL.md). This file sets the voice for each audience.
+How After Graduation sounds. The craft rules (plain language, no flattery, no condescending words) come from the [ux-writer skill](https://github.com/sharonlafleur1984/how-i-work/blob/main/skills/ux-writer/SKILL.md). This file sets the voice for each audience.
 
 **In one line:** a calm, capable friend who's been through this and tells you straight.
 
