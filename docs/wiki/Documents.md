@@ -25,6 +25,7 @@ Private files (originals, notes, anything personal) aren't here. They're listed 
 |---|---|
 | [Tasks (GitHub Issues)](https://github.com/sharonlafleur1984/after-graduation/issues) | You need to know who's doing what. Every task states its problem and when it's done. |
 | [Skill copies](https://github.com/sharonlafleur1984/after-graduation/tree/main/docs/skills) | You want to read a skill in full. Read-only copies; the working versions live in Sharon's Claude account. |
+| [Voice guide](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/voice.md) | Writing anything people will read: the voice for students, parents and wiki readers, and the words we use |
 | [CLAUDE.md](https://github.com/sharonlafleur1984/after-graduation/blob/main/CLAUDE.md) | You're an AI or developer starting work: the rules for this repo |
 | [Prototype (index.html)](https://github.com/sharonlafleur1984/after-graduation/blob/main/index.html) | Working on the prototype, or checking how a screen behaves before rebuilding it. Sample data only. |
 | [Wiki publishing setup](https://github.com/sharonlafleur1984/after-graduation/blob/main/.github/workflows/publish-wiki.yml) | The wiki didn't update after a merge |

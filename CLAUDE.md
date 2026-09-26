@@ -25,6 +25,7 @@ When you add or remove a document, update its row in `docs/wiki/Documents.md` in
 - `portfolio-frontend-build` for any code work
 - `product-project-manager` for roadmap, backlog and status
 - `product-designer` for design, page structure and Storybook work
+- `content-writer` for any words people will read, with `docs/voice.md` for this project's voice
 - `working-with-sharon` for how to write to Sharon
 
 ## Outside the repo (private)
