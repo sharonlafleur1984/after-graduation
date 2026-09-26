@@ -18,7 +18,7 @@ After Graduation: a planner that helps every high school student map out life af
 
 Start with [`docs/wiki/Documents.md`](docs/wiki/Documents.md): every document in this repo and when to open it. Open only what matches the task. PDFs are expensive to read, and the evaluation PDF is version 1, a historic record only.
 
-When you add a document, add its row to `docs/wiki/Documents.md` in the same pull request.
+When you add or remove a document, update its row in `docs/wiki/Documents.md` in the same pull request, and in Sharon's private Notion index (Project Documents, Project = After Graduation) in the same pass.
 
 ## Skills to use
 

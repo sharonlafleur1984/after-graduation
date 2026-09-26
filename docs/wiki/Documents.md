@@ -30,4 +30,4 @@ Private files (originals, notes, anything personal) aren't here. They're listed 
 | [Wiki publishing setup](https://github.com/sharonlafleur1984/after-graduation/blob/main/.github/workflows/publish-wiki.yml) | The wiki didn't update after a merge |
 | [Evaluation, version 1 (PDF)](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf) | Almost never. Historic record only, not current. Use the [Business Evaluation](Business-Evaluation) instead. |
 
-**Adding a document?** Add its row here in the same pull request.
+**Adding or removing a document?** Update its row here in the same pull request, and in Sharon's private Notion index.
