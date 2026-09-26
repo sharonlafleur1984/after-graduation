@@ -23,7 +23,7 @@ Each item is a problem to solve, not a feature. Detailed work lives in the [Back
 | Milestone | When | What must be true |
 |---|---|---|
 | ✅ Personal site locked on Netlify | Done Sep 2026 | Password on, hidden from search |
-| ✅ Copy of the code in GitHub | Done Sep 2026 | Sample data only, ready to rebuild in React |
+| ✅ Copy of the code in GitHub | Done Sep 2026 | Sample data only |
 | Usability round done | Aiming for Oct 2026 | 6 to 8 sessions run; top problems listed |
 | **Decision gate** | **As soon as the family test reports.** Latest: Feb 2027 | Priced offer results in. Build at most one route, or stop. |
 | Beta ready | After the decision gate | Accounts, privacy and consent in place |
