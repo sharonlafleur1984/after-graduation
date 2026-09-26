@@ -120,7 +120,9 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 | With an IEP or 504 plan | About half | 5 |
 | Leaning toward trade or certificate school | At least 2 | At least 2 |
 
-**Where to find people:** parent groups, school parent newsletters, special education parent networks, friends of friends. Not through the original student's school or personal network.
+**Where to find people:** Sharon's networking circle, parent groups, school parent newsletters and special education parent networks.
+
+**Protecting the original student:** use sample data in every session and demo, never their plan, and never mention who the planner was first built for.
 
 </details>
 
