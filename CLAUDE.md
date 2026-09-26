@@ -14,26 +14,17 @@ After Graduation: a planner that helps every high school student map out life af
 - **Ask before changing or deleting anything.** A recommendation is not approval.
 - **Wiki pages are edited in `docs/wiki/`,** never in the GitHub Wiki tab. They publish automatically on merge to main.
 
-## Read this when...
+## Where everything is
 
-| Read | When |
-|---|---|
-| `docs/wiki/Home.md` | You need the big picture or current status |
-| `docs/wiki/Roadmap.md` | Deciding what to work on next |
-| `docs/wiki/Backlog.md` | Looking for a specific fix or idea |
-| [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues) | Tasks: who's doing what. Every task states its problem and when it's done. |
-| `docs/wiki/Decisions.md` | Checking why something was decided |
-| `docs/wiki/Business-Evaluation.md` | Questions about market, pricing or business viability |
-| `docs/wiki/Sources.md` | You need the source for a fact |
-| `docs/wiki/Research-Plan.md` | Planning usability sessions or tests with families |
-| `docs/wiki/Skills-and-Tools.md` | Checking which Claude skills and tools this project uses |
-| `docs/evaluation/*.pdf` | Almost never. Version 1, historic record only, not current. The current truth is `docs/wiki/Business-Evaluation.md`. PDFs are also expensive to read. |
-| `index.html` | Working on the prototype, or checking how a screen behaves before rebuilding it |
+Start with [`docs/wiki/Documents.md`](docs/wiki/Documents.md): every document in this repo and when to open it. Open only what matches the task. PDFs are expensive to read, and the evaluation PDF is version 1, a historic record only.
+
+When you add a document, add its row to `docs/wiki/Documents.md` in the same pull request.
 
 ## Skills to use
 
 - `portfolio-frontend-build` for any code work
 - `product-project-manager` for roadmap, backlog and status
+- `product-designer` for design, page structure and Storybook work
 - `working-with-sharon` for how to write to Sharon
 
 ## Outside the repo (private)
