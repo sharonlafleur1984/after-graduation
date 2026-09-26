@@ -20,12 +20,14 @@ Each item is a problem to solve, not a feature. Detailed work lives in the [Back
 
 ## Milestones
 
-| Milestone | Target | What must be true |
+| Milestone | When | What must be true |
 |---|---|---|
-| ✅ Prototype safe and in GitHub | Sep 2026 | Personal site locked; sample-data version in the repo |
-| Usability round done | Oct 2026 | 6 to 8 sessions run; top problems listed |
-| **Decision gate** | **Feb 2027** | Priced offer results in. Build at most one route, or stop. |
-| Beta ready | After the gate | Accounts, privacy and consent in place |
+| ✅ Prototype safe and in GitHub | Done Sep 2026 | Personal site locked; sample-data version in the repo |
+| Usability round done | Aiming for Oct 2026 | 6 to 8 sessions run; top problems listed |
+| **Decision gate** | **As soon as the family test reports.** Latest: Feb 2027 | Priced offer results in. Build at most one route, or stop. |
+| Beta ready | After the decision gate | Accounts, privacy and consent in place |
+
+**Why Feb 2027 is the latest:** to be ready for next fall's juniors (Aug 2027), the build needs about 6 months. Deciding earlier is better.
 
 ## Top risks
 
