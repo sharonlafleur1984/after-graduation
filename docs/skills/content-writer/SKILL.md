@@ -75,7 +75,7 @@ Sources: [Digital.gov](https://digital.gov/guides/plain-language/principles), [M
 
 ## 5. Headings say something
 
-"The three studies" tells you nothing. "How we'll learn what families need" does. A question readers actually ask works too: "Will families pay?" Plain labels are fine when the page makes them obvious.
+"Next steps" tells you little. "What to do before March 1" tells you what to do. A question readers actually ask works too: "Will families pay?" Plain labels are fine when the page makes them obvious.
 
 ## 6. Docs and wikis
 
