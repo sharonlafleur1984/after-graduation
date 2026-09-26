@@ -3,13 +3,12 @@
 **Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. As of Sep 25, 2026 it's aimed at **all students**, with the IEP layer optional ([see update](#update-all-students-iep-optional)). Don't build more product. Run three cheap tests first, then decide, **no later than February 2027**.
 
 - **Prepared for:** Sharon LaFleur, September 25, 2026
-- **Original:** a 39-page PDF with three parts (market research, viability verdict, business plan)
+- **Original:** a 39-page PDF with three parts (market research, viability verdict, business plan). [Read the public copy](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf)
 - **This page:** the same findings in plain language, with every source linked
 
 <details>
 <summary><b>What changed from the original PDF</b></summary>
 
-- **Name fixed:** the PDF called the builder "Sara" throughout. It's **Sharon**.
 - **Date fixed:** one date read 2026-09-26. The correct date is **2026-09-25**.
 - **Sources linked:** the PDF cited internal codes like "AG9" or "CT5" that pointed to files nobody could open. Every source now has its full name and a link. See [Sources](Sources).
 - **Each source was re-checked:** tagged ✅ verified, 🟡 found but the exact figure wasn't seen, or ❌ not found.
