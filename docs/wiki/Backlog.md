@@ -1,6 +1,8 @@
 # Backlog
 
-Every idea, fix and request, in one place. When something here becomes a goal, it moves to the [Roadmap](Roadmap).
+Every idea, fix and request, in one place.
+
+**How an idea moves:** Idea (problem written down) → Researched (options, evidence, a recommendation) → your decision → Decided. Nothing comes to you for a decision until it's researched.
 
 **Last updated:** September 25, 2026
 
@@ -16,36 +18,29 @@ Every idea, fix and request, in one place. When something here becomes a goal, i
 </details>
 
 <details>
-<summary><b>Needs a decision</b>: waiting on Sharon (4)</summary>
+<summary><b>Ideas</b>: problems worth solving, not yet decided (15)</summary>
 
-| Item | Why | From | Added | Question |
-|---|---|---|---|---|
-| Rank picker: swap schools when a place is taken, show names, add Undo | Picking a taken place is confusing today | Sharon and Claude | Sep 2026 | Go with this? |
-| Seven style consistency fixes | Text, links and spacing vary between sections | Claude's style audit | Sep 2026 | Apply all seven? |
-| Shrink the header title to about 44px | The title crowds the screen | Claude | Sep 2026 | Yes or no? |
-| Walkthrough video for LinkedIn | Shows the work in a portfolio | Claude | Sep 2026 | When? |
+Every idea starts with the problem. For competitor features we asked: what problem does it solve, and is there a better or more current way to solve it? If not, copy it. If yes, use the better way.
 
-</details>
+| # | Problem | Recommendation | Status |
+|---|---|---|---|
+| 1 | Families miss deadlines because the timeline only helps when they open it | Better idea: calendar feed, then text nudges | Needs evidence from families |
+| 2 | Aid offer letters hide the real cost | Better idea: compare in the standard federal format | Needs evidence from families |
+| 3 | Student and parent plan separately and can erase each other's work | Copy: one shared plan | Needs evidence from families |
+| 4 | Finding scholarships takes hours | Better idea: link the free federal finder | Needs evidence from families |
+| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz | Needs evidence from families |
+| 6 | Students have questions when no counselor is free | Skip for now: open-ended AI chat | Needs evidence from families |
+| 7 | Keeping teens engaged for about 20 months | Partly copy: progress yes, leaderboards no | Needs evidence from families |
+| 8 | Trade-path students need real hands-on openings | Better idea: link the federal apprenticeship finder | Needs evidence from families |
+| 9 | Families start the FAFSA and stall | Copy: checklist, from the official source | Needs evidence from families |
+| 10 | Cost and earnings data goes stale | Better idea: pull from College Scorecard | Needs evidence from families |
+| 11 | Picking a rank that's already taken is confusing | Swap the two schools, show names, add Undo | ✅ Researched: ready for you |
+| 12 | The same kind of thing looks different in different places | Fix it once in the design tokens during the rebuild | ✅ Researched: ready for you |
+| 13 | The big title pushes the content down | Title size that adjusts to the screen | ✅ Researched: ready for you |
+| 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | ✅ Researched: ready for you |
+| 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
 
-<details>
-<summary><b>Ideas</b>: problems worth solving, not yet decided (10)</summary>
-
-Every idea starts with the problem. For each competitor feature we asked: what problem does it solve, and is there a better or more current way to solve it? If not, copy it. If yes, use the better way.
-
-| # | Problem | Verdict |
-|---|---|---|
-| 1 | Families miss deadlines because the timeline only helps when they open it | Better idea: calendar feed, then text nudges |
-| 2 | Aid offer letters hide the real cost | Better idea: compare in the standard federal format |
-| 3 | Student and parent plan separately and can erase each other's work | Copy: one shared plan |
-| 4 | Finding scholarships takes hours | Better idea: link the free federal finder |
-| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz |
-| 6 | Students have questions when no counselor is free | Skip for now: open-ended AI chat |
-| 7 | Keeping teens engaged for about 20 months | Partly copy: progress yes, leaderboards no |
-| 8 | Trade-path students need real hands-on openings | Better idea: link the federal apprenticeship finder |
-| 9 | Families start the FAFSA and stall | Copy: checklist, from the official source |
-| 10 | Cost and earnings data goes stale | Better idea: pull from College Scorecard |
-
-**Next step:** test the top ideas in the usability sessions before deciding. ([Research Plan](Research-Plan))
+**Next step:** ideas 1 to 10 get tested in the usability sessions ([Research Plan](Research-Plan)). Ideas 11 to 14 are ready for your decision.
 
 Open an idea below for the full reasoning and sources.
 
@@ -147,6 +142,73 @@ Open an idea below for the full reasoning and sources.
 - **Verdict:** better idea, for the rebuild's content layer. Hand-entered data stays only where Scorecard has gaps, like some trade programs.
 
 </details>
+
+<details>
+<summary>💡 <b>11. Problem: picking a rank that's already taken is confusing</b></summary>
+
+- **What happens today:** a student picks 2nd place for a school, but another school already holds 2nd. It isn't clear what will happen, or which school is there.
+- **Options:**
+  - A. Gray out places that are taken
+  - B. Show an "Are you sure?" popup
+  - C. Swap the two schools, show each school's name on its place, and add an Undo button
+- **Evidence:** grayed-out options confuse people because they don't say why ([Nielsen Norman Group](https://www.nngroup.com/videos/why-disabled-buttons-hurt-ux-and-how-to-fix-them/)). "Are you sure?" popups don't reliably prevent mistakes, and an easy undo is better ([Nielsen Norman Group](https://www.nngroup.com/articles/confirmation-dialog/)).
+- **Recommendation:** C.
+- **Caveat:** no source found on ranking lists specifically. This is based on general guidance.
+
+</details>
+
+<details>
+<summary>💡 <b>12. Problem: the same kind of thing looks different in different places</b></summary>
+
+- **What happens today:** a design review found 7 small differences: body text size and color, link sizes, the Compare button's weight, an extra gray, corner roundness, heading spacing, and a dark date label.
+- **Why it matters:** people shouldn't have to wonder whether different looks mean different things ([Nielsen Norman Group](https://www.nngroup.com/articles/consistency-and-standards/)). Body text also needs enough contrast to read, at least 4.5 to 1 ([W3C, WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)).
+- **Options:**
+  - A. Fix all 7 in the prototype now
+  - B. Fix them once in the design tokens during the rebuild, so they can't drift again
+  - C. Fix only contrast problems now, the rest in the rebuild
+- **Evidence:** design tokens define each color, size and spacing once and share it everywhere ([Design Tokens Community Group](https://www.designtokens.org/)).
+- **Recommendation:** B. The personal version is frozen, so fixing the prototype is wasted work.
+- **Caveat:** I'll check the contrast of each color while setting up the tokens.
+
+</details>
+
+<details>
+<summary>💡 <b>13. Problem: the big title pushes the content down</b></summary>
+
+- **Why it matters:** people spend 57% of their viewing time on the first screen, before they scroll ([Nielsen Norman Group, 2018](https://www.nngroup.com/articles/scrolling-and-attention/)). A tall title uses up that space.
+- **Options:**
+  - A. Keep it as is
+  - B. Shrink it to a fixed 44px
+  - C. A title size that adjusts to the screen: bigger on a laptop, smaller on a phone
+- **Evidence:** CSS can scale text smoothly between a minimum and maximum size ([web.dev](https://web.dev/articles/min-max-clamp)).
+- **Recommendation:** C, in the rebuild.
+- **Caveat:** the maximum size can't block people who zoom text to 200% for accessibility (same web.dev source).
+
+</details>
+
+<details>
+<summary>💡 <b>14. Problem: hiring managers have little time to see the work</b></summary>
+
+- **Why it matters:** hiring managers have little time per candidate, so a portfolio should be easy to scan and show problem, role, research, solution and impact ([Nielsen Norman Group](https://www.nngroup.com/articles/ux-design-portfolios/)).
+- **Options:**
+  - A. A walkthrough video only
+  - B. A written case study only
+  - C. A short written case study with a short video inside it
+- **Recommendation:** C. Use the sample-data version only, never the personal one. Make it after the usability round, so there's real impact to show.
+- **Caveat:** I didn't find a trustworthy source saying videos specifically help, or official LinkedIn guidance. This is my judgment.
+
+</details>
+
+<details>
+<summary>💡 <b>15. Problem: students thinking of skipping school can't see what it means for their pay</b></summary>
+
+- **Idea from:** Sharon (Sep 25, 2026). Not for the first release.
+- **What it could be:** a few jobs that need only a high school diploma, with typical pay, next to the college and trade school paths. It could also help parents show why more school might be worth it.
+- **Starting evidence:** in 2025, median weekly pay was $966 with a high school diploma, $1,135 with an associate degree, and $1,578 with a bachelor's degree ([U.S. Bureau of Labor Statistics](https://www.bls.gov/emp/tables/unemployment-earnings-education.htm)).
+- **Research still needed:** who already shows this well, and where to get pay for specific jobs.
+
+</details>
+
 
 </details>
 
