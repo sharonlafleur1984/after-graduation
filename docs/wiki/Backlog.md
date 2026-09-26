@@ -18,12 +18,12 @@ Every idea, fix and request, in one place. When something here becomes a goal, i
 <details>
 <summary><b>Needs a decision</b>: waiting on Sharon (4)</summary>
 
-| Item | Question |
-|---|---|
-| Rank picker: swap schools when a place is taken, show names, add Undo | Go with this? |
-| Seven style consistency fixes | Apply all seven? |
-| Shrink the header title to about 44px | Yes or no? |
-| Walkthrough video for LinkedIn | When? |
+| Item | Why | From | Added | Question |
+|---|---|---|---|---|
+| Rank picker: swap schools when a place is taken, show names, add Undo | Picking a taken place is confusing today | Sharon and Claude | Sep 2026 | Go with this? |
+| Seven style consistency fixes | Text, links and spacing vary between sections | Claude's style audit | Sep 2026 | Apply all seven? |
+| Shrink the header title to about 44px | The title crowds the screen | Claude | Sep 2026 | Yes or no? |
+| Walkthrough video for LinkedIn | Shows the work in a portfolio | Claude | Sep 2026 | When? |
 
 </details>
 

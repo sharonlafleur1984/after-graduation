@@ -12,7 +12,7 @@
 | 2 | Priced offer | Will anyone pay? Which group? | Oct 2026 to Jan 2027 | No |
 | 3 | Beta with accounts | Do they come back? What gets used? | After accounts are built | Yes |
 
-Each study decides whether the next one is worth doing. Results feed the business decision around Feb 2027 ([Business Evaluation](Business-Evaluation)).
+Each study decides whether the next one is worth doing. Results feed the business decision (as soon as the family test reports, no later than Feb 2027) ([Business Evaluation](Business-Evaluation)).
 
 ---
 
@@ -155,7 +155,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 |---|---|
 | Study 1 finds big usability problems | Fix them in the React rebuild before Study 3 |
 | Study 1 shows non-IEP families find the IEP layer confusing | Keep it off by default, turned on in settings |
-| Study 2: 3 or more of 10 pay | That route passes the Feb 2027 decision |
+| Study 2: 3 or more of 10 pay | That route passes the decision gate |
 | Study 2: 2 of 10 pay | Run one more round of 10 |
 | Study 2: 0 or 1 pay | Don't build a paid family product |
 | Study 3: families come back monthly | The product is worth growing |
