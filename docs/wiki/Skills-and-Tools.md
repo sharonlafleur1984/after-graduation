@@ -4,7 +4,7 @@ The Claude skills and tools used on this project, and what each one does.
 
 ## Claude skills
 
-Both live in your Claude skills list (in Claude's settings, under your saved skills).
+Read the full skills: [product-project-manager](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/product-project-manager/SKILL.md) and [portfolio-frontend-build](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/skills/portfolio-frontend-build/SKILL.md). These are read-only copies; the working versions live in Sharon's Claude account.
 
 | Skill | What it does | When it's used |
 |---|---|---|
