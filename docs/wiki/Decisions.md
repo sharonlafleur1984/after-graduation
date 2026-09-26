@@ -3,6 +3,16 @@
 Every big choice, newest first. Open one to see why.
 
 <details>
+<summary><b>Sep 25, 2026:</b> Build for all students, with the IEP layer optional</summary>
+
+- **Decision:** the planner works for every high school student. Accommodations, IEP and VR dates, and disability aid are an optional layer turned on in settings.
+- **Why:** the planning itself (schools, costs, aid, deadlines, trade paths) helps every student, not just students with IEPs.
+- **Trade-off:** a bigger audience, but more free competitors. The IEP layer becomes what sets it apart.
+- **Details:** [Business Evaluation, update](Business-Evaluation#update-all-students-iep-optional)
+
+</details>
+
+<details>
 <summary><b>Sep 25, 2026:</b> Publish the business evaluation on this public wiki, cleaned</summary>
 
 - **Decision:** a cleaned version goes here. Personal details are removed; findings and sources stay.

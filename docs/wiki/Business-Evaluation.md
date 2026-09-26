@@ -1,6 +1,6 @@
 # Business Evaluation
 
-**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. Don't build more product. Run three cheap tests first, then decide around **February 2027**.
+**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. As of Sep 25, 2026 it's aimed at **all students**, with the IEP layer optional ([see update](#update-all-students-iep-optional)). Don't build more product. Run three cheap tests first, then decide around **February 2027**.
 
 - **Prepared for:** Sharon LaFleur, September 25, 2026
 - **Original:** a 39-page PDF with three parts (market research, viability verdict, business plan)
@@ -18,6 +18,15 @@
 
 </details>
 
+<details>
+<summary><b>Change log</b> (Sharon's updates after the original evaluation)</summary>
+
+| Date | Change | Where |
+|---|---|---|
+| Sep 25, 2026 | Product is for **all students**. The IEP and accommodations layer becomes optional, turned on in settings. | [Update: all students](#update-all-students-iep-optional) |
+
+</details>
+
 ## Legend
 
 | Mark | Meaning |
@@ -27,7 +36,87 @@
 | ❌ | Source not found. Don't quote it yet. |
 | ⚠️ | The figure disagrees with its source |
 
+## Update: all students, IEP optional
+
+**Sharon's direction (Sep 25, 2026):** the planner works for every high school student. The IEP pieces (accommodations, IEP and VR dates, disability aid) become an optional layer that a student or parent turns on in settings.
+
+**What it means:** a much bigger audience, but a more crowded market. The IEP layer becomes the thing that makes it stand out, not the whole product. The verdict stays **Needs more evidence**, and the family test should now include families without IEPs.
+
+> This section is Claude's analysis with new sources, added after the original evaluation. The original evaluation team has not reviewed it.
+
+<details>
+<summary><b>How big is the new audience?</b> About 3.7M juniors a year, versus roughly 2.4M IEP students aged 14 to 21.</summary>
+
+| Fact | Number | Source |
+|---|---|---|
+| Public school 11th graders | 3.71M (fall 2022) | ✅ [NCES Digest, Table 203.10](https://nces.ed.gov/programs/digest/d23/tables/dt23_203.10.asp) |
+| Public school 12th graders | 3.66M (fall 2022) | ✅ same table |
+| High school graduates per year | Peaks at 3.9M in 2025, then falls about 13% by 2041 | ✅ [WICHE, Dec 2024](https://www.wiche.edu/resources/report-u-s-high-school-graduates-will-peak-next-year-then-most-states-will-see-steady-declines-through-2041/) |
+| Students with a 504 plan only | 1.6M, about 3% of students | ✅ [Civil Rights Data Collection 2020-21](https://www.okabletech.org/wp-content/uploads/2024/04/crdc-student-disabilities-snapshot-edited1.pdf) (copy hosted by a state tech program) |
+| Graduates not in college that fall | 37.2% (2024 graduates) | ✅ [BLS, Apr 2025](https://www.bls.gov/news.release/archives/hsgec_04222025.pdf) |
+| Certificates below a bachelor's degree | 1.0M of 5.1M awards (2021-22) | ✅ [NCES, Condition of Education](https://nces.ed.gov/programs/coe/indicator/cts) |
+
+**What this means:** the optional IEP/504 layer would matter to roughly 1 in 6 students (about 15% have an IEP and 3% a 504 plan, across all grades: Claude's math from [NCES Table 204.30](https://nces.ed.gov/programs/digest/d23/tables/dt23_204.30.asp) and the CRDC figure above). Most of the new audience has neither.
+
+</details>
+
+<details>
+<summary><b>Who else serves every student?</b> Lots of free tools, but they lean toward 4-year college.</summary>
+
+| Product | Who pays | Trade paths equal? | Dated deadline timeline? | Game-like? | Source |
+|---|---|---|---|---|---|
+| BigFuture (College Board) | Free | 🟡 Has a credential finder | 🟡 Not confirmed | 🟡 Not confirmed | [BigFuture](https://bigfuture.collegeboard.org/about-us) |
+| Common App | Free | No, college only | No | No | ✅ [Common App](https://www.commonapp.org/plan/paying-for-college/) |
+| Kollegio (AI counselor) | Free | Not mentioned | Not mentioned | No | ✅ [Kollegio](https://www.kollegio.ai/) |
+| College Raptor | Free (ad and affiliate funded) | Not mentioned | Not mentioned | Not mentioned | ✅ [College Raptor FAQ](https://www.collegeraptor.com/Home/FAQ) |
+| CollegeCountdown | Free tier; Plus $49.99/yr | Not mentioned | Yes | Yes | ✅ [CollegeCountdown](https://collegecountdown.app/) |
+| Road2College | $24.99 to $59.99/month | Not mentioned | Not mentioned | Not mentioned | ✅ [Road2College](https://www.road2college.com/) |
+| SchooLinks | Districts, price not public | Yes | Yes (alerts) | Not mentioned | ✅ [SchooLinks](https://www.schoolinks.com/competitors/schoolinks-vs-naviance) (vendor's own comparison) |
+| Pathful | Districts, price not public | Yes, all 16 career clusters | Not mentioned | Yes (badges) | ✅ [Pathful](https://pathful.com/products) |
+
+**Closest competitor for families:** CollegeCountdown (free, game-like, deadline tracker).
+**Closest for trade paths:** SchooLinks and Pathful, but schools have to buy them. Families can't sign up on their own.
+
+**Gap that still looks open:** no free product for families that (1) gives trade and certificate paths equal weight, (2) builds a dated personal timeline, and (3) tells the student's own story of why each school fits. Plus the optional IEP layer, which only CollegeCountdown partly covers.
+
+**Caveat:** judged from public web pages only. No demos.
+
+</details>
+
+<details>
+<summary><b>Will anyone pay?</b> Still unproven. Some families pay a lot for help; most use free tools.</summary>
+
+- Private admissions consultants: families spend about $4,000 to $12,000 for a full package. 🟡 [Dewey Smart pricing guide, 2026](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide) (secondary source; the share of families who hire one wasn't found)
+- Road2College charges families $24.99 to $59.99 a month, so some families pay for help with aid and planning. ✅ [Road2College](https://www.road2college.com/)
+- Public school counselors spend about 22% of their time on college advising, with an average of 405 students each. ✅ [NACAC](https://www.nacacnet.org/school-counseling/)
+- ⚠️ That caseload conflicts with ASCA's newer high-school-only ratio (195 to 224 students). They measure different things, so use both with their dates.
+- FAFSA completion hit a record 59.1% for the class of 2026, so about 4 in 10 seniors still don't finish it. 🟡 [The College Investor, reporting NCAN data](https://thecollegeinvestor.com/83916/class-of-2026-sets-fafsa-completion-record-at-59-1-ncan-reports/) (secondary source)
+- District planning software: Scoir lists $4.80 per high school student per year. ✅ [Scoir pricing](https://www.scoir.com/middle-and-high-schools/pricing)
+
+</details>
+
+<details>
+<summary><b>What changes in the plan?</b> Same three tests, with a wider family test.</summary>
+
+| | IEP only (original) | All students, IEP optional (update) |
+|---|---|---|
+| Audience per year | ~2.4M IEP students aged 14 to 21 | ~3.7M juniors, plus the IEP/504 layer |
+| Market at district prices ($3 to $6 per student, grades 11 to 12) | about $1.5M to $4M a year | about $22M to $44M a year at 100% share (Claude's math: 7.37M students × $3 to $6) |
+| Competition | Two products cover about half | Many free tools, mostly 4-year focused |
+| What makes it different | The IEP-dated timeline | Trade paths equal, personal story, plain language, and the optional IEP layer |
+| Venture-scale company | Don't build | Still don't build. Statewide contracts already lock up many districts. |
+
+**Suggested change to Test 1 (families):** offer the plan to 10 families: 5 with an IEP or 504 plan, and 5 without. Same pass mark, 3 or more of 10 pay. Track the two groups separately so you learn which audience actually pays.
+
+**New product requirement:** a settings toggle that turns the IEP layer on or off. Tracked for the React rebuild.
+
+</details>
+
 ---
+
+# Original evaluation (IEP-only product)
+
+> **Read this first:** sections 1 to 4 are the original evaluation. It looked at an **IEP-only** product. The product is now for all students, so notes marked **🔄 Update** show where that changes the answer. The full picture is in [Update: all students](#update-all-students-iep-optional).
 
 ## 1. Is anyone else doing this?
 
@@ -45,13 +134,17 @@
 
 **What only After Graduation has:** one timeline dated around the student's own IEP milestones. It combines VR, financial aid, and trade and certificate schools alongside college.
 
+**🔄 Update:** for all students, the competitor list grows to include many free tools. See [Who else serves every student?](#update-all-students-iep-optional)
+
 **Caveat:** competitors were judged from their marketing pages only. Nobody has seen a demo.
 
 </details>
 
 ## 2. Is the need real?
 
-**Yes. This part is well documented.**
+**Yes, for IEP students. This part is well documented.**
+
+**🔄 Update:** for all students, the strongest evidence is that 37.2% of graduates don't go to college that fall and about 4 in 10 seniors don't finish the FAFSA. See the [update](#update-all-students-iep-optional).
 
 <details>
 <summary>Open for the evidence</summary>
@@ -92,6 +185,7 @@
 
 **Why not a venture-scale company**
 - Even with every IEP student in the US, district prices (about $3 to $6 per student) add up to roughly $1.5M to $4M a year
+- **🔄 Update:** with every junior and senior, about $22M to $44M a year at 100% share. Bigger, but still not venture scale.
 - Edtech investment has dropped sharply. ⚠️ The PDF says $16.7B (2021) to $2.6B (2025) from Tracxn. The article we found credits the 2025 figure to HolonIQ and says "less than $3 billion." 🟡 [Rest of World, 2026](https://restofworld.org/2026/edtech-funding-collapse-k12-startups-ai-workforce/)
 - Utah already buys a statewide planning platform (✅ [YouScience](https://www.youscience.com/resources/press/utah-selects-youscience-as-statewide-platform/)) and lists a free transition tool (✅ [Utah SSIP 2025](https://schools.utah.gov/specialeducation/_specialeducation/_datareporting/_apr-spp-ssip/_ssipevaluationplan/Data2025SSIP2025Update.pdf))
 
@@ -105,7 +199,7 @@
 
 | Test | What you do | It passes if... |
 |---|---|---|
-| **1. Families** | Offer a done-for-you plan to 10 IEP families at $79 to $99 a year | 3 or more pay, and each plan takes about 30 minutes of review after an AI draft |
+| **1. Families** | Offer a done-for-you plan to 10 families at $79 to $99 a year. **🔄 Update:** 5 with an IEP or 504 plan, 5 without | 3 or more pay, and each plan takes about 30 minutes of review after an AI draft |
 | **2. Schools** | Ask 3 to 5 transition coordinators what budget they'd pay from | At least one names a real budget at **$15+ per student** (or $3K+ per district) |
 | **3. Grant path** | Find one funder and one group to keep each state's content up to date | Both exist, at about $11K to $21K per state per year for every 1,000 students |
 
