@@ -9,7 +9,6 @@
 <details>
 <summary><b>What changed from the original PDF</b></summary>
 
-- **Name fixed:** the PDF called the builder "Sara" throughout. It's **Sharon**.
 - **Date fixed:** one date read 2026-09-26. The correct date is **2026-09-25**.
 - **Sources linked:** the PDF cited internal codes like "AG9" or "CT5" that pointed to files nobody could open. Every source now has its full name and a link. See [Sources](Sources).
 - **Each source was re-checked:** tagged ✅ verified, 🟡 found but the exact figure wasn't seen, or ❌ not found.

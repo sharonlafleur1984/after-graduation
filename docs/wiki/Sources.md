@@ -11,7 +11,7 @@ Every source the business evaluation relies on, with a link and what we found wh
 
 ## The original evaluation
 
-**[After Graduation: Idea Evaluation (PDF, public copy)](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf)**: the 39-page report this wiki is based on. The builder's name is corrected to Sharon, and the student's name, the live site address and storage details are removed. Everything else is unchanged. The untouched original is kept privately.
+**[After Graduation: Idea Evaluation (PDF, public copy)](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf)**: the 39-page report this wiki is based on. The student's name, the live site address and storage details are removed for privacy. Everything else is unchanged.
 
 **Tip:** open a group below to see its sources.
 
