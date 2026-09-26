@@ -45,7 +45,8 @@ Pick one word for a thing and never switch.
 | Season 2 | | After high school: college, trade school, or whatever comes next |
 | junior year, senior year | junior season, senior season | The years inside a season. A season is a stage of school, never a school year. |
 | plan | profile, account | Everything a student has picked and saved |
-| family | household, user | The student and the parents using the planner |
+| family | household, user | The student and their parents or guardians using the planner |
+| parent or guardian | mom and dad, mother or father | Not every student lives with parents. Say "parent or guardian" when it matters. |
 | aid | financial assistance | Scholarships, grants and federal aid, together |
 | Accommodations | IEP layer, disability mode, special ed section | The optional section for students with an IEP or 504 plan, turned on in settings. "Special ed section" is offensive; never use it. |
 

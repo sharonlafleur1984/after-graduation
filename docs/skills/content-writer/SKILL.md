@@ -58,23 +58,25 @@ Lead with the fact, then the short reason. An expert skims the fact; a newcomer 
 
 **Cut on sight:** em dashes. "Simply," "just," "easy," "obviously," "of course": they make anyone who finds it hard feel slow ([Google](https://developers.google.com/style/tone)). "Great question," "amazing," "absolutely." Flowery promises ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/)). "Please" in instructions. Hedging stacks. Emoji and exclamation marks, except one each in a real celebration, never near money, errors, privacy or docs.
 
-**Words people often don't realize can hurt.** Check new copy against these guides: [Google inclusive documentation](https://developers.google.com/style/inclusive-documentation), [Microsoft bias-free communication](https://learn.microsoft.com/en-us/style-guide/bias-free-communication), [NCDJ disability language guide](https://cronkite.asu.edu/ncdj/disability-language-style-guide).
+**Words people often don't realize can hurt.** Across disability, race, nationality, gender, age and family. Guides: [Google](https://developers.google.com/style/inclusive-documentation), [Microsoft](https://learn.microsoft.com/en-us/style-guide/bias-free-communication), [NCDJ](https://cronkite.asu.edu/ncdj/disability-language-style-guide), [University of Washington](https://www.washington.edu/brand/guides/equitable-language-guide/), [GLAAD](https://glaad.org/reference/).
 
-| Avoid | Use | Why |
+| Topic | Avoid | Use |
 |---|---|---|
-| crazy, insane, dumb, lame | confusing, unclear, surprising | Ableist ([Google](https://developers.google.com/style/inclusive-documentation)) |
-| sanity check | quick check | Ableist (Google) |
-| blind to, turn a blind eye | unaware of, overlook | Ableist (Google) |
-| blacklist, whitelist | blocklist, allowlist | Racially charged (Google) |
-| master, slave | primary, replica | Racially charged (Google, [Microsoft](https://learn.microsoft.com/en-us/style-guide/bias-free-communication)) |
-| spirit animal | favorite, go-to | Cultural appropriation (Microsoft) |
-| manpower, mankind | staff, people | Gendered (Microsoft) |
-| the elderly | older adults | Respectful age language (Google) |
-| special needs | name the need or the accommodation | Vague and othering ([NCDJ](https://cronkite.asu.edu/ncdj/disability-language-style-guide)) |
-| suffers from, stricken with, wheelchair-bound | has, uses a wheelchair | Pity language (NCDJ, Microsoft) |
-| handicapped, differently abled | disabled, person with a disability | NCDJ |
+| Disability | crazy, insane, dumb, lame, sanity check | confusing, unclear, quick check (Google) |
+| Disability | special needs; suffers from; wheelchair-bound; handicapped | the specific need or accommodation; has; uses a wheelchair; disabled (NCDJ) |
+| Disability | blind to, fell on deaf ears | unaware of, ignored (Google, UW) |
+| Race and ethnicity | non-white; Caucasian | the specific group; white (UW) |
+| Race and ethnicity | blacklist, whitelist; master, slave | blocklist, allowlist; primary, replica (Google) |
+| Race and ethnicity | "diverse" for one person | only for groups (UW) |
+| Nationality and citizenship | illegal, alien | undocumented, only when it's relevant (UW) |
+| Nationality and citizenship | citizens, when you mean everyone | residents (UW) |
+| Indigenous identity | tribe, spirit animal, totem pole as metaphors | your team, favorite, ranking (UW, Microsoft) |
+| Gender | guys (for a group), he as the default, mankind, manpower | everyone, they, people, staff (UW, Microsoft) |
+| Gender | husband or wife, mother or father, when you don't know | spouse or partner, parent (UW) |
+| Sexual orientation | sexual preference | sexual orientation (UW) |
+| Age | the elderly | older adults (Google) |
 
-"Person with autism" or "autistic person"? People disagree. Ask, or let people choose how they're described (NCDJ). Mention a disability only when it's relevant (Microsoft).
+**Ask, don't assume.** Let people say how they describe themselves: pronouns, identity, "person with autism" or "autistic person" ([GLAAD](https://glaad.org/reference/), NCDJ). Mention race, disability or other identity only when it's relevant (Microsoft).
 
 The goal: they finish thinking "I can do this."
 
