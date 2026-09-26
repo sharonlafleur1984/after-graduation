@@ -8,11 +8,11 @@ Everything left to do, in order. Open a section for detail.
 
 | # | Step | Who | Waiting on |
 |---|---|---|---|
-| 1 | Merge the prototype pull request ([add-prototype](https://github.com/sharonlafleur1984/after-graduation/pull/new/add-prototype)) | Sharon | Nothing |
-| 2 | Check Google for old copies of the personal site: search `site:afterhighschool.netlify.app` | Sharon | Nothing |
-| 3 | Write down roughly how many hours the planner took to build (school research vs. the student's personal story) | Sharon | Nothing |
-| 4 | Set up React + TypeScript + Storybook with tests | Claude | Step 1 |
-| 5 | Start the three business tests (Oct 2026 to Jan 2027) | Sharon | Step 3 |
+| 1 | Check Google for old copies of the personal site: search `site:afterhighschool.netlify.app` | Sharon | Nothing |
+| 2 | Write down roughly how many hours the planner took to build (school research vs. the student's personal story) | Sharon | Nothing |
+| 3 | Set up React + TypeScript + Storybook with tests | Claude | Nothing |
+| 4 | Recruit 6 to 8 people for usability sessions ([Research Plan](Research-Plan)) | Sharon | Nothing |
+| 5 | Start the priced family offer (Oct 2026 to Jan 2027) | Sharon | Step 2 |
 
 ## Phases
 
@@ -26,11 +26,11 @@ Everything left to do, in order. Open a section for detail.
 </details>
 
 <details>
-<summary>🔵 <b>Phase 2:</b> Put the prototype in GitHub with sample data</summary>
+<summary>✅ <b>Phase 2:</b> Put the prototype in GitHub with sample data</summary>
 
 - ✅ Personal details swapped for sample data
 - ✅ Wiki set up, published automatically from `docs/wiki`
-- ⏳ Merge the prototype pull request
+- ✅ Prototype merged (Sep 25, 2026)
 
 </details>
 
