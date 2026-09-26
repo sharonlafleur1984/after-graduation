@@ -4,6 +4,16 @@
 
 A planner that helps every high school student map out life after graduation, with an optional Accommodations section for students with an IEP or 504 plan. It started as a Claude artifact built for one student and is now becoming a real product.
 
+## The big question
+
+The highest-level problem this whole project is solving.
+
+**Hypothesis:** high school students and their parents would like to see a clear, personal path to life after graduation, whether that's college or trade school.
+
+**Problem to solve:** we don't know yet if families value this enough to use it and pay for it.
+
+**What does success look like?** Most testers finish the key tasks on their own, and 3 or more of 10 families put down a deposit for a paid extra.
+
 ## At a glance
 
 | | |
