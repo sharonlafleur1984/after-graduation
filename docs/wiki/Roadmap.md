@@ -8,12 +8,6 @@
 | **Will families pay for extras?** The planner is free; an extra offered to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
 | **Foundation:** design system, React and Storybook | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
 
-**Hypothesis:** high school students and their parents would like to see a clear, personal path to life after graduation, whether that's college or trade school.
-
-**Problem to solve:** we don't know yet if families value this enough to use it and pay for it.
-
-**What does success look like?** Most testers finish the key tasks on their own, and 3 or more of 10 families put down a deposit for a paid extra.
-
 ## Milestones
 
 Each milestone is the finish line for something in Now or Next, or a point where we make a big decision.
