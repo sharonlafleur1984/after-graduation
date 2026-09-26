@@ -1,22 +1,17 @@
 # Sources
 
-Every source the business evaluation relies on, with a link and what we found when we checked it on **September 25, 2026**.
-
-| Mark | Meaning |
-|---|---|
-| ✅ | We opened the source and saw the figure |
-| 🟡 | Source found, but the exact figure wasn't on the page we opened |
-| ❌ | Source not found. Don't quote it yet. |
-| ⚠️ | The figure disagrees with its source |
-
 ## The original evaluation
 
 **[After Graduation: Idea Evaluation (PDF, public copy)](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf)**: the 39-page report this wiki is based on. The student's name, the live site address and storage details are removed for privacy. Everything else is unchanged.
 
-**Tip:** open a group below to see its sources.
+## Our fact check of the evaluation
+
+**Why this exists:** we didn't want to take the evaluation's word for it. On September 25, 2026, we looked up every source it cites ourselves to see whether the facts hold up. Open a group to see what we found.
 
 <details>
 <summary><b>Government and research data</b> (14 sources)</summary>
+
+**Key:** ✅ we saw the figure on the source · 🟡 source found, but not the exact figure · ❌ source not found, don't quote it yet · ⚠️ the figure disagrees with its source
 
 | Claim | Source | Status |
 |---|---|---|
@@ -40,6 +35,8 @@ Every source the business evaluation relies on, with a link and what we found wh
 
 <details>
 <summary><b>Competitors and tools</b> (16 sources)</summary>
+
+**Key:** ✅ we saw the figure on the source · 🟡 source found, but not the exact figure · ❌ source not found, don't quote it yet · ⚠️ the figure disagrees with its source
 
 | Claim | Source | Status |
 |---|---|---|
@@ -74,6 +71,8 @@ Every source the business evaluation relies on, with a link and what we found wh
 <details>
 <summary><b>Prices and industry</b> (14 sources)</summary>
 
+**Key:** ✅ we saw the figure on the source · 🟡 source found, but not the exact figure · ❌ source not found, don't quote it yet · ⚠️ the figure disagrees with its source
+
 | Claim | Source | Status |
 |---|---|---|
 | Xello $4.45 paid ($5.45 list) high school; $3.75 middle school | [Park Hill SD Xello quote, 2025](https://boe.parkhill.k12.mo.us/attachments/31a77d78-bb41-47aa-a5bd-5d3b8813bf31.pdf) | ✅ |
@@ -99,8 +98,33 @@ Every source the business evaluation relies on, with a link and what we found wh
 
 </details>
 
+
+<details>
+<summary><b>Claims the original report itself said not to cite</b></summary>
+
+The PDF listed these as unsourced (its items F1 to F19). Don't use them as fact until someone finds a source.
+
+- "$146M relinquished in FFY2026 by 15 agencies"
+- "Free transition tools cap price"
+- "State planning deals go up to $9 to $10 per student"
+- "Standalone college and career platforms are hard to sustain"
+- IEP software market of $35M to $160M a year
+- A ~$4,400 consultant package (derived, not published)
+- "37% of enrolled LD students attend vocational or technical schools"
+- "26% of families use a private counselor" (old survey of high achievers)
+- NCLD's 4.1M students aged 14 to 21 (doesn't add up; use ~2.4M)
+- Vendor self-reports: CollegeCountdown review counts and score gains, Trinity's "more than a dozen states"
+
+</details>
+
+## Added research
+
+**Why this exists:** after deciding the product is for every student, not only students with IEPs, we researched the wider market. This is our own research, not part of the original evaluation.
+
 <details>
 <summary><b>All-students market</b> (added Sep 25, 2026, 17 sources)</summary>
+
+**Key:** ✅ we saw the figure on the source · 🟡 source found, but not the exact figure · ❌ source not found, don't quote it yet · ⚠️ the figure disagrees with its source
 
 | Claim | Source | Status |
 |---|---|---|
@@ -121,23 +145,5 @@ Every source the business evaluation relies on, with a link and what we found wh
 | BigFuture is free | [BigFuture](https://bigfuture.collegeboard.org/about-us) | 🟡 Features not checked |
 | SchooLinks treats career and technical paths as central | [SchooLinks vs Naviance](https://www.schoolinks.com/competitors/schoolinks-vs-naviance) | ✅ Vendor's own comparison |
 | Pathful covers all 16 career clusters, with badges | [Pathful products](https://pathful.com/products) | ✅ |
-
-</details>
-
-<details>
-<summary><b>Claims the original report itself said not to cite</b></summary>
-
-The PDF listed these as unsourced (its items F1 to F19). Don't use them as fact until someone finds a source.
-
-- "$146M relinquished in FFY2026 by 15 agencies"
-- "Free transition tools cap price"
-- "State planning deals go up to $9 to $10 per student"
-- "Standalone college and career platforms are hard to sustain"
-- IEP software market of $35M to $160M a year
-- A ~$4,400 consultant package (derived, not published)
-- "37% of enrolled LD students attend vocational or technical schools"
-- "26% of families use a private counselor" (old survey of high achievers)
-- NCLD's 4.1M students aged 14 to 21 (doesn't add up; use ~2.4M)
-- Vendor self-reports: CollegeCountdown review counts and score gains, Trinity's "more than a dozen states"
 
 </details>
