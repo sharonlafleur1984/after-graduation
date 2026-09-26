@@ -5,163 +5,198 @@ description: "Use when writing or reviewing any words people will read (wiki pag
 
 # Content writer
 
-Write like a smart friend who respects the reader's time. Assume they probably know it; say it anyway, as a reminder, not a lesson.
+Write like a smart friend who respects the reader's time. Assume they probably know it; say it anyway, as a reminder, not a lesson. People respect writing that respects them.
 
-Page structure (information architecture) lives in the product-designer skill. This skill covers the copy.
+How a page is organized (the information architecture) is covered in the product-designer skill. This skill covers the copy.
 
 ## 0. Read the project's voice file first
 
-`docs/voice.md` in a repo, or the project's voice page in Notion. It wins over the defaults here. No voice file? Use the defaults and offer to draft one.
+Look for `docs/voice.md` in a repo, or the project's voice page in Notion. It wins over the defaults here. No voice file? Use the defaults and offer to draft one.
 
-**A voice file fits on about 2 pages** ([copyprompt.io](https://copyprompt.io/blog/ai-prompts-for-designers-2026)):
+The craft rules in this skill are the same for every project. Only the voice changes.
 
-| Part | Example |
-|---|---|
-| One-line summary | "A calm, capable friend who tells you straight" |
-| Audiences and their dials | Students: warm, a little playful |
-| Perspective | Who "you" and "we" are |
-| Words we use, words we don't | "Accommodations," never "special ed section" |
-| What this voice is not | "Never sounds like a brochure" |
-| Sample lines | A button, an error, an empty state, a success message |
+**What a voice file holds.** Keep it to about 2 pages; a short guide gets used ([copyprompt.io](https://copyprompt.io/blog/ai-prompts-for-designers-2026)).
+- A one-line summary: "A calm, capable friend who tells you straight"
+- Each audience and its dials: "Students: warm, a little playful"
+- Perspective: who "you" and "we" are
+- Words we use and words we don't: "Accommodations," never "special ed section"
+- What this voice is not: "Never sounds like a brochure"
+- Sample lines for a button, an error, an empty state and a success message
 
-Sample lines teach a voice faster than adjectives. To test a voice file, write something new with it and compare it to real writing, then try a content type it doesn't cover. Add specifics wherever it drifts (Robson Penassi, SoloAIKit, 2026).
+Sample lines teach a voice faster than adjectives do. To test a voice file, write something new with it and compare it to real writing, then try a content type it doesn't cover. Add specifics wherever it drifts (Robson Penassi, "Claude AI Voice & Tone Match Guide," SoloAIKit, 2026).
 
 ## 1. Set three dials on purpose
 
-Tone moves along formal to casual, serious to funny, respectful to irreverent, and matter-of-fact to enthusiastic ([NN/g](https://www.nngroup.com/articles/tone-of-voice-dimensions/)).
+Tone moves along formal to casual, serious to funny, respectful to irreverent, and matter-of-fact to enthusiastic ([NN/g, tone of voice](https://www.nngroup.com/articles/tone-of-voice-dimensions/)).
 
-| Dial | Default | Up for | Down for |
-|---|---|---|---|
-| Plain | Always on | Everyone, experts too ([NN/g](https://www.nngroup.com/articles/plain-language-experts/)) | Never |
-| Fun | Warm, a little playful | Progress, empty states, onboarding | Money, deadlines, disability, errors, privacy |
-| Technical | Off | Developers; precision that prevents mistakes | Families |
+- **Plain: always on.** Experts want short, scannable content too, and jargon frustrates them outside their own field ([NN/g, plain language for experts](https://www.nngroup.com/articles/plain-language-experts/)).
+- **Fun: warm and a little playful.**
+  - Turn it up for progress, empty states and onboarding.
+  - Turn it down for money, deadlines, disability, errors and privacy.
+  - Bring the reader in on the joke; never make them the joke, and never get loud ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/), [Google](https://developers.google.com/style/tone)).
+- **Technical: off by default.**
+  - Turn it on for developers, or when precision prevents a mistake.
+  - Technical means precise, not dense. One term per thing, steps in order, exact values.
 
-Fun brings the reader in on the joke, never makes them the joke, and never gets loud ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/), [Google](https://developers.google.com/style/tone)). Technical means precise, not dense.
+## 2. Show first, then write as little as clarity allows
 
-## 2. Show first. Then use as few words as clarity allows.
-
-- A chart, comparison, number or layout beats a sentence. Words fill in only what the visual can't.
-- Cut until one more cut would make someone unsure. Then stop. Clarity beats brevity every time.
-- Test: cover the text. If the screen still makes sense, the text may not be needed.
+- **Show before you tell.** A chart, a comparison, a number in the right place or a layout beats a sentence. Words fill in only what the visual can't.
+- **As little copy as possible, with 100% clarity.** Never trade clarity for brevity. Cut until one more cut would make someone unsure, then stop.
+- **Test it:** cover the text. If the screen still makes sense, the text may not be needed.
+- **Match the format to where it's read.** Tables work on wide screens with short cells. For reference docs read in a narrow panel (like skills), headers and bullets read better than tables.
 
 ## 3. Respect the reader
 
-Lead with the fact, then the short reason. An expert skims the fact; a newcomer learns from the reason. Nobody feels talked down to.
+**Remind, don't lecture.** Lead with the fact, then the short reason. An expert skims the fact; a newcomer learns from the reason. Nobody feels talked down to.
+- Lecture: "It's important to understand that the FAFSA is..."
+- Reminder: "File the FAFSA (the federal aid form) early. Some aid is first come, first served."
 
-| Do | Instead of |
-|---|---|
-| "File the FAFSA (the federal aid form) early. Some aid is first come, first served." | "It's important to understand that the FAFSA is..." |
-| Define a term in passing, in parentheses | "...which you may not know" |
-| "Accommodations" | "Special ed section," "disability mode" |
-| Talk to teens like near-adults | Slang, lingo, "kiddos." Teens see right through it. |
-| One light metaphor: "Every journey starts with a direction." | Puns stacked on every line |
+**Define a term in passing,** in a few words in parentheses. Never "which you may not know."
 
-**Cut on sight:** em dashes. "Simply," "just," "easy," "obviously," "of course": they make anyone who finds it hard feel slow ([Google](https://developers.google.com/style/tone)). "Great question," "amazing," "absolutely." Flowery promises ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/)). "Please" in instructions. Hedging stacks. Emoji and exclamation marks, except one each in a real celebration, never near money, errors, privacy or docs.
+**Make the reader feel capable.** They should finish thinking "I can do this," not "they think I can't."
 
-**Words people often don't realize can hurt.** Across disability, race, nationality, gender, age and family. Guides: [Google](https://developers.google.com/style/inclusive-documentation), [Microsoft](https://learn.microsoft.com/en-us/style-guide/bias-free-communication), [NCDJ](https://cronkite.asu.edu/ncdj/disability-language-style-guide), [University of Washington](https://www.washington.edu/brand/guides/equitable-language-guide/), [GLAAD](https://glaad.org/reference/).
+**Treat teens like the near-adults they are.** Teens see right through adults trying to sound young, and it costs trust. No slang, no lingo, no "kiddos." Talk to students and parents with the same respect.
 
-| Topic | Avoid | Use |
-|---|---|---|
-| Disability | crazy, insane, dumb, lame, sanity check | confusing, unclear, quick check (Google) |
-| Disability | special needs; suffers from; wheelchair-bound; handicapped | the specific need or accommodation; has; uses a wheelchair; disabled (NCDJ) |
-| Disability | blind to, fell on deaf ears | unaware of, ignored (Google, UW) |
-| Race and ethnicity | non-white; Caucasian | the specific group; white (UW) |
-| Race and ethnicity | blacklist, whitelist; master, slave | blocklist, allowlist; primary, replica (Google) |
-| Race and ethnicity | "diverse" for one person | only for groups (UW) |
-| Nationality and citizenship | illegal, alien | undocumented, only when it's relevant (UW) |
-| Nationality and citizenship | citizens, when you mean everyone | residents (UW) |
-| Indigenous identity | tribe, spirit animal, totem pole as metaphors | your team, favorite, ranking (UW, Microsoft) |
-| Gender | guys (for a group), he as the default, mankind, manpower | everyone, they, people, staff (UW, Microsoft) |
-| Gender | husband or wife, mother or father, when you don't know | spouse or partner, parent (UW) |
-| Sexual orientation | sexual preference | sexual orientation (UW) |
-| Age | the elderly | older adults (Google) |
+**Metaphors get one light touch.** A theme like a road trip can frame a moment: "Every journey starts with a direction." Don't stack puns or stretch it across every line; it turns cheesy fast.
 
-**Ask, don't assume.** Let people say how they describe themselves: pronouns, identity, "person with autism" or "autistic person" ([GLAAD](https://glaad.org/reference/), NCDJ). Mention race, disability or other identity only when it's relevant (Microsoft).
+**Cut on sight:**
+- Em dashes
+- "Simply," "just," "easy," "obviously," "of course": they make anyone who finds it hard feel slow ([Google](https://developers.google.com/style/tone))
+- Flattery and filler: "Great question," "amazing," "absolutely"
+- Flowery language and empty promises ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/))
+- "Please" in instructions
+- Over-apologizing and hedging stacks ("might possibly perhaps")
+- Emoji and exclamation marks, except one each in a real celebration. Never near money, errors, privacy or docs.
 
-The goal: they finish thinking "I can do this."
+## 4. Words that can hurt
 
-## 4. Mechanics
+Many people don't realize these land badly. Guides: [Google](https://developers.google.com/style/inclusive-documentation), [Microsoft](https://learn.microsoft.com/en-us/style-guide/bias-free-communication), [NCDJ](https://cronkite.asu.edu/ncdj/disability-language-style-guide), [University of Washington](https://www.washington.edu/brand/guides/equitable-language-guide/), [GLAAD](https://glaad.org/reference/).
 
-Sources: [Digital.gov](https://digital.gov/guides/plain-language/principles), [Microsoft](https://learn.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human), [Google](https://developers.google.com/style/tone), a Couchbase UI copy guide Sharon shared.
+**Ask, don't assume.** Let people say how they describe themselves: pronouns, identity, "person with autism" or "autistic person" (GLAAD, NCDJ). Mention race, disability or other identity only when it's relevant (Microsoft).
+
+**Disability**
+- Not "crazy," "insane," "dumb," "lame" or "sanity check." Say confusing, unclear, quick check (Google).
+- Not "special needs." Name the need or the accommodation (NCDJ).
+- Not "suffers from," "wheelchair-bound" or "handicapped." Say has, uses a wheelchair, disabled (NCDJ).
+- Not "blind to" or "fell on deaf ears." Say unaware of, ignored (Google, UW).
+- Name sensitive things the way people would name them: "Accommodations," not "special ed section" or "disability mode."
+
+**Race and ethnicity**
+- Not "non-white." Name the specific group (UW).
+- Not "Caucasian." Say white (UW).
+- Not "blacklist/whitelist" or "master/slave." Say blocklist/allowlist, primary/replica (Google).
+- "Diverse" describes groups, never one person (UW).
+
+**Nationality and citizenship**
+- Not "illegal" or "alien" for people. Say undocumented, and only when it's relevant (UW).
+- Not "citizens" when you mean everyone. Say residents (UW).
+
+**Indigenous identity**
+- Not "tribe," "spirit animal" or "totem pole" as metaphors. Say team, favorite, ranking (UW, Microsoft).
+
+**Gender and sexual orientation**
+- Not "guys" for a group, "he" as the default, "mankind" or "manpower." Say everyone, they, people, staff (UW, Microsoft).
+- Not "husband or wife" or "mother or father" when you don't know. Say spouse or partner, parent or guardian (UW).
+- Not "sexual preference." Say sexual orientation (UW).
+
+**Age**
+- Not "the elderly." Say older adults (Google).
+
+## 5. Mechanics
+
+Sources: [Digital.gov](https://digital.gov/guides/plain-language/principles), [Microsoft](https://learn.microsoft.com/en-us/style-guide/brand-voice-above-all-simple-human), [Google](https://developers.google.com/style/tone), and a Couchbase UI copy guide Sharon shared.
 
 - Answer first. Front-load each line.
 - Short sentences, one idea each. Contractions.
-- Present tense. "You." "They" for any user, never "he" or "she."
+- Present tense and "you." "They" for any user, never "he" or "she."
 - Active voice. Instructions start with a verb: "Pick a school."
 - Short words: set (not configure), use (not utilize), more (not additional), tell (not advise).
-- 8th-grade reading level for families.
+- About an 8th-grade reading level for families.
 - Numerals with units: "3 schools," "$4,200 a year." Label dates: "Aiming for Oct 2026."
-- American spelling. Sentence case.
+- American spelling. Sentence case for headings and buttons.
 
-## 5. Headings say something
+## 6. Headings say something
 
-"Next steps" tells you little. "What to do before March 1" tells you what to do. A question readers actually ask works too: "Will families pay?" Plain labels are fine when the page makes them obvious.
+- "Next steps" tells you little. "What to do before March 1" tells you what to do.
+- A question readers actually ask works too: "Will families pay?"
+- Plain labels are fine when the page makes them obvious. Don't make headings cute.
 
-## 6. Docs and wikis
+## 7. Docs and wikis
 
-Fast to scan, a little personality, good taste. Hiring managers read these. Fragments are fine when they're clear.
+Fast to scan, a little personality, good taste. People outside the team, like hiring managers, read these. Fragments are fine when they're clear.
 
-> Now: 6 to 8 families take it for a spin. Is it easy? Is it fun?
+- Example: "Now: 6 to 8 families take it for a spin. Is it easy? Is it fun?"
 
-## 7. Product copy
-
-| Surface | Rule | Example |
-|---|---|---|
-| Button | Verb first, says what happens | "Add school" |
-| Error | What happened, the fix, and a button that does the fix. No blame, no jokes. | "That date's in the past. [Pick a new date]" |
-| Money, deadlines | Calm. Fact, then next step. | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
-| Empty state | What goes here, and a button to start ([NN/g](https://www.nngroup.com/articles/empty-state-interface-design/)) | "No schools yet. [Add a school]" |
-| Celebration | Earned, short, a little playful | "Junior year: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
-| Sensitive question | Say why you ask. Offer "Prefer not to say." | |
+## 8. Product copy
 
 **Give people an immediate action.** Whenever something is empty or wrong, the fix is one tap away, not just described.
 
-**Add words only when a newer user would struggle.** Longer explanations go in help or docs. Say what people can do, not what they can't (Couchbase guide).
+- **Buttons:** verb first, say what happens. "Add school," not "Submit."
+- **Errors:** what happened, the fix, and a button that does the fix. No blame, no jokes.
+  - "That date's in the past." [Pick a new date]
+- **Empty states:** what goes here, and a button to start ([NN/g, empty states](https://www.nngroup.com/articles/empty-state-interface-design/)). A little fun is welcome.
+  - "No schools yet." [Add a school]
+- **Money and deadlines:** calm and practical. The fact, then the next step.
+  - "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap."
+- **Celebrations:** earned, short and a little playful. Mark real progress, not every click.
+  - "Junior year: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes."
+- **Sensitive questions:** say why you're asking in one line, and offer "Prefer not to say."
+- **When to add words:** only when a newer user would struggle or the next step isn't obvious. Longer explanations go in help or docs. Say what people can do, not what they can't (Couchbase guide).
 
-**Step-by-step flows** (from a conversational UI article Sharon shared):
-- One question per step
+**Step-by-step flows** (onboarding, setup), from a conversational UI article Sharon shared:
+- One question per step, the way a helpful person would ask it
 - Use earlier answers: "Since you're open to other states..."
 - Signpost: "Last question"
-- Never ask twice, never get chatty
-- No step-by-step where people need to compare everything at once
+- Remember answers; never ask twice
+- Don't get chatty: "That's a great choice! Now let me just..." wastes their time
+- Don't go step by step where people need to compare everything at once, like schools
 
-## 8. Prompts for AI
+## 9. Prompts for AI
 
-When Sharon asks for a prompt or shares one, offer a stronger version in one line if it's missing parts. Sources: [copyprompt.io](https://copyprompt.io/blog/ai-prompts-for-designers-2026), [Superdesign](https://superdesign.dev/blog/ui-design-prompts), Fardino, Techpresso AI Academy.
+Prompts are writing too, for an AI reader. When Sharon asks for a prompt or shares one, offer a stronger version in one line if key parts are missing. Sources: [copyprompt.io](https://copyprompt.io/blog/ai-prompts-for-designers-2026), [Superdesign](https://superdesign.dev/blog/ui-design-prompts), and articles she shared from Fardino and Techpresso's AI Academy.
 
-| Prompt type | Include |
-|---|---|
-| Any | Context first (audience, stage, constraints) in `<context>` and `<task>` tags. Specifics, not "modern and clean." Realistic content, never lorem ipsum. |
-| Design | Component, layout, visuals, content, tech stack, every state, accessibility, small screens |
-| Copy | Voice file, audience, user goal and what can go wrong, character limits, verb-first buttons, recovery steps |
+- **Context first:** who it's for, the product stage and the constraints. `<context>` and `<task>` tags keep it clear.
+- **Specific, not vague.** "Modern and clean" means nothing to an AI. Name the colors, type, spacing and a reference ("like Linear").
+- **Design prompts** name the component, layout, visual style, content, tech stack, every state (loading, empty, error, success, hover, focus), accessibility, and what changes on small screens.
+- **Copy prompts** name the voice file, the audience, the user's goal and what can go wrong, character limits, verb-first buttons, and recovery steps.
+- **Keep design and copy prompts separate,** then combine the results.
+- **Realistic content,** never lorem ipsum.
+- **Iterate:** structure first, then visuals, then polish.
+- **Save prompts that work** in the project's prompt library.
 
-Keep design and copy prompts separate. Iterate: structure, then visuals, then polish. Save prompts that work in the project's prompt library.
-
-## 9. Before sharing
+## 10. Before sharing
 
 - [ ] Could a chart, number or layout replace any words?
-- [ ] Out loud, does it sound like someone who respects the reader?
-- [ ] Anywhere a smart reader would feel talked down to?
+- [ ] Read it out loud. Does it sound like someone who respects the reader?
+- [ ] Would a smart reader feel talked down to anywhere?
+- [ ] Any words from "Words that can hurt"?
 - [ ] Any flattery, filler or fluff left?
 - [ ] Does every heading say something?
 - [ ] Same word for the same thing everywhere?
 - [ ] Can a fifth go?
 
-## 10. Growth mindset: how this skill keeps getting better
+## 11. Growth mindset: how this skill keeps getting better
 
-Based on Carol Dweck's *Mindset* ([Farnam Street](https://fs.blog/carol-dweck-mindset/)). This skill is never finished. It's "not yet."
+Based on Carol Dweck's *Mindset* ([Farnam Street summary](https://fs.blog/carol-dweck-mindset/)): ability grows through effort, feedback and learning from mistakes. This skill is never finished. It is "not yet."
 
-**While working:** treat every edit Sharon makes as information: which rule allowed that, or which is missing? Challenge rules that make writing worse. Write down what works.
+**While working**
+- Treat every edit Sharon makes to the copy as information. Ask: which rule allowed that, or which rule is missing?
+- Challenge the rules. If a rule makes the writing worse in a real case, say so.
+- Notice what worked, so good patterns get written down.
 
-**After each task, ask:**
-1. Did Sharon rewrite, soften or sharpen anything?
-2. Did readers stumble on a word or heading?
-3. Did something come up this skill doesn't cover?
-4. Is any source out of date?
+**Self-review at the end of a task**
+1. Did Sharon rewrite, soften or sharpen anything this skill produced?
+2. Did readers or testers stumble on a word or heading?
+3. Did a situation come up that this skill doesn't cover?
+4. Is any source here out of date?
 
-**Healing, always with her yes:** a skill can't change itself. Propose what went wrong, the evidence and the exact new wording, at most once per task, in one line: "Skill update idea: ... Want me to propose it?" Prefer rewriting or removing a rule to adding one. When approved, propose the whole skill, update public copies, and log it below.
+**Self-healing, always with her approval**
+- A skill can't change itself, and nothing changes without Sharon's yes. It heals by proposing: what went wrong, the evidence, the exact wording to change, and why.
+- At most one suggestion per task, at the end, in one line: "Skill update idea: ... Want me to propose it?"
+- Prefer rewriting or removing a rule over adding one, so the skill stays short.
+- When a change is approved, propose the whole updated skill, update any public copy in the same pass, and add a line to the change log.
 
-## 11. Working with Sharon
+## 12. Working with Sharon
 
 Writing to Sharon herself follows `working-with-sharon`. This skill is for every other reader.
 
@@ -170,5 +205,5 @@ Writing to Sharon herself follows `working-with-sharon`. This skill is for every
 - 2026-09-26: Created from NN/g, the Google, Microsoft and Mailchimp style guides, Digital.gov, and Sharon's direction.
 - 2026-09-26: Added voice files, Sharon's answers on fun, money, wiki voice and emoji, and material from articles she shared.
 - 2026-09-26: Added show-first, teens and lingo, light metaphors, and respectful names.
-- 2026-09-26: Ran the skill on itself: tables for rules and examples, shorter lines, headings that say something. Em dashes moved to "cut on sight."
-- 2026-09-26: Added words that can hurt across disability, race, nationality, gender, age and family (Google, Microsoft, NCDJ, UW, GLAAD), action buttons on empty and error states, and a timeless wiki example.
+- 2026-09-26: Added words that can hurt across disability, race, nationality, gender, age and family, and action buttons on empty and error states.
+- 2026-09-26: Back to headers and bullets after a table-heavy version read worse in narrow panels. Added "match the format to where it's read."
