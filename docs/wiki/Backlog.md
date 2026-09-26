@@ -49,8 +49,6 @@ Every idea starts with the problem. For each competitor feature we asked: what p
 
 Open an idea below for the full reasoning and sources.
 
-</details>
-
 <details>
 <summary>💡 <b>1. Problem: families miss deadlines because the timeline only helps when they open it</b></summary>
 
@@ -147,6 +145,8 @@ Open an idea below for the full reasoning and sources.
 - **What competitors do:** College Raptor estimates cost ([site](https://www.collegeraptor.com/Home/FAQ)). The prototype has hand-entered costs and salaries.
 - **Is there a better way?** Yes. The College Scorecard API has cost and earnings by program, straight from the Department of Education ([College Scorecard API](https://collegescorecard.ed.gov/data/api-documentation/)).
 - **Verdict:** better idea, for the rebuild's content layer. Hand-entered data stays only where Scorecard has gaps, like some trade programs.
+
+</details>
 
 </details>
 
