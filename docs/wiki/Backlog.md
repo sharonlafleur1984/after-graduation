@@ -18,7 +18,7 @@ Every idea, fix and request, in one place.
 </details>
 
 <details>
-<summary><b>Ideas</b>: problems worth solving, not yet decided (18)</summary>
+<summary><b>Ideas</b>: problems worth solving, not yet decided (19)</summary>
 
 Every idea starts with the problem. For competitor features we asked: what problem does it solve, and is there a better or more current way to solve it? If not, copy it. If yes, use the better way.
 
@@ -42,6 +42,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
 | 17 | Middle schoolers who want to get ahead have nothing to plan | Optional extras: extracurriculars, volunteering, internships | Needs research. Not for the first release. |
 | 18 | Parents who want to plan from elementary school have no long-range tool | A long-range parent plan that starts early, at the same price | Needs research. Not for the first release. |
+| 19 | Utah already pays for a statewide planning platform, so schools may not buy another | Offer a free one-year pilot that fills the gaps, not a replacement | Needs research |
 
 **Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
@@ -242,6 +243,22 @@ Open an idea below for the full reasoning and sources.
 - **Why it could matter for the business:** these families already spend on planning help, like private admissions consultants at about $4,000 to $12,000 a package ([Dewey Smart, 2026](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide), partly verified, secondary source). Starting early means more years as a customer. Sharon's call: no extra charge for starting early.
 - **What it could be:** a parent-led plan that starts in elementary school, then hands off to the student's seasons in high school.
 - **Research still needed:** how many parents want this, and what they'd actually plan that early.
+
+</details>
+
+<details>
+<summary>💡 <b>19. Problem: Utah already pays for a statewide planning platform, so schools may not buy another</b></summary>
+
+- **Idea from:** Sharon (Sep 26, 2026): offer the planner free for a year so schools can try it.
+- **What Utah bought:** in March 2026 the State Board of Education picked YouScience to build a statewide career mapping tool under HB 260, the "first credential" law. It covers middle school through graduation, with full rollout planned for the 2026 to 2027 school year ([YouScience](https://www.youscience.com/resources/press/utah-selects-youscience-as-statewide-platform/), vendor's own announcement; [Utah Business](https://www.utahbusiness.com/press-releases/2026/03/24/utah-state-board-education-selects-youscience-deliver-statewide-college-career-readiness/)). Utah has funded YouScience for seven years in a row ([YouScience](https://www.youscience.com/resources/press/for-the-seventh-year-in-a-row-utah-renews-funding-for-youscience-brightpath-to-boost-college-and-career-readiness-and-workforce-development/)).
+- **Is there a better way than competing head-on?** Yes. Replacing a state-funded, law-backed platform is unlikely. Fill what it doesn't do instead:
+  - The announcement mentions no IEP or special education features
+  - It's built for schools, not for parents planning at home
+- **What the pilot could be:** free for one school year for special education transition coordinators in one or two districts. It pairs with Test 2 in the [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide), which already asks coordinators what they'd pay.
+- **Caveats:**
+  - Schools will likely need a student data privacy agreement before any pilot. Check Utah's rules first.
+  - A free year still costs your time for support and content.
+- **Research still needed:** whether coordinators see the gap, and whether YouScience plans IEP features.
 
 </details>
 
