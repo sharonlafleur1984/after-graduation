@@ -58,6 +58,24 @@ Lead with the fact, then the short reason. An expert skims the fact; a newcomer 
 
 **Cut on sight:** em dashes. "Simply," "just," "easy," "obviously," "of course": they make anyone who finds it hard feel slow ([Google](https://developers.google.com/style/tone)). "Great question," "amazing," "absolutely." Flowery promises ([Mailchimp](https://styleguide.mailchimp.com/voice-and-tone/)). "Please" in instructions. Hedging stacks. Emoji and exclamation marks, except one each in a real celebration, never near money, errors, privacy or docs.
 
+**Words people often don't realize can hurt.** Check new copy against these guides: [Google inclusive documentation](https://developers.google.com/style/inclusive-documentation), [Microsoft bias-free communication](https://learn.microsoft.com/en-us/style-guide/bias-free-communication), [NCDJ disability language guide](https://cronkite.asu.edu/ncdj/disability-language-style-guide).
+
+| Avoid | Use | Why |
+|---|---|---|
+| crazy, insane, dumb, lame | confusing, unclear, surprising | Ableist ([Google](https://developers.google.com/style/inclusive-documentation)) |
+| sanity check | quick check | Ableist (Google) |
+| blind to, turn a blind eye | unaware of, overlook | Ableist (Google) |
+| blacklist, whitelist | blocklist, allowlist | Racially charged (Google) |
+| master, slave | primary, replica | Racially charged (Google, [Microsoft](https://learn.microsoft.com/en-us/style-guide/bias-free-communication)) |
+| spirit animal | favorite, go-to | Cultural appropriation (Microsoft) |
+| manpower, mankind | staff, people | Gendered (Microsoft) |
+| the elderly | older adults | Respectful age language (Google) |
+| special needs | name the need or the accommodation | Vague and othering ([NCDJ](https://cronkite.asu.edu/ncdj/disability-language-style-guide)) |
+| suffers from, stricken with, wheelchair-bound | has, uses a wheelchair | Pity language (NCDJ, Microsoft) |
+| handicapped, differently abled | disabled, person with a disability | NCDJ |
+
+"Person with autism" or "autistic person"? People disagree. Ask, or let people choose how they're described (NCDJ). Mention a disability only when it's relevant (Microsoft).
+
 The goal: they finish thinking "I can do this."
 
 ## 4. Mechanics
@@ -81,18 +99,20 @@ Sources: [Digital.gov](https://digital.gov/guides/plain-language/principles), [M
 
 Fast to scan, a little personality, good taste. Hiring managers read these. Fragments are fine when they're clear.
 
-> Now: 6 to 8 families take it for a spin on video calls in October. Is it easy? Is it fun?
+> Now: 6 to 8 families take it for a spin. Is it easy? Is it fun?
 
 ## 7. Product copy
 
 | Surface | Rule | Example |
 |---|---|---|
 | Button | Verb first, says what happens | "Add school" |
-| Error | What happened, then the fix. No blame, no jokes. | "That date's in the past. Pick a date after today." |
+| Error | What happened, the fix, and a button that does the fix. No blame, no jokes. | "That date's in the past. [Pick a new date]" |
 | Money, deadlines | Calm. Fact, then next step. | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
-| Empty state | What goes here, one way to start ([NN/g](https://www.nngroup.com/articles/empty-state-interface-design/)) | "No schools yet. Add your first one." |
+| Empty state | What goes here, and a button to start ([NN/g](https://www.nngroup.com/articles/empty-state-interface-design/)) | "No schools yet. [Add a school]" |
 | Celebration | Earned, short, a little playful | "Junior year: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | Sensitive question | Say why you ask. Offer "Prefer not to say." | |
+
+**Give people an immediate action.** Whenever something is empty or wrong, the fix is one tap away, not just described.
 
 **Add words only when a newer user would struggle.** Longer explanations go in help or docs. Say what people can do, not what they can't (Couchbase guide).
 
@@ -149,3 +169,4 @@ Writing to Sharon herself follows `working-with-sharon`. This skill is for every
 - 2026-09-26: Added voice files, Sharon's answers on fun, money, wiki voice and emoji, and material from articles she shared.
 - 2026-09-26: Added show-first, teens and lingo, light metaphors, and respectful names.
 - 2026-09-26: Ran the skill on itself: tables for rules and examples, shorter lines, headings that say something. Em dashes moved to "cut on sight."
+- 2026-09-26: Added words that can hurt (Google, Microsoft, NCDJ), action buttons on empty and error states, and a timeless wiki example.

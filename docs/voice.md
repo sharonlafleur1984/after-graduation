@@ -57,5 +57,5 @@ Pick one word for a thing and never switch.
 | "Great job! You're amazing! 🎉" | "Junior year: done. 🎉 Go ahead, take a victory lap. Senior year can wait five minutes." |
 | "Simply select your schools." | "Pick a few schools to start. You can change them any time." |
 | "Heads up, this one's a stretch!" (money) | "State U costs about $4,200 a year more than your aid covers. Here are 3 scholarships that could close the gap." |
-| "Error: invalid input." | "That date's in the past. Pick a date after today." |
+| "Error: invalid input." | "That date's in the past." with a [Pick a new date] button |
 | "It's important to understand that the FAFSA..." | "File the FAFSA (the federal aid form) early. Some aid is first come, first served." |
