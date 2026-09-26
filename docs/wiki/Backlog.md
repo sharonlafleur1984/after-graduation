@@ -18,7 +18,7 @@ Every idea, fix and request, in one place.
 </details>
 
 <details>
-<summary><b>Ideas</b>: problems worth solving, not yet decided (16)</summary>
+<summary><b>Ideas</b>: problems worth solving, not yet decided (17)</summary>
 
 Every idea starts with the problem. For competitor features we asked: what problem does it solve, and is there a better or more current way to solve it? If not, copy it. If yes, use the better way.
 
@@ -28,7 +28,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 2 | Aid offer letters hide the real cost | Better idea: compare in the standard federal format | Needs evidence from families |
 | 3 | Student and parent plan separately and can erase each other's work | Copy: one shared plan | Needs evidence from families |
 | 4 | Finding scholarships takes hours | Better idea: link the free federal finder | Needs evidence from families |
-| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz | Needs evidence from families |
+| 5 | Students don't know which careers fit them | Better idea: free federal interest quiz, offered in onboarding and as a task in their current season | Needs evidence from families |
 | 6 | Students have questions when no counselor is free | Skip for now: open-ended AI chat | Needs evidence from families |
 | 7 | Keeping teens engaged for about 20 months | Partly copy: progress yes, leaderboards no | Needs evidence from families |
 | 8 | Trade-path students need real hands-on openings | Better idea: link the federal apprenticeship finder | Needs evidence from families |
@@ -40,6 +40,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
 | 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
+| 17 | Middle schoolers who want to get ahead have nothing to plan | Optional extras: extracurriculars, volunteering, internships | Needs research. Not for the first release. |
 
 **Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
@@ -90,6 +91,9 @@ Open an idea below for the full reasoning and sources.
 - **What competitors do:** YouScience sells an aptitude test ($49, or free through a school license, [YouScience](https://www.youscience.com/buy-now/)). Xello uses interest inventories.
 - **Is there a better way?** Yes. The O*NET Interest Profiler is free, public, and has an API we can plug in ([O*NET Resource Center](https://www.onetcenter.org/IP.html)).
 - **Verdict:** better idea. Connect results to both trade and college paths, which is our edge.
+- **Where it shows up** (Sharon, Sep 26, 2026):
+  - In onboarding, as an optional step when a student picks "Not sure yet" for paths ([issue #25](https://github.com/sharonlafleur1984/after-graduation/issues/25))
+  - As a task in the student's current season (junior, senior, or whichever they're in), so they can take it later if they skip it at setup
 
 </details>
 
@@ -216,6 +220,16 @@ Open an idea below for the full reasoning and sources.
 - **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
 - **What it could be:** a third choice in onboarding, after "Only my state" and "Open to other states" ([onboarding issue #24](https://github.com/sharonlafleur1984/after-graduation/issues/24)).
 - **Research still needed:** how many students want this, where to get school and cost data outside the US, and how US federal aid works abroad.
+
+</details>
+
+<details>
+<summary>💡 <b>17. Problem: middle schoolers who want to get ahead have nothing to plan</b></summary>
+
+- **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
+- **Context:** a middle schooler sees one "High school" season with the whole list, and nothing to do yet. That's on purpose for most students.
+- **What it could be:** for very motivated students, optional extras they can add in middle school: extracurriculars, volunteer work and internships.
+- **Research still needed:** how many families want this, and which activities actually help later.
 
 </details>
 
