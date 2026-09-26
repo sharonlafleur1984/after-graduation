@@ -7,7 +7,7 @@ description: "Use when writing or reviewing any words people will read (wiki pag
 
 Write like a smart friend who respects the reader's time and intelligence. Say it how it is. Assume they probably know it, and give it to them anyway, like a reminder rather than a lesson. People respect writing that respects them.
 
-Words are design. On text-heavy pages they are most of the design (see `product-designer`, section 5, for page structure; this skill covers the words).
+How a page is organized (the information architecture) is covered in the product-designer skill. This skill covers the copy.
 
 ## 0. Start with the project's voice file
 
@@ -173,3 +173,4 @@ Follow `working-with-sharon` for how to write to her directly. This skill is for
 - 2026-09-26: Added voice file structure and testing, UI copy mechanics, step-by-step flow rules, and prompt writing, from articles Sharon shared.
 - 2026-09-26: Added show-first and least-copy-with-full-clarity, teens and lingo, and light-touch metaphors, from Sharon's feedback.
 - 2026-09-26: Added naming sensitive things respectfully, from Sharon's feedback on "IEP layer."
+- 2026-09-26: Rewrote the pointer to the product-designer skill so it makes sense on its own.
