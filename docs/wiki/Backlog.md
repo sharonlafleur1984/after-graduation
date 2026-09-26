@@ -41,7 +41,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
 | 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
 | 17 | Middle schoolers who want to get ahead have nothing to plan | Optional extras: extracurriculars, volunteering, internships | Needs research. Not for the first release. |
-| 18 | Parents who want to plan from elementary school have no long-range tool | A long-range parent plan, possibly a paid tier | Needs research. Not for the first release. |
+| 18 | Parents who want to plan from elementary school have no long-range tool | A long-range parent plan that starts early, at the same price | Needs research. Not for the first release. |
 
 **Next step:** in the usability sessions, families pick which of problems 1 to 10 they have actually run into ([Research Plan](Research-Plan#study-1-usability-sessions)). Ideas 11 to 14 are ready for your decision.
 
@@ -239,9 +239,9 @@ Open an idea below for the full reasoning and sources.
 
 - **Idea from:** Sharon (Sep 26, 2026). Not for the first release.
 - **Who:** very involved parents, often aiming for highly selective colleges, who want to map out their child's path years ahead.
-- **Why it could matter for the business:** families already pay private admissions consultants about $4,000 to $12,000 for a full package ([Dewey Smart, 2026](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide), partly verified, secondary source). This group may pay more than the $79 to $99 plan.
+- **Why it could matter for the business:** these families already spend on planning help, like private admissions consultants at about $4,000 to $12,000 a package ([Dewey Smart, 2026](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide), partly verified, secondary source). Starting early means more years as a customer. Sharon's call: no extra charge for starting early.
 - **What it could be:** a parent-led plan that starts in elementary school, then hands off to the student's seasons in high school.
-- **Research still needed:** how many parents want this, what they'd pay, and what they'd actually plan that early. Pay is a guess until families confirm it.
+- **Research still needed:** how many parents want this, and what they'd actually plan that early.
 
 </details>
 
