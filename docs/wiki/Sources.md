@@ -96,6 +96,31 @@ Every source the business evaluation relies on, with a link and what we found wh
 </details>
 
 <details>
+<summary><b>All-students market</b> (added Sep 25, 2026, 17 sources)</summary>
+
+| Claim | Source | Status |
+|---|---|---|
+| 3.71M 11th graders, 3.66M 12th graders, 15.5M in grades 9 to 12 (fall 2022) | [NCES Digest, Table 203.10](https://nces.ed.gov/programs/digest/d23/tables/dt23_203.10.asp) | ✅ |
+| Graduates peak at 3.9M in 2025, then fall about 13% by 2041 | [WICHE, Knocking at the College Door, Dec 2024](https://www.wiche.edu/resources/report-u-s-high-school-graduates-will-peak-next-year-then-most-states-will-see-steady-declines-through-2041/) | ✅ |
+| 1.6M students (3%) have a 504 plan only | [Civil Rights Data Collection 2020-21 snapshot](https://www.okabletech.org/wp-content/uploads/2024/04/crdc-student-disabilities-snapshot-edited1.pdf) | ✅ Copy hosted by a state program |
+| 7.53M students served under IDEA, ages 3 to 21 | [NCES Digest, Table 204.30](https://nces.ed.gov/programs/digest/d23/tables/dt23_204.30.asp) | ✅ No ages 14 to 21 breakout on this table |
+| 37.2% of 2024 graduates not in college that fall | [BLS, Apr 2025](https://www.bls.gov/news.release/archives/hsgec_04222025.pdf) | ✅ |
+| 1.0M certificates of 5.1M postsecondary awards (2021-22) | [NCES, Condition of Education](https://nces.ed.gov/programs/coe/indicator/cts) | ✅ |
+| Consultant packages cost $4,000 to $12,000 | [Dewey Smart, 2026 pricing guide](https://www.deweysmart.com/resources/how-much-does-college-admissions-consulting-cost-2026-pricing-guide) | 🟡 Secondary; share of families not found |
+| FAFSA completion 59.1%, class of 2026 | [The College Investor, reporting NCAN](https://thecollegeinvestor.com/83916/class-of-2026-sets-fafsa-completion-record-at-59-1-ncan-reports/) | 🟡 Secondary; check the NCAN tracker directly |
+| Public school counselors: 22% of time on college advising, 405 students each | [NACAC, School Counseling](https://www.nacacnet.org/school-counseling/) | ✅ |
+| Scoir $4.80 per high school student per year | [Scoir pricing](https://www.scoir.com/middle-and-high-schools/pricing) | ✅ |
+| Road2College $24.99 to $59.99 a month | [Road2College](https://www.road2college.com/) | ✅ |
+| Common App is free and college-only | [Common App](https://www.commonapp.org/plan/paying-for-college/) | ✅ |
+| Kollegio is free | [Kollegio](https://www.kollegio.ai/) | ✅ |
+| College Raptor is free, ad and affiliate funded | [College Raptor FAQ](https://www.collegeraptor.com/Home/FAQ) | ✅ |
+| BigFuture is free | [BigFuture](https://bigfuture.collegeboard.org/about-us) | 🟡 Features not checked |
+| SchooLinks treats career and technical paths as central | [SchooLinks vs Naviance](https://www.schoolinks.com/competitors/schoolinks-vs-naviance) | ✅ Vendor's own comparison |
+| Pathful covers all 16 career clusters, with badges | [Pathful products](https://pathful.com/products) | ✅ |
+
+</details>
+
+<details>
 <summary><b>Claims the original report itself said not to cite</b></summary>
 
 The PDF listed these as unsourced (its items F1 to F19). Don't use them as fact until someone finds a source.
