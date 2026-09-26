@@ -5,6 +5,17 @@
 Every big choice, newest first. Open one to see why.
 
 <details>
+<summary><b>Sep 26, 2026:</b> A free, self-serve planner for families</summary>
+
+- **Decided by:** Sharon
+- **Decision:** families use the planner for free, and onboarding sets it up without Sharon's help. Money comes from optional extras, schools (starting with a free one-year pilot) or funders.
+- **Why:** Sharon, the planner's first customer, wouldn't pay $79 to $99 a year, and AI makes software easy to copy. Checked, current state and school information is the part that's hard to copy.
+- **Other options considered:** a done-for-you plan at $79 to $99 a year; a lower one-time price.
+- **Details:** [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide)
+
+</details>
+
+<details>
 <summary><b>Sep 26, 2026:</b> Use PostHog to track use during the beta</summary>
 
 - **Decided by:** Sharon

@@ -9,7 +9,7 @@ A planner that helps every high school student map out life after graduation, wi
 | | |
 |---|---|
 | **Where we are** | Learning whether families value it, before building more. The code is in GitHub with sample data. |
-| **Business status** | Not a business yet. Cheap tests decide it. |
+| **Business status** | Not a business yet. Free for families; cheap tests decide how it pays for itself. |
 | **Who it's for** | Every high school student. The IEP layer is optional. |
 | **Next milestone** | Usability round done (aiming for Oct 2026) |
 
@@ -17,7 +17,6 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 
 ## Needs your decision
 
-- **Are the school and grant tests still happening, or only the family test?** The [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide) has three tests. The [Roadmap](Roadmap) only plans the family test.
 - **Ideas 11 to 14 are researched and ready.** See the [Backlog](Backlog).
 
 ## Links

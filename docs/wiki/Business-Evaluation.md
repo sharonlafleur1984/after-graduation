@@ -2,7 +2,7 @@
 
 **Last updated:** September 26, 2026
 
-**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. Don't build more product. Run three cheap tests first, then decide. The decision date lives on the [Roadmap](Roadmap#milestones).
+**Bottom line:** it's a good design aimed at a real need, but it isn't a business yet. The direction: a free, self-serve planner for families, with money from optional extras, schools or funders. Run three cheap tests first, then decide. The decision date lives on the [Roadmap](Roadmap#milestones).
 
 **How to read this page:** every source linked here was checked. Only the exceptions are marked, as "partly verified" or "disagrees." The full check is on [Sources](Sources).
 
@@ -74,7 +74,7 @@ Many students don't take the standard path, and the ones who don't get the least
 | If the goal is... | Verdict | Confidence |
 |---|---|---|
 | A big venture-funded company | Don't build | Medium-high |
-| A done-for-you planning service for families | Needs more evidence (cheapest to test) | Moderate |
+| A free self-serve planner, with paid extras for families | Needs more evidence (cheapest to test) | Moderate |
 | A paid tool for schools | Needs more evidence | Moderate |
 | A free, grant-funded tool | Needs more evidence | Low-moderate |
 
@@ -88,7 +88,7 @@ Many students don't take the standard path, and the ones who don't get the least
 
 **What's missing**
 - Proof that anyone pays: families, schools or funders
-- All content today was written for one student, so each new student or state is real work
+- All content today was written for one student. Self-serve onboarding has to make each new student automatic, with no work from Sharon.
 - Keeping aid rules and deadlines accurate every year is the ongoing cost
 
 **Why not a big startup**
@@ -104,18 +104,21 @@ Many students don't take the standard path, and the ones who don't get the least
 
 None of the tests needs new software. They run side by side.
 
+**Why self-serve:** a paid subscription is easy to copy now that AI makes building apps easy, and Sharon herself wouldn't pay $79 to $99 a year. What's hard to copy is up-to-date, checked state and school information. So the planner is free, and each new family costs almost nothing.
+
 | Test | What you do | It passes if... |
 |---|---|---|
-| 1. Families | Offer a done-for-you plan to 10 families at $79 to $99 a year: 5 with an IEP or 504 plan, 5 without | 3 or more pay, and each plan takes about 30 minutes of review after an AI draft |
-| 2. Schools | Ask 3 to 5 transition coordinators what budget they'd pay from | At least one names a real budget at $15 or more per student (or $3K or more per district) |
+| 1. Families | Ask in the usability sessions which paid extras families want and what feels fair. Then offer the top one to 10 families (5 with an IEP or 504 plan, 5 without) as a pre-order with a refundable deposit. | 3 or more place a deposit |
+| 2. Schools | Ask 3 to 5 transition coordinators what budget they'd pay from, and offer a free one-year pilot to one or two districts ([Backlog idea 19](Backlog)) | At least one district takes the pilot and names a real budget for year two, at $15 or more per student (or $3K or more per district) |
 | 3. Grant funding | Find one funder and one group to keep each state's content up to date | Both exist, at about $11K to $21K per state per year for every 1,000 students |
 
-**Then decide:** build at most one route, in one state, and only if its test passes. If none pass, stop. The tool stays a personal planner. How the family test runs: [Research Plan](Research-Plan#study-2-priced-offer).
+**Then decide:** build at most one route, in one state, and only if its test passes. If none pass, stop. The tool stays a personal planner. How the family test runs: [Research Plan](Research-Plan#study-2-paid-extras).
 
 <details>
 <summary><b>The money math</b></summary>
 
-- **Family plan:** only breaks even if review time plus selling time stays under about 1 hour per family. Selling by hand, one family at a time, costs more than the $99 price. It needs referrals from parent groups or consultants.
+- **Free planner for families:** each new family costs almost nothing, because onboarding does the setup. The real cost is keeping each state's content accurate every year (see the grant math below). Extras only need to cover that.
+- **Extras:** price not set. The usability sessions ask what feels fair first.
 - **School license:** needs $15 or more per student across 5 to 10 districts per state. Nothing in the market proves that price yet.
 - **Free grant-funded version:** costs a funder about $11K to $21K per state per year for every 1,000 students, or $25K to $45K in year one if the build is paid up front. No funder has been found yet.
 - **Cost of the tests:** about 60 to 150 hours of Sharon's time plus under $1,000.
@@ -150,7 +153,7 @@ None of the tests needs new software. They run side by side.
 
 | Risk | What would close it |
 |---|---|
-| We don't know if each new student costs minutes or days | Record the build hours ([Issue #11](https://github.com/sharonlafleur1984/after-graduation/issues/11)) |
+| Families may not finish onboarding without help | Watch them try it in the usability sessions |
 | Utah already has a free tool and a statewide platform | Try the free tool hands-on; talk to coordinators outside Utah |
 | Easy for competitors to copy | The lasting asset is a verified base of state facts and trade school accommodations |
 | Content may differ a lot by disability type | Build the sample student with a different disability category |
@@ -161,7 +164,7 @@ None of the tests needs new software. They run side by side.
 <summary><b>About this evaluation</b></summary>
 
 - **Version 1 (historic record only):** a 39-page PDF prepared for Sharon LaFleur on September 25, 2026, with market research, a verdict and a business plan. It looked at an IEP-only product and is not kept up to date. [Version 1 PDF](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf).
-- **This page is the current version,** and the only one kept up to date. It reflects the move to every student (Sep 25, 2026), with new research added by Claude. The original evaluation team hasn't reviewed the new research.
+- **This page is the current version,** and the only one kept up to date. It reflects the move to every student (Sep 25, 2026) and to a free self-serve planner (Sep 26, 2026), with new research added by Claude. The original evaluation team hasn't reviewed the new research.
 - **Sources:** the PDF used internal codes like "AG9." Every source now has its full name and a link, and each one was checked.
 - **Privacy:** this wiki is public, so nothing about the original student appears here.
 

@@ -9,7 +9,7 @@
 | # | Study | Answers | When | Needs accounts? |
 |---|---|---|---|---|
 | 1 | Usability sessions | Is it easy to use? Is it fun? Would they look for it on their own? | Oct 2026 | No |
-| 2 | Priced offer | Will anyone pay? Which group? | Oct 2026 to Jan 2027 | No |
+| 2 | Paid extras | Will families pay for extras? Which group? | Oct 2026 to Jan 2027 | No |
 | 3 | Beta with accounts | Do they come back? Do they stay engaged over months? | After accounts are built | Yes |
 
 Each study decides whether the next one is worth doing. Results feed the decision gate on the [Roadmap](Roadmap#milestones).
@@ -25,7 +25,8 @@ Each study decides whether the next one is worth doing. Results feed the decisio
 - **What they use:** the sample-data version only. Never a real student's plan.
 - **Who runs it:** Sharon moderates. A second person takes notes if possible.
 - **How many:** 6 to 8. Small rounds find most of the big problems; run another round after fixes. ([Nielsen Norman Group](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/))
-- **Thank-you:** a small gift card is common. The amount is your call.
+- **Who joins:** a parent and student together, from Sharon's networking circle
+- **Thank-you:** Sharon's undying appreciation and an IOU
 
 </details>
 
@@ -51,7 +52,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 2. What would make you come back to this next month?
 3. If a friend were planning for after high school, would you tell them about this? Why or why not?
 4. **IEP layer:** "Some students have an IEP or 504 plan. We could add a section for accommodations and extra deadlines that you turn on in settings." Would that be useful, confusing, or not relevant to you?
-5. If this cost money, what would feel fair? (Just listen. Don't pitch.)
+5. The planner will be free. Which of these extras would you pay for, and what would feel fair? (Show 3 or 4 ideas, like text reminders for deadlines or a person reviewing your plan. Just listen. Don't pitch.)
 6. **Problem check:** show the list of problems 1 to 10 from the [Backlog](Backlog). "Which of these have you actually run into? Pick up to three." This tells us which ideas are worth building.
 
 </details>
@@ -72,16 +73,16 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 
 ---
 
-## Study 2: Priced offer
+## Study 2: Paid extras
 
 <details>
-<summary><b>The setup</b>: offer a done-for-you plan to 10 families at $79 to $99 a year</summary>
+<summary><b>The setup</b>: offer the extra families wanted most to 10 families, as a pre-order</summary>
 
+- **What:** the planner stays free. The extra and its price come from what families said in Study 1.
 - **Who:** 5 families with an IEP or 504 plan, 5 without
-- **Pass mark:** 3 or more of 10 pay (or place a refundable deposit)
-- **Pay first, then collect data.** Families see only the sample demo before paying.
-- **Track:** how each family heard about it, and how many hours you spent selling and building each plan
-- **Promise in writing:** if the test ends, they choose continued access through senior year, or a full refund plus a PDF of their plan
+- **Pass mark:** 3 or more of 10 place a refundable deposit
+- **Track:** how each family heard about it
+- **Promise in writing:** if the extra never ships, a full refund
 - The pass mark and money math: [Business Evaluation](Business-Evaluation#the-plan-three-cheap-tests-then-decide)
 
 </details>
@@ -114,8 +115,8 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 
 | Group | Study 1 | Study 2 |
 |---|---|---|
-| Students (juniors and seniors) | 3 to 4 | n/a (parents pay) |
-| Parents | 3 to 4 | 10 |
+| Parent and student pairs (juniors and seniors) | 6 to 8 | n/a |
+| Parents | n/a | 10 |
 | With an IEP or 504 plan | About half | 5 |
 | Leaning toward trade or certificate school | At least 2 | At least 2 |
 
@@ -162,7 +163,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 |---|---|
 | Study 1 finds big usability problems | Fix them in the React rebuild before Study 3 |
 | Study 1 shows non-IEP families find the IEP layer confusing | Keep it off by default, turned on in settings |
-| Study 2: 3 or more of 10 pay | That route passes the decision gate |
-| Study 2: 2 of 10 pay | Run one more round of 10 |
-| Study 2: 0 or 1 pay | Don't build a paid family product |
+| Study 2: 3 or more of 10 place a deposit | That route passes the decision gate |
+| Study 2: 2 of 10 place a deposit | Run one more round of 10 |
+| Study 2: 0 or 1 pay | Keep it free for families, and look to schools or funders |
 | Study 3: families come back monthly | The product is worth growing |
