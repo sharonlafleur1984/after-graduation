@@ -1,5 +1,6 @@
-// Loads the design system once for the whole app: After Graduation's tokens, its fonts,
+// Loads the design system once for the whole app: After Graduation's tokens, its fonts, the base page styles
 // and the components' styles. The theme itself is set on <html data-theme="after-graduation">.
 import 'design-system-skeleton/themes/after-graduation.css';
 import 'design-system-skeleton/fonts/after-graduation.css';
+import 'design-system-skeleton/base.css';
 import 'design-system-skeleton/components.css';
