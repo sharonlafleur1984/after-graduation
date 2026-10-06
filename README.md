@@ -25,6 +25,8 @@ npm run storybook   # its pages, at http://localhost:6007
 npm test            # tests
 ```
 
+After updating the design system version, stop and restart `npm run dev` and `npm run storybook`. A running app keeps the version it started with.
+
 Every component comes from the design system and is documented in [its Storybook](https://designsystemskeleton.netlify.app/). This repo only puts components together into pages.
 
 ## Sample data
