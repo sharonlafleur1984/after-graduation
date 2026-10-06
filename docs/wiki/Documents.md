@@ -1,6 +1,6 @@
 # Documents
 
-**Last updated:** September 26, 2026
+**Last updated:** October 6, 2026
 
 Every document in this project's repository, and when to open it. If none of these match what you need, don't open anything else.
 
@@ -27,7 +27,8 @@ Private files (originals, notes, anything personal) aren't here. They're listed 
 | [How I work](https://github.com/sharonlafleur1984/how-i-work) | You want Sharon's process, the full Claude skills, or the templates this repo started from. A separate repo shared by all her projects. |
 | [Voice guide](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/voice.md) | Writing anything people will read: the voice for students, parents and wiki readers, and the words we use |
 | [CLAUDE.md](https://github.com/sharonlafleur1984/after-graduation/blob/main/CLAUDE.md) | You're an AI or developer starting work: the rules for this repo |
-| [Prototype (index.html)](https://github.com/sharonlafleur1984/after-graduation/blob/main/index.html) | Working on the prototype, or checking how a screen behaves before rebuilding it. Sample data only. |
+| [Prototype (prototype/index.html)](https://github.com/sharonlafleur1984/after-graduation/blob/main/prototype/index.html) | Working on the prototype, or checking how a screen behaves before rebuilding it. Sample data only. |
+| [Glossary](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/glossary.md) | You hit a technical word in the code or a pull request and want it in plain language |
 | [Wiki publishing setup](https://github.com/sharonlafleur1984/after-graduation/blob/main/.github/workflows/publish-wiki.yml) | The wiki didn't update after a merge |
 | [Evaluation, version 1 (PDF)](https://github.com/sharonlafleur1984/after-graduation/blob/main/docs/evaluation/After-Graduation-Evaluation-public.pdf) | Almost never. Historic record only, not current. Use the [Business Evaluation](Business-Evaluation) instead. |
 

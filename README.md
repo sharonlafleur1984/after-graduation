@@ -2,7 +2,7 @@
 
 An anime-inspired planning tool that helps high school students with learning differences explore life after graduation: compare schools, plan how to pay for them, and track every deadline through graduation.
 
-> **Status:** Starting point. This is the single-file prototype with sample data. It is being rebuilt into an organized codebase with a design system, accounts, and automated tests.
+> **Status:** Rebuild started. The working planner is still the single-file prototype in `prototype/`, with sample data. It is being rebuilt in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/design-system-skeleton).
 
 ## What's inside
 
@@ -14,7 +14,20 @@ An anime-inspired planning tool that helps high school students with learning di
 
 ## Run it
 
-Open `index.html` in a browser. Progress saves on your device.
+**The prototype:** open `prototype/index.html` in a browser. Progress saves on your device.
+
+**The rebuild:**
+
+```bash
+npm install
+npm run dev         # the app, at http://localhost:5173
+npm run storybook   # its pages, at http://localhost:6007
+npm test            # tests
+```
+
+After updating the design system version, stop and restart `npm run dev` and `npm run storybook`. A running app keeps the version it started with.
+
+Every component comes from the design system and is documented in [its Storybook](https://designsystemskeleton.netlify.app/). This repo only puts components together into pages.
 
 ## Sample data
 

@@ -4,7 +4,7 @@ Start here. This file tells Claude (and any developer) where everything lives, s
 
 ## What this is
 
-After Graduation: a planner that helps every high school student map out life after graduation, with an optional Accommodations section for students with an IEP or 504 plan. The current code is a single-file prototype (`index.html`) with sample data. It is being rebuilt in React + TypeScript + Storybook.
+After Graduation: a planner that helps every high school student map out life after graduation, with an optional Accommodations section for students with an IEP or 504 plan. The current code is a single-file prototype (`prototype/index.html`) with sample data. It is being rebuilt in React + TypeScript + Storybook.
 
 ## Rules
 
@@ -14,6 +14,8 @@ After Graduation: a planner that helps every high school student map out life af
 - **Every fact needs a source link,** or a label saying it's an estimate.
 - **Ask before changing or deleting anything.** A recommendation is not approval.
 - **Wiki pages are edited in `docs/wiki/`,** never in the GitHub Wiki tab. They publish automatically on merge to main.
+- **Every component comes from the design system.** Never write UI here. Use what's in the [design system's Storybook](https://designsystemskeleton.netlify.app/). If a component is missing, build it in [design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton) first, on React Aria, with a Storybook page. This repo only arranges components on a page, with layout tokens, and owns the data. `tests/design-system-only.test.ts` fails on any made-up color, size or inline style.
+- **The design system is pinned to a version** in `package.json`. Updating it is its own pull request.
 
 ## Where everything is
 
