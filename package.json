@@ -14,7 +14,7 @@
     "build-storybook": "storybook build -o storybook-static"
   },
   "dependencies": {
-    "design-system-skeleton": "github:sharonlafleur1984/design-system-skeleton#dd4bbeac84f107781bc2888cde106937f0478fad",
+    "design-system-skeleton": "github:sharonlafleur1984/design-system-skeleton#v0.2.0",
     "react": "^19.3.0",
     "react-aria-components": "^1.21.1",
     "react-dom": "^19.3.0"
@@ -36,7 +36,7 @@
     "vitest": "^5.0.2"
   },
   "allowScripts": {
-    "github:sharonlafleur1984/design-system-skeleton#dd4bbeac84f107781bc2888cde106937f0478fad": true,
-    "esbuild@0.28.2": true
+    "github:sharonlafleur1984/design-system-skeleton#ca0217654b007531cdd5601d7bc1b270b6f9b11c": true,
+    "esbuild": true
   }
 }
