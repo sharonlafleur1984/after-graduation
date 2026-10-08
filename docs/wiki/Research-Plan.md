@@ -163,7 +163,7 @@ For each task, note: did they finish, where did they get stuck, what did they sa
 
 | If... | Then... |
 |---|---|
-| Study 1 finds big usability problems | Fix them in the React rebuild before Study 3 |
+| Study 1 finds big usability problems | Fix them while building the product, before Study 3 |
 | Study 1 shows non-IEP families find Accommodations confusing | Keep it off by default, turned on in settings |
 | Study 2: 3 or more of 10 place a deposit | That route passes the decision gate |
 | Study 2: 2 of 10 place a deposit | Run one more round of 10 |

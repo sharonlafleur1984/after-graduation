@@ -4,7 +4,7 @@ Plain-language meanings for the technical words in this repo.
 
 | Word | What it means |
 |---|---|
-| **React** | The library the rebuild is written in. A page is built from small reusable pieces called components. |
+| **React** | The library the product is written in. A page is built from small reusable pieces called components. |
 | **TypeScript** | JavaScript with labels on every piece of data, so mistakes show up before the app runs. |
 | **Vite** | The tool that runs the app on your computer (`npm run dev`) and packages it for the web (`npm run build`). |
 | **localhost** | An address that only works on your own computer. `localhost:5173` is the app; `localhost:6007` is Storybook. |

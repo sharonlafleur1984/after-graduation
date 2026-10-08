@@ -21,9 +21,8 @@ The full skills, Sharon's process and project templates live in **[How I work](h
 | Tool | What it's for | Link |
 |---|---|---|
 | GitHub | Stores the code and this wiki | [Repository](https://github.com/sharonlafleur1984/after-graduation) |
-| Claude Code | Builds the React rebuild on Sharon's own computer, so the app and Storybook run locally | [Claude Code](https://claude.com/claude-code) |
-| React Aria Components | Accessible building blocks for every interactive part: tabs, dialogs, date pickers | [React Aria](https://react-aria.adobe.com/) |
-| Netlify | Will host the product, with a preview for every pull request | Set up during the rebuild |
+| Claude Code | Builds the product on Sharon's own computer, so the app and Storybook run locally | [Claude Code](https://claude.com/claude-code) |
+| Netlify | Will host the product, with a preview for every pull request | Set up while building the product |
 | Storybook | A page for every component, like a living design system. Lives in the design system repo. | [Design system Storybook](https://designsystemskeleton.netlify.app/) |
 | Figma | Designs, synced with the code's design tokens | Link added once connected |
 | Supabase | Accounts and saved progress (later phase) | Set up when accounts are built |

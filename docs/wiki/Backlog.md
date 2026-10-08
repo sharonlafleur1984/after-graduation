@@ -24,7 +24,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 9 | Families start the FAFSA and stall | Copy: checklist, from the official source | Needs evidence from families |
 | 10 | Cost and earnings data goes stale | Better idea: pull from College Scorecard | Needs evidence from families |
 | 11 | Picking a rank that's already taken is confusing | Swap the two schools, show names, add Undo | Ready for your decision |
-| 12 | The same kind of thing looks different in different places | Fix it once in the design tokens during the rebuild | Ready for your decision |
+| 12 | The same kind of thing looks different in different places | Fix it once in the design tokens while building the product | Ready for your decision |
 | 13 | The big title pushes the content down | Title size that adjusts to the screen | Ready for your decision |
 | 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
@@ -135,7 +135,7 @@ Open an idea below for the full reasoning and sources.
 
 - **What competitors do:** College Raptor estimates cost ([site](https://www.collegeraptor.com/Home/FAQ)). The prototype has hand-entered costs and salaries.
 - **Is there a better way?** Yes. The College Scorecard API has cost and earnings by program, straight from the Department of Education ([College Scorecard API](https://collegescorecard.ed.gov/data/api-documentation/)).
-- **Verdict:** better idea, for the rebuild's content layer. Hand-entered data stays only where Scorecard has gaps, like some trade programs.
+- **Verdict:** better idea, for the product's content layer. Hand-entered data stays only where Scorecard has gaps, like some trade programs.
 
 </details>
 
@@ -160,8 +160,8 @@ Open an idea below for the full reasoning and sources.
 - **Why it matters:** people shouldn't have to wonder whether different looks mean different things ([Nielsen Norman Group](https://www.nngroup.com/articles/consistency-and-standards/)). Body text also needs enough contrast to read, at least 4.5 to 1 ([W3C, WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)).
 - **Options:**
   - A. Fix all 7 in the prototype now
-  - B. Fix them once in the design tokens during the rebuild, so they can't drift again
-  - C. Fix only contrast problems now, the rest in the rebuild
+  - B. Fix them once in the design tokens while building the product, so they can't drift again
+  - C. Fix only contrast problems now, the rest while building the product
 - **Evidence:** design tokens define each color, size and spacing once and share it everywhere ([Design Tokens Community Group](https://www.designtokens.org/)).
 - **Recommendation:** B. The personal version is frozen, so fixing the prototype is wasted work.
 - **Caveat:** I'll check the contrast of each color while setting up the tokens.
@@ -177,7 +177,7 @@ Open an idea below for the full reasoning and sources.
   - B. Shrink it to a fixed 44px
   - C. A title size that adjusts to the screen: bigger on a laptop, smaller on a phone
 - **Evidence:** CSS can scale text smoothly between a minimum and maximum size ([web.dev](https://web.dev/articles/min-max-clamp)).
-- **Recommendation:** C, in the rebuild.
+- **Recommendation:** C, while building the product.
 - **Caveat:** the maximum size can't block people who zoom text to 200% for accessibility (same web.dev source).
 
 </details>

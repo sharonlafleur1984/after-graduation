@@ -14,7 +14,7 @@ A planner that helps every high school student map out life after graduation, wi
 
 | | |
 |---|---|
-| **Where we are** | Learning whether families value it. The React rebuild has started on the design system ([#35](https://github.com/sharonlafleur1984/after-graduation/pull/35)), with sample data. |
+| **Where we are** | Learning whether families value it. Building the product in React has started, using the design system ([#35](https://github.com/sharonlafleur1984/after-graduation/pull/35)), with sample data. |
 | **Business status** | Not a business yet. Free for families; cheap tests decide how it pays for itself. |
 | **Who it's for** | Every high school student. Accommodations is optional. |
 | **Next milestone** | Usability round done (aiming for Oct 2026) |

@@ -6,7 +6,7 @@
 |---|---|---|
 | **Is it easy and fun to use?** Usability sessions | **Do families come back and stay engaged?** A small beta with accounts | **Grow:** a second state and more schools |
 | **Will families pay for extras?** The planner is free; an extra offered to 10 families | **Is their data safe?** Accounts with parent consent | **Partner:** schools, nonprofits or funders |
-| **Rebuild:** pages built from the design system, starting with the page shell | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
+| **Building the product:** pages put together from the design system | **Does it fit every student?** [Onboarding](https://github.com/sharonlafleur1984/after-graduation/issues/22) that picks their schools and aid. Accommodations optional. | |
 
 ## Milestones
 
