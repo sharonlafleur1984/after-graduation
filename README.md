@@ -2,7 +2,7 @@
 
 An anime-inspired planning tool that helps high school students with learning differences explore life after graduation: compare schools, plan how to pay for them, and track every deadline through graduation.
 
-> **Status:** Rebuild started. The working planner is still the single-file prototype in `prototype/`, with sample data. It is being rebuilt in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/design-system-skeleton).
+> **Status:** building the product has started. The working planner is still the single-file prototype in `prototype/`, with sample data. The product is being built in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/design-system-skeleton).
 
 ## What's inside
 
@@ -16,7 +16,7 @@ An anime-inspired planning tool that helps high school students with learning di
 
 **The prototype:** open `prototype/index.html` in a browser. Progress saves on your device.
 
-**The rebuild:**
+**The product:**
 
 ```bash
 npm install

@@ -1,8 +1,30 @@
 # Decisions
 
-**Last updated:** September 26, 2026
+**Last updated:** October 7, 2026
 
-Every big choice, newest first. Open one to see why.
+Every big choice, newest first. Open one to see why. Design system decisions (colors, type, motion, components, dark mode, React Aria) live on the [design system's Decisions page](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), not here.
+
+<details>
+<summary><b>Oct 6, 2026:</b> Install the design system from GitHub, pinned to a version</summary>
+
+- **Decided by:** Sharon
+- **Decision:** this app installs the design system straight from GitHub, pinned to a version. Updating it is its own pull request. Every component is built in the design system first; this repo only arranges components on a page and owns the data.
+- **Why:** it builds the same on a laptop, in tests and on Netlify, and the app always knows which version it was built on.
+- **Other options considered:** pointing at the folder next door (only works on one laptop); publishing to npm (a release step for every change).
+- **Details:** [design system Decisions](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), [#36](https://github.com/sharonlafleur1984/after-graduation/pull/36) (pinned to v0.2.0)
+
+</details>
+
+<details>
+<summary><b>Oct 6, 2026:</b> Start building the product before the usability results</summary>
+
+- **Decided by:** Sharon
+- **Decision:** set up React, Storybook and tests now, in Claude Code on Sharon's own computer, instead of waiting for the usability sessions.
+- **Why:** Storybook needs to run locally, and the setup doesn't depend on what families say.
+- **Trade-off:** pages built before the sessions may need changes once the findings are in.
+- **Details:** [#13](https://github.com/sharonlafleur1984/after-graduation/issues/13), [#35](https://github.com/sharonlafleur1984/after-graduation/pull/35)
+
+</details>
 
 <details>
 <summary><b>Sep 26, 2026:</b> A free, self-serve planner for families</summary>
@@ -106,4 +128,4 @@ Every big choice, newest first. Open one to see why.
 
 </details>
 
-**For developers:** technical decisions will also be recorded in the repo's `docs/decisions` folder once the rebuild starts.
+**For developers:** technical decisions will also be recorded in the repo's `docs/decisions` folder as the product is built.
