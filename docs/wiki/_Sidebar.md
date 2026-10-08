@@ -10,6 +10,7 @@
 **Research**
 - [Research Plan](Research-Plan)
 - [Business Evaluation](Business-Evaluation)
+- [Settings Research](Settings-Research)
 
 **Reference**
 - [Sources](Sources)
