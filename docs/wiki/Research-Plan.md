@@ -1,8 +1,17 @@
 # Research Plan
 
-**Last updated:** September 26, 2026
+**Last updated:** October 7, 2026
 
 **Goal:** learn whether students and parents understand the planner, value it, and would pay for it, before building more.
+
+## What we've found
+
+The research behind decisions so far. Each page holds the full findings and sources.
+
+| Research | What it answers |
+|---|---|
+| [Business Evaluation](Business-Evaluation) | Is this a business? The market, pricing and competitors. |
+| [Settings Research](Settings-Research) | What settings families need, with the accessibility evidence and legal questions. |
 
 ## The three studies
 

@@ -1,6 +1,6 @@
 # Documents
 
-**Last updated:** October 6, 2026
+**Last updated:** October 7, 2026
 
 Every document in this project's repository, and when to open it. If none of these match what you need, don't open anything else.
 
@@ -15,6 +15,7 @@ Private files (originals, notes, anything personal) aren't here. They're listed 
 | [Backlog](Backlog) | Looking for a specific idea or fix, or deciding on one |
 | [Research Plan](Research-Plan) | Planning usability sessions, the family test or the beta |
 | [Business Evaluation](Business-Evaluation) | Questions about the market, pricing or whether this is a business. The current version. |
+| [Settings Research](Settings-Research) | Working on settings: which sections and settings to offer, their defaults, the accessibility research, and legal questions for texts and minors' data |
 | [Sources](Sources) | You need the source for a fact, or want to know if it was checked |
 | [Decisions](Decisions) | Checking why something was decided |
 | [Skills and Tools](Skills-and-Tools) | Checking which Claude skills and tools this project uses |

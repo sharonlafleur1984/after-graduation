@@ -14,6 +14,7 @@ After Graduation: a planner that helps every high school student map out life af
 - **Every fact needs a source link,** or a label saying it's an estimate.
 - **Ask before changing or deleting anything.** A recommendation is not approval.
 - **Wiki pages are edited in `docs/wiki/`,** never in the GitHub Wiki tab. They publish automatically on merge to main.
+- **Sidebar groups show five links at most.** Past five, the rest go inside `<details><summary>Show more</summary>` … `</details>` at the bottom of the group. GitHub wikis allow no scripts, so the label can't switch to "Show less"; clicking it again closes the list.
 - **Every component comes from the design system.** Never write UI here. Use what's in the [design system's Storybook](https://designsystemskeleton.netlify.app/). If a component is missing, build it in [design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton) first, on React Aria, with a Storybook page. This repo only arranges components on a page, with layout tokens, and owns the data. `tests/design-system-only.test.ts` fails on any made-up color, size or inline style.
 - **The design system is pinned to a version** in `package.json`. Updating it is its own pull request.
 
