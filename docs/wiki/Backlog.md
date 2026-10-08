@@ -1,21 +1,10 @@
 # Backlog
 
-**Last updated:** September 26, 2026
+**Last updated:** October 7, 2026
 
 Every idea, fix and request, in one place.
 
-**How an idea moves:** Idea (problem written down) → Researched (options, evidence, a recommendation) → your decision → Decided. Nothing comes to you for a decision until it's researched.
-
-<details>
-<summary><b>Decided</b>: will build (3)</summary>
-
-| Item | Why | From | Added |
-|---|---|---|---|
-| Settings toggle to turn Accommodations on or off | Product is now for all students | Sharon | Sep 25, 2026 |
-| Saving works across devices without erasing answers | One device can overwrite another | Business evaluation | Sep 25, 2026 |
-| Personal content loads only after sign-in | It was readable in the public page | Business evaluation | Sep 25, 2026 |
-
-</details>
+**How an idea moves:** Idea (problem written down) → Researched (options, evidence, a recommendation) → your decision → Approved, and it becomes a task. Nothing comes to you for a decision until it's researched.
 
 <details>
 <summary><b>Ideas</b>: problems worth solving, not yet decided (19)</summary>
@@ -266,6 +255,19 @@ Open an idea below for the full reasoning and sources.
 
 </details>
 
+
+</details>
+
+<details>
+<summary><b>Approved</b>: ideas you said yes to, moved to tasks (3)</summary>
+
+Once an idea is approved, its work lives in [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues). This list is the record of where each one went.
+
+| Idea | Why | From | Approved | Task |
+|---|---|---|---|---|
+| Settings toggle to turn Accommodations on or off | Product is now for all students | Sharon | Sep 25, 2026 | [#26](https://github.com/sharonlafleur1984/after-graduation/issues/26) |
+| Saving works across devices without erasing answers | One device can overwrite another | Business evaluation | Sep 25, 2026 | Not made yet |
+| Personal content loads only after sign-in | It was readable in the public page | Business evaluation | Sep 25, 2026 | Not made yet |
 
 </details>
 
