@@ -4,7 +4,7 @@
 
 **Plan**
 - [Roadmap](Roadmap)
-- [Tasks](https://github.com/sharonlafleur1984/after-graduation/issues)
+- [Tasks](https://github.com/users/sharonlafleur1984/projects/3)
 - [Backlog](Backlog)
 
 **Research**

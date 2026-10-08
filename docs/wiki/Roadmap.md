@@ -42,4 +42,4 @@ The decision gate is the point where the test results decide whether we build.
 | Families think free tools are good enough | Nobody switches to us | Asking about it in the usability sessions |
 | A family's private information leaks | Students get hurt and trust is gone | Getting consent and a privacy policy before collecting any real data |
 
-**Where things live:** [Backlog](Backlog) for ideas. [Issues](https://github.com/sharonlafleur1984/after-graduation/issues) for tasks. [Decisions](Decisions) for choices made. [Research Plan](Research-Plan) for how we learn.
+**Where things live:** [Backlog](Backlog) for ideas. [Project](https://github.com/users/sharonlafleur1984/projects/3) for tasks and current status. [Decisions](Decisions) for choices made. [Research Plan](Research-Plan) for how we learn.

@@ -14,12 +14,12 @@ A planner that helps every high school student map out life after graduation, wi
 
 | | |
 |---|---|
-| **Where we are** | Learning whether families value it. Building the product in React has started, using the design system ([#35](https://github.com/sharonlafleur1984/after-graduation/pull/35)), with sample data. |
+| **Where we are** | See the latest status update on the [Project](https://github.com/users/sharonlafleur1984/projects/3). |
 | **Business status** | Not a business yet. Free for families; cheap tests decide how it pays for itself. |
 | **Who it's for** | Every high school student. Accommodations is optional. |
 | **Next milestone** | Usability round done (aiming for Oct 2026) |
 
-Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every task: [Issues](https://github.com/sharonlafleur1984/after-graduation/issues).
+Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every task: [Project](https://github.com/users/sharonlafleur1984/projects/3).
 
 ## Needs your decision
 
@@ -31,7 +31,7 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 | What | Link |
 |---|---|
 | Code repository | [sharonlafleur1984/after-graduation](https://github.com/sharonlafleur1984/after-graduation) |
-| Tasks | [GitHub Issues](https://github.com/sharonlafleur1984/after-graduation/issues) |
+| Tasks | [Project](https://github.com/users/sharonlafleur1984/projects/3), with tasks from this repo and the design system |
 | Storybook | [Design system Storybook](https://designsystemskeleton.netlify.app/) |
 | Design system | [sharonlafleur1984/design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton) |
 | Project files (private) | [Google Drive](https://drive.google.com/drive/folders/1KV3qijRzc-j42pj-1_vRv-1etwju2hLs) |
