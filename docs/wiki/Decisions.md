@@ -1,8 +1,52 @@
 # Decisions
 
-**Last updated:** September 26, 2026
+**Last updated:** October 7, 2026
 
-Every big choice, newest first. Open one to see why.
+Every big choice, newest first. Open one to see why. Design decisions (colors, type, motion, components) live on the [design system's Decisions page](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md); the ones that shape this product are linked here.
+
+<details>
+<summary><b>Oct 7, 2026:</b> Dark mode follows the device</summary>
+
+- **Decided by:** Sharon
+- **Decision:** dark mode turns on with the device setting, with no switch in the product. After Graduation's dark mode uses warm charcoal, and the deep red stays on buttons and the header.
+- **Why:** following the device is what people expect and needs nothing to build. Neutral dark keeps the red meaningful.
+- **Still to do:** the app updates to the design system version that has dark mode.
+- **Details:** [design system Decisions](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), [#28](https://github.com/sharonlafleur1984/design-system-skeleton/pull/28), [#29](https://github.com/sharonlafleur1984/design-system-skeleton/pull/29)
+
+</details>
+
+<details>
+<summary><b>Oct 6, 2026:</b> Install the design system from GitHub, pinned to a version</summary>
+
+- **Decided by:** Sharon
+- **Decision:** this app installs the design system straight from GitHub, pinned to a version. Updating it is its own pull request. Every component is built in the design system first; this repo only arranges components on a page and owns the data.
+- **Why:** it builds the same on a laptop, in tests and on Netlify, and the app always knows which version it was built on.
+- **Other options considered:** pointing at the folder next door (only works on one laptop); publishing to npm (a release step for every change).
+- **Details:** [design system Decisions](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), [#36](https://github.com/sharonlafleur1984/after-graduation/pull/36) (pinned to v0.2.0)
+
+</details>
+
+<details>
+<summary><b>Oct 6, 2026:</b> Start the React rebuild before the usability results</summary>
+
+- **Decided by:** Sharon
+- **Decision:** set up React, Storybook and tests now, in Claude Code on Sharon's own computer, instead of waiting for the usability sessions.
+- **Why:** Storybook needs to run locally, and the setup doesn't depend on what families say.
+- **Trade-off:** pages built before the sessions may need changes once the findings are in.
+- **Details:** [#13](https://github.com/sharonlafleur1984/after-graduation/issues/13), [#35](https://github.com/sharonlafleur1984/after-graduation/pull/35)
+
+</details>
+
+<details>
+<summary><b>Oct 4, 2026:</b> Build interactive parts on React Aria Components</summary>
+
+- **Decided by:** Sharon
+- **Decision:** accordion rows, tabs, the bottom navigation, dialogs and date pickers are built on React Aria Components, styled with design tokens. One library everywhere.
+- **Why:** the planner is built around dates, and some students have an IEP or 504 plan. React Aria is tested with real screen readers, including its date pickers.
+- **Other options considered:** Base UI (no date components, focus left to us). Radix was ruled out because updates slowed.
+- **Details:** [#34](https://github.com/sharonlafleur1984/after-graduation/issues/34), [design system Decisions](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md)
+
+</details>
 
 <details>
 <summary><b>Sep 26, 2026:</b> A free, self-serve planner for families</summary>
