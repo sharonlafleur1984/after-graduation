@@ -1,6 +1,8 @@
 # After Graduation
 
-An anime-inspired planning tool that helps high school students with learning differences explore life after graduation: compare schools, plan how to pay for them, and track every deadline through graduation.
+An anime-inspired planning tool that helps every high school student explore life after graduation: compare schools, plan how to pay for them, and track every deadline through graduation.
+
+It leans heavily toward students with IEP and 504 accommodations, because most planning software drops that ball. That makes it a passion project.
 
 > **Status:** building the product has started. The working planner is still the single-file prototype in `prototype/`, with sample data. The product is being built in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/design-system-skeleton).
 
