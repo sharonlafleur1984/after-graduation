@@ -1,8 +1,18 @@
 # Decisions
 
-**Last updated:** October 7, 2026
+**Last updated:** October 11, 2026
 
 Every big choice, newest first. Open one to see why. Design system decisions (colors, type, motion, components, dark mode, React Aria) live on the [design system's Decisions page](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), not here.
+
+<details>
+<summary><b>Oct 11, 2026:</b> Link the latest prototype publicly</summary>
+
+- **Decided by:** Sharon
+- **Decision:** the portfolio links to the latest prototype at [afterhighschool.netlify.app](https://afterhighschool.netlify.app/), so hiring managers see the newest work in one click. This replaces the Sep 25 lock-down.
+- **Checked:** The live site was accessible without a password and returned its normal page, with no password prompt, when checked on October 11, 2026.
+- **Trade-off:** the latest prototype is public. The older sample-data version stays on [GitHub Pages](https://sharonlafleur1984.github.io/after-graduation/prototype/) as a "before."
+
+</details>
 
 <details>
 <summary><b>Oct 6, 2026:</b> Install the design system from GitHub, pinned to a version</summary>
@@ -104,7 +114,7 @@ Every big choice, newest first. Open one to see why. Design system decisions (co
 - **Decided by:** Sharon
 - **Decision:** Netlify password protection, plus a "don't show in search" tag and robots.txt.
 - **Why:** the evaluation found the personal site was readable by anyone.
-- **Still to do:** check Google for old copies ([Issue #10](https://github.com/sharonlafleur1984/after-graduation/issues/10)).
+- **Replaced** on Oct 11, 2026: the latest prototype is now linked publicly. [Issue #10](https://github.com/sharonlafleur1984/after-graduation/issues/10) closed.
 
 </details>
 
