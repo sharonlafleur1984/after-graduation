@@ -4,7 +4,7 @@ An anime-inspired planning tool that helps every high school student explore lif
 
 It leans heavily toward students with IEP and 504 accommodations, because most planning software drops that ball. That makes it a passion project.
 
-**[Try the prototype](https://afterhighschool.netlify.app/)**: one click, nothing to install. Sample data only.
+**[Try the prototype](https://sharonlafleur1984.github.io/after-graduation/prototype/)**: one click, nothing to install. Sample data only.
 
 > **This is a work in progress.** In this day of AI design, things are moving fast, and I'm moving a million miles a minute to get relevant design experience for this new age as I look for my next career opportunity. I'd love to share what I'm learning with whoever I end up with next. You can see the whole thing in all its messy glory, but don't expect it to be polished.
 
@@ -20,7 +20,7 @@ It leans heavily toward students with IEP and 504 accommodations, because most p
 
 ## Run it
 
-**The prototype:** [open it here](https://afterhighschool.netlify.app/). Progress saves on your device.
+**The prototype:** [open it here](https://sharonlafleur1984.github.io/after-graduation/prototype/). Progress saves on your device.
 
 **The product:**
 
