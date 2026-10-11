@@ -30,7 +30,7 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 
 | What | Link |
 |---|---|
-| Prototype | [Live prototype](https://sharonlafleur1984.github.io/after-graduation/prototype/), sample data |
+| Prototype | [Live prototype](https://afterhighschool.netlify.app/), sample data |
 | Code repository | [sharonlafleur1984/after-graduation](https://github.com/sharonlafleur1984/after-graduation) |
 | Tasks | [Project](https://github.com/users/sharonlafleur1984/projects/3), with tasks from this repo and the design system |
 | Storybook | [Design system Storybook](https://designsystemskeleton.netlify.app/) |
