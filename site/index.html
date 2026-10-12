@@ -1679,8 +1679,11 @@ header.top .chap[aria-selected="true"] .lens-art{filter:blur(10px)}
 @media (max-width:839px){:root{--layout-sheet-inset:0px;--layout-sheet-overlap:2rem}}
 @media (max-width:599px){:root{--layout-sheet-overlap:1.5rem}}
 header.top{margin-left:calc(50% - 50vw)!important;margin-right:calc(50% - 50vw)!important;margin-top:calc(-1 * var(--layout-gutter))!important;border-radius:0!important;
-  padding:48px calc(50vw - 50% + 32px) calc(var(--layout-sheet-overlap) + 40px)!important;box-shadow:none!important}
-@media (max-width:599px){header.top{padding:24px calc(50vw - 50% + 20px) calc(var(--layout-sheet-overlap) + 24px)!important}}
+  padding:48px calc(50vw - 50%) calc(var(--layout-sheet-overlap) + 24px)!important;box-shadow:none!important}
+@media (max-width:599px){header.top{padding:24px calc(50vw - 50%) calc(var(--layout-sheet-overlap) + 16px)!important}}
+#ch-explore,#ch-pay,#ch-dates{padding-top:32px!important}
+@media (min-width:1024px){main{margin-left:-40px!important;margin-right:-40px!important;padding-left:40px!important;padding-right:40px!important;border-radius:var(--layout-sheet-radius) var(--layout-sheet-radius) 0 0!important}}
+@media (max-width:599px){#ch-explore,#ch-pay,#ch-dates{padding-top:24px!important}}
 main{position:relative;z-index:2;margin-top:calc(-1 * var(--layout-sheet-overlap));
   margin-left:calc(50% - 50vw + var(--layout-sheet-inset));margin-right:calc(50% - 50vw + var(--layout-sheet-inset));
   padding-left:calc(50vw - 50% - var(--layout-sheet-inset));padding-right:calc(50vw - 50% - var(--layout-sheet-inset));
@@ -1709,12 +1712,114 @@ ul.todo li .acc-panel p:last-child{margin-bottom:8px}
 /* The chevron takes the task line's height (so it never makes the row taller); its tap area stays 44px via ::after */
 :is(.tracker.junior,.tracker.senior,.chapter) ul.todo li label > button.jr-acc{height:21px!important;width:32px!important;padding:0!important}
 :is(.tracker.junior,.tracker.senior,.chapter) ul.todo li label > button.jr-acc::after{inset:-12px -6px!important}
+
+/* One continuous scene: the header's red, rays and light run behind the whole page (Oct 11 2026) */
+html{background:var(--red-deep)!important}
+body{background:transparent!important}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:radial-gradient(ellipse 125% 140% at 116% 39%,rgba(60,0,15,0) 0%,rgba(60,0,15,.08) 35%,rgba(60,0,15,.28) 65%,rgba(60,0,15,.46) 100%),
+  linear-gradient(165deg,#D63A48 0%,var(--red) 42%,var(--red-deep) 100%)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.82;
+  background:repeating-conic-gradient(from 0deg at 116% 124px,rgba(255,255,255,.13) 0 2deg,transparent 2deg 7deg);
+  -webkit-mask-image:radial-gradient(ellipse 130% 90% at 116% 124px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%);mask-image:radial-gradient(ellipse 130% 90% at 116% 124px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%)}
+@media (max-width:599px){body::after{background:repeating-conic-gradient(from 0deg at 116% 55px,rgba(255,255,255,.13) 0 2deg,transparent 2deg 7deg);-webkit-mask-image:radial-gradient(ellipse 130% 90% at 116% 55px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%);mask-image:radial-gradient(ellipse 130% 90% at 116% 55px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%)}}
+header.top{background:transparent!important}
+header.top::before{content:none!important}
+header.top > .falloff{display:none!important}
+html[data-reduce-motion] body::after{opacity:.6}
+
+/* Settings: the look each setting changes */
+html[data-reduce-motion] *,html[data-reduce-motion] *::before,html[data-reduce-motion] *::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+html[data-reduce-motion] .petals{display:none!important}
+html[data-more-contrast]{--soft:var(--ink);--line:#8E5560;--hair:#B98089}
+html[data-more-contrast] .hint,html[data-more-contrast] .yr-sub,html[data-more-contrast] .drag-note{color:var(--ink)!important}
+html[data-solid] *{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+html[data-textsize="125"] .wrap{zoom:1.25}html[data-textsize="150"] .wrap{zoom:1.5}html[data-textsize="175"] .wrap{zoom:1.75}html[data-textsize="200"] .wrap{zoom:2}
+html[data-spacing="wide"] body{letter-spacing:.05em;word-spacing:.1em}
+html[data-spacing="wide"] p,html[data-spacing="wide"] li{line-height:1.75}
+html[data-spacing="extra"] body{letter-spacing:.12em;word-spacing:.16em}
+html[data-spacing="extra"] p,html[data-spacing="extra"] li{line-height:2}
+html[data-no-underline] main a{text-decoration:none!important}
+/* Small targets reach at least 24px; Comfortable makes them 44px on touch */
+button.jr-acc,.jr-view{min-height:24px;min-width:32px}
+.chapter a[target="_blank"]{display:inline-block;min-height:24px;line-height:24px}
+@media (pointer:coarse){html[data-density="comfortable"] button.jr-acc,html[data-density="comfortable"] .jr-view{min-height:44px;min-width:44px}
+html[data-density="comfortable"] .chapter a[target="_blank"]{min-height:44px;line-height:44px}}
+/* Settings button and dialog */
+.set-btn{position:absolute;top:54px;right:max(24px,calc(50% - 436px));z-index:5;display:grid;place-items:center;width:48px;height:48px;padding:0;border:none;border-radius:50%;color:#fff;cursor:pointer;
+  background:linear-gradient(rgba(255,255,255,.05),rgba(255,255,255,.05)),rgba(60,0,15,.2);box-shadow:0 6px 18px rgba(60,0,15,.28);
+  -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+.set-btn svg{position:relative;z-index:1;width:22px;height:22px;filter:drop-shadow(0 1px 3px rgba(60,0,15,.4))}
+.set-btn:hover{background:linear-gradient(rgba(255,255,255,.15),rgba(255,255,255,.15)),rgba(60,0,15,.3)}
+.set-btn:focus-visible{outline:3px solid #fff;outline-offset:3px}
+html[data-solid] .set-btn{background:var(--red-deep)}
+@media (max-width:599px){.set-btn{top:16px;right:16px}}
+dialog.set-dlg{width:min(860px,calc(100vw - 32px));height:min(640px,calc(100vh - 32px));max-height:min(640px,calc(100vh - 32px));padding:0;border:none;border-radius:24px;background:var(--panel);color:var(--ink);box-shadow:0 30px 80px rgba(42,20,24,.35);overflow:hidden}
+dialog.set-dlg::backdrop{background:rgba(42,20,24,.45)}
+.set-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px 14px 24px;border-bottom:1px solid var(--hair)}
+.set-head h2{margin:0;font-size:24px}
+.set-head h2:focus{outline:none}
+.set-close{min-width:44px;min-height:44px;border-radius:999px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink);font-size:20px;cursor:pointer}
+.set-close:focus-visible,.set-nav button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.set-body{display:grid;grid-template-columns:200px 1fr;height:calc(100% - 78px)}
+.set-nav{border-right:1px solid var(--hair);padding:14px 10px;overflow:auto}
+.set-nav ul{list-style:none;margin:0;padding:0}
+.set-nav button{display:block;width:100%;text-align:left;min-height:44px;padding:0 14px;border:none;border-radius:12px;background:none;color:var(--ink);font:inherit;font-weight:600;cursor:pointer}
+.set-nav button[aria-current="true"]{background:var(--chip);color:var(--red-deep)}
+html[data-theme="dark"] .set-nav button[aria-current="true"]{color:var(--ink)}
+.set-panes{overflow:auto;padding:8px 24px 28px}
+.set-sec{padding-top:14px}
+.set-sec h3{font-size:19px;margin:6px 0 4px}
+.set-sec>p.hint{margin:0 0 10px}
+.set-row{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 0;border-bottom:1px solid var(--hair);margin:0;min-inline-size:0}
+fieldset.set-row{border:none;border-bottom:1px solid var(--hair);padding:14px 0}
+.set-row legend,.set-row .set-label{font-weight:700;float:left;padding:0}
+.set-row .set-note{display:block;font-weight:400;font-size:14px;color:var(--soft);margin-top:2px}
+.set-seg{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;padding:3px;gap:2px;flex-wrap:wrap}
+.set-seg label{position:relative;display:inline-flex;align-items:center;min-height:40px;padding:0 14px;border-radius:999px;cursor:pointer;font-weight:600;font-size:15px}
+.set-seg input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.set-seg input:checked+span{color:#fff}
+.set-seg label:has(input:checked){background:var(--red-deep)}
+.set-seg label:has(input:focus-visible){outline:3px solid var(--red);outline-offset:2px}
+.set-row select{font:inherit;min-height:44px;padding:0 12px;border-radius:12px;border:1.5px solid var(--line);background:var(--panel);color:var(--ink)}
+.set-switch{appearance:none;-webkit-appearance:none;width:52px;height:30px;border-radius:999px;background:#9C8A8E;position:relative;cursor:pointer;margin:0;flex:none}
+.set-switch::after{content:"";position:absolute;top:3px;left:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:left .15s}
+.set-switch:checked{background:var(--red-deep)}
+.set-switch:checked::after{left:25px}
+.set-switch:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.set-later{margin:18px 0 0;padding:14px 16px;border-radius:14px;background:var(--chip);font-size:15px}
+@media (max-width:600px){.set-body{grid-template-columns:1fr;grid-template-rows:auto 1fr}.set-nav{border-right:none;border-bottom:1px solid var(--hair);padding:8px 12px}.set-nav ul{display:flex;gap:6px}.set-nav button{width:auto;text-align:center}.set-panes{padding:4px 18px 24px}}
 </style>
+<script>
+(function(){
+  var K="ahs-settings",d=document.documentElement,mm=function(q){return window.matchMedia&&matchMedia(q).matches};
+  function get(){try{return JSON.parse(localStorage.getItem(K)||"{}")}catch(e){return {}}}
+  function tri(v,q){return v==="on"?true:v==="off"?false:mm(q)}
+  window.__ahsGet=get;
+  window.__ahsReduce=function(){return tri(get().motion||"device","(prefers-reduced-motion: reduce)")};
+  window.__ahsNoCelebrate=function(){var g=get(),c=g.celebrate||"device";return c==="off"||(c==="device"&&window.__ahsReduce())};
+  window.__ahsApply=function(){
+    var g=get();
+    if(g.theme==="light"||g.theme==="dark") d.setAttribute("data-theme",g.theme); else d.removeAttribute("data-theme");
+    d.toggleAttribute("data-reduce-motion",window.__ahsReduce());
+    d.toggleAttribute("data-more-contrast",tri(g.contrast||"device","(prefers-contrast: more)"));
+    d.toggleAttribute("data-solid",tri(g.transparency||"device","(prefers-reduced-transparency: reduce)"));
+    d.setAttribute("data-textsize",g.textsize||"100");
+    d.setAttribute("data-spacing",g.spacing||"normal");
+    d.toggleAttribute("data-no-underline",g.underline==="off");
+    d.setAttribute("data-density",g.density||"comfortable");
+    if(typeof reduce!=="undefined"){try{reduce=window.__ahsReduce()}catch(e){}}
+  };
+  window.__ahsApply();
+})();
+</script>
 </head>
 <body>
 <div class="petals" aria-hidden="true" id="petals"></div>
 <div class="wrap">
+<dialog class="set-dlg" id="settings" aria-labelledby="set-title"><div class="set-head"><h2 id="set-title" tabindex="-1">Settings</h2><button type="button" class="set-close" id="set-close" aria-label="Close settings">✕</button></div><div class="set-body"><nav class="set-nav" aria-label="Settings sections"><ul><li><button type="button" data-set-go="set-appearance" aria-current="true">Appearance</button></li><li><button type="button" data-set-go="set-access">Accessibility</button></li></ul></nav><div class="set-panes" id="set-panes"><section class="set-sec" id="set-appearance" aria-labelledby="set-h-app"><h3 id="set-h-app">Appearance</h3><fieldset class="set-row"><legend>Theme</legend><div class="set-seg"><label><input type="radio" name="theme" value="device" data-default><span>Match device</span></label><label><input type="radio" name="theme" value="light"><span>Light</span></label><label><input type="radio" name="theme" value="dark"><span>Dark</span></label></div></fieldset></section><section class="set-sec" id="set-access" aria-labelledby="set-h-acc" hidden><h3 id="set-h-acc">Accessibility</h3><p class="hint">Changes apply right away and save on this device.</p><fieldset class="set-row"><legend>Reduce motion<span class="set-note">Stops moving cars and page animations.</span></legend><div class="set-seg"><label><input type="radio" name="motion" value="device" data-default><span>Match device</span></label><label><input type="radio" name="motion" value="on"><span>On</span></label><label><input type="radio" name="motion" value="off"><span>Off</span></label></div></fieldset><fieldset class="set-row"><legend>Celebrations<span class="set-note">Confetti and petals when you finish something.</span></legend><div class="set-seg"><label><input type="radio" name="celebrate" value="device" data-default><span>Match device</span></label><label><input type="radio" name="celebrate" value="on"><span>On</span></label><label><input type="radio" name="celebrate" value="off"><span>Off</span></label></div></fieldset><fieldset class="set-row"><legend>Increase contrast<span class="set-note">Darker text and borders.</span></legend><div class="set-seg"><label><input type="radio" name="contrast" value="device" data-default><span>Match device</span></label><label><input type="radio" name="contrast" value="on"><span>On</span></label><label><input type="radio" name="contrast" value="off"><span>Off</span></label></div></fieldset><fieldset class="set-row"><legend>Reduce transparency<span class="set-note">Solid backgrounds instead of glass.</span></legend><div class="set-seg"><label><input type="radio" name="transparency" value="device" data-default><span>Match device</span></label><label><input type="radio" name="transparency" value="on"><span>On</span></label><label><input type="radio" name="transparency" value="off"><span>Off</span></label></div></fieldset><div class="set-row"><label class="set-label" for="set-textsize">Text size</label><select id="set-textsize" name="textsize"><option value="100">100%</option><option value="125">125%</option><option value="150">150%</option><option value="175">175%</option><option value="200">200%</option></select></div><fieldset class="set-row"><legend>Text spacing<span class="set-note">More room between letters, words and lines.</span></legend><div class="set-seg"><label><input type="radio" name="spacing" value="normal" data-default><span>Normal</span></label><label><input type="radio" name="spacing" value="wide"><span>Wide</span></label><label><input type="radio" name="spacing" value="extra"><span>Extra wide</span></label></div></fieldset><div class="set-row"><label class="set-label" for="set-underline">Underline links</label><input type="checkbox" role="switch" class="set-switch" id="set-underline" name="underline"></div><fieldset class="set-row"><legend>Button size<span class="set-note">Comfortable makes buttons bigger on touch screens.</span></legend><div class="set-seg"><label><input type="radio" name="density" value="comfortable" data-default><span>Comfortable</span></label><label><input type="radio" name="density" value="compact"><span>Compact</span></label></div></fieldset></section></div></div></dialog>
   <header class="top"><span class="falloff" aria-hidden="true"></span>
+    <button type="button" class="set-btn" id="set-open" aria-haspopup="dialog" aria-label="Settings" title="Settings"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
     <svg class="circle" viewBox="0 0 200 200" aria-hidden="true" fill="none" stroke="currentColor">
       <circle cx="100" cy="100" r="96" stroke-width="2"/><circle cx="100" cy="100" r="84" stroke-width="1" stroke-dasharray="3 5"/>
       <circle cx="100" cy="100" r="58" stroke-width="2"/>
@@ -1728,10 +1833,10 @@ ul.todo li .acc-panel p:last-child{margin-bottom:8px}
   </header>
   <main>
     <section class="chapter" id="ch-explore" role="tabpanel" aria-labelledby="chap-explore" style="--c:var(--c-overview)">
-      <h2 class="fin-h">Select Your Schools</h2>
-      <h3 class="sec season-h"><button type="button" class="season-toggle" data-season="s1" aria-expanded="true" aria-controls="season-s1"><span class="chev" aria-hidden="true"></span>Season 1: High School</button></h3>
+      <h2 class="fin-h">Schools</h2>
+      <h3 class="sec season-h"><button type="button" class="season-toggle" data-season="s1" aria-expanded="true" aria-controls="season-s1"><span class="chev" aria-hidden="true"></span>Season 1: High school</button></h3>
       <div class="season-body" id="season-s1"><div data-senior></div></div>
-      <h3 class="sec season-h"><button type="button" class="season-toggle" data-season="s2" aria-expanded="true" aria-controls="season-s2"><span class="chev" aria-hidden="true"></span>Season 2: After Graduation</button></h3>
+      <h3 class="sec season-h"><button type="button" class="season-toggle" data-season="s2" aria-expanded="true" aria-controls="season-s2"><span class="chev" aria-hidden="true"></span>Season 2: After graduation</button></h3>
       <div class="season-body" id="season-s2">
       <div class="contender-card">
         <div class="tracker-slot" id="tracker-explore"></div>
@@ -1989,7 +2094,7 @@ function getSlots(){let a=[];try{a=JSON.parse(store.get("chase-picks")||"[]")}ca
 function getPicks(){return getSlots().filter(Boolean)}
 function setPicks(p){store.set("chase-picks",JSON.stringify(p))}
 
-const CHAPTERS=[["explore","Episode 1","Select Your Schools","Select your favorites"],["pay","Episode 2","Financial Planning","How will you pay for it?"],["dates","Episode 3","Important Dates","What's next, step by step"]];
+const CHAPTERS=[["explore","Episode 1","Schools","Select your favorites"],["pay","Episode 2","Financial planning","How will you pay for it?"],["dates","Episode 3","Important dates","What's next, step by step"]];
 const GROUPS=[["Trade school",["slcc","mtech"]],["University: live at home",["uvu"]],["University: dorm",["usu"]]];
 const ALL=[{id:"all",color:"--c-overview",short:"All schools",kind:"Cost, drive, and fit"}].concat(SCHOOLS);
 function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
@@ -2005,8 +2110,8 @@ function accHTML(id){
   return `<h3 class="sec">Accommodations</h3>
   <p class="acc-yes"><span class="ok-badge">✓ Available</span> ${esc(a.yes)}</p>
   <div class="acc-grid">
-    <div><h4>What They Offer</h4><ul>${a.offers.map(o=>`<li>${esc(o)}</li>`).join("")}</ul></div>
-    <div><h4>How to Get Them</h4><ol>${a.how.map(o=>`<li>${esc(o)}</li>`).join("")}</ol></div>
+    <div><h4>What they offer</h4><ul>${a.offers.map(o=>`<li>${esc(o)}</li>`).join("")}</ul></div>
+    <div><h4>How to get them</h4><ol>${a.how.map(o=>`<li>${esc(o)}</li>`).join("")}</ol></div>
   </div>
   <div class="acc-foot"><a class="acc-link" href="${a.link[1]}" target="_blank" rel="noopener">${esc(a.link[0])}</a><span class="acc-contact">${linkify(a.office)}</span></div>`;
 }
@@ -2032,7 +2137,7 @@ function aidList(list){return `<ul class="aid">${list.map(a=>`<li><div class="ai
 function totalBox(t,attr){return `<div class="aid-total" ${attr||""}><div class="aid-top"><b>Possible aid</b><span class="amt">${esc(t[0])}</span></div><span class="aid-note">${esc(t[1])}</span></div>`;}
 function aidBlock(list,t,net,attr){
   return `<div ${attr||""}>
-    <div class="aid-head"><h4 class="sub">Aid You Could Qualify For</h4>${t?`<span class="aid-sum">${esc(t[0])}</span>`:""}</div>
+    <div class="aid-head"><h4 class="sub">Aid you could qualify for</h4>${t?`<span class="aid-sum">${esc(t[0])}</span>`:""}</div>
     <div class="callout good"><span class="ci" aria-hidden="true">✦</span><div><strong>If you qualify.</strong> ${esc(net)}</div></div>
     ${aidList(list)}
   </div>`;
@@ -2041,7 +2146,7 @@ function finHTML(id){
   const f=FIN[id]; if(!f) return "";
   const NETV={we:"About $6,500 a year if federal aid applies.",pa:"With a full Pell Grant, tuition could be about $0, plus the Passages cost."};
   const aid=f.aidV?Object.entries(f.aidV).map(([v,l])=>aidBlock(l,f.totalV[v],NETV[v]||f.net,`data-v="${v}"`)).join(""):aidBlock(f.aid,f.total,f.net);
-  return `<h4 class="sub">What It Costs</h4>
+  return `<h4 class="sub">What it costs</h4>
   <table class="fin"><tbody>${f.costs.map(c=>`<tr><th scope="row">${esc(c[0])}</th><td>${esc(c[1])}</td></tr>`).join("")}</tbody></table>
   <div style="margin-top:22px">${aid}</div>
   <p class="hint" style="margin-top:12px">Every amount depends on the FAFSA and each program's rules. Aid can't be more than the full cost of attending.</p>`;
@@ -2144,7 +2249,7 @@ function schoolPanel(s){
         ${callouts?`<div>${callouts}</div>`:""}
         <div class="ov-row">
           <section class="ov-card">
-            <h3 class="ov-h">The Basics</h3>
+            <h3 class="ov-h">The basics</h3>
             <dl class="meta">
               <dt>Type</dt><dd>${esc(s.cat)}</dd>
               <dt>Location</dt><dd>${esc((CAMP[s.id]||[s.where])[0])}${campusHTML(s.id)}</dd>
@@ -2152,17 +2257,17 @@ function schoolPanel(s){
             </dl>
           </section>
           <section class="ov-card">
-            <h3 class="ov-h">Clubs &amp; Activities</h3>
+            <h3 class="ov-h">Clubs and activities</h3>
             <ul class="links">${(ACTL[s.id]||[]).map(a=>`<li><a href="${a[1]}" target="_blank" rel="noopener">${esc(a[0])}</a></li>`).join("")}</ul>
           </section>
         </div>
         <section class="ov-card">
-          <h3 class="ov-h">The Benefits</h3>
+          <h3 class="ov-h">The benefits</h3>
           ${progHTML(s)}
           <p class="hint" style="margin-top:8px">Dates assume you start right after graduation, in fall 2028.</p>
         </section>
         <section class="top3box">
-          <h3 class="ov-h"><span class="ci" aria-hidden="true">✦</span>Top 3 Reasons to Pick It</h3>
+          <h3 class="ov-h"><span class="ci" aria-hidden="true">✦</span>Top 3 reasons to pick it</h3>
           ${(s.variants||[{id:""}]).map(v=>reasons3HTML((v.qa&&v.qa[9])||s.qa[9][1],v.id?`data-v="${v.id}"`:"")).join("")}
         </section>
         <section class="ov-card mytake">
@@ -2201,7 +2306,7 @@ function comparePanel(){
   const head=`<tr><th></th>${cols.map(c=>`<th scope="col"><span class="dot" style="background:${CARCOLOR[c.s.id]||"var("+c.s.color+")"}"></span><span class="cmp-name">${esc(c.s.short)}</span><br><span class="hint">${esc(GROUPS.find(g=>g[1].includes(c.s.id))[0])}</span></th>`).join("")}</tr>`;
   const body=rows.map(([label,f,raw])=>`<tr><th scope="row">${esc(label)}</th>${cols.map(c=>`<td>${raw?f(c):esc(f(c))}</td>`).join("")}</tr>`).join("");
   return `
-  <h3 class="sec">Compare All Schools</h3>
+  <h3 class="sec">Compare all schools</h3>
   <p class="cmp-swipe">Swipe sideways to see every school →</p><div class="table-wrap"><table class="compare">
     <thead>${head}</thead>
     <tbody>${body}</tbody>
@@ -2233,8 +2338,8 @@ function datesPanel(){
   });
   if(!todayDone) rows+=todayRow;
   const victory = mainRows!==null ? rows : ""; if(mainRows!==null) rows=mainRows;
-  return `<h2 class="fin-h">Important Dates</h2>
-  <h3 class="sec season-h road-h"><button type="button" class="season-toggle" data-season="road" aria-expanded="true" aria-controls="season-road"><span class="chev" aria-hidden="true"></span>Road to Graduation</button></h3>
+  return `<h2 class="fin-h">Important dates</h2>
+  <h3 class="sec season-h road-h"><button type="button" class="season-toggle" data-season="road" aria-expanded="true" aria-controls="season-road"><span class="chev" aria-hidden="true"></span>Road to graduation</button></h3>
   <div class="season-body" id="season-road"><p class="hint sec-desc">Every deadline from now through graduation.</p>
   <div class="ns-head">
     <section class="card race-card"><div class="rc-head"><h3>Let's track your progress</h3><span class="rp-count" id="tl-count"></span></div>
@@ -2243,7 +2348,7 @@ function datesPanel(){
   <article class="sheet" style="--c:var(--red)">
     <div class="part"><ol class="timeline">${rows}</ol>${victory?`<div class="tl-finish-bar"><span><i class="fin-check" aria-hidden="true">✓</i>Finish line: Graduation!</span></div>`:""}</div>
   </article></div>
-  ${victory?`<h3 class="sec season-h vl-sec"><button type="button" class="season-toggle" data-season="victory" aria-expanded="true" aria-controls="season-victory"><span class="chev" aria-hidden="true"></span>Victory Laps</button></h3><div class="season-body" id="season-victory"><p class="hint vl-sub2">After graduation. Keep the momentum going!</p><article class="sheet victory-sheet" style="--c:var(--red)"><div class="part"><ol class="timeline">${victory}</ol></div></article></div>`:""}`;
+  ${victory?`<h3 class="sec season-h vl-sec"><button type="button" class="season-toggle" data-season="victory" aria-expanded="true" aria-controls="season-victory"><span class="chev" aria-hidden="true"></span>Victory laps</button></h3><div class="season-body" id="season-victory"><p class="hint vl-sub2">After graduation. Keep the momentum going!</p><article class="sheet victory-sheet" style="--c:var(--red)"><div class="part"><ol class="timeline">${victory}</ol></div></article></div>`:""}`;
 }
 
 function nextDue(n,filter){
@@ -2293,12 +2398,12 @@ const TERMS=[["Accommodations", "Changes that help you learn, like extra test ti
 let termFilter="All";
 function termsHTML(){
   const cats=["All","Money","School","Support","Career"];
-  return `<h3 class="sec season-h"><button type="button" class="season-toggle" data-season="terms" aria-expanded="true" aria-controls="season-terms"><span class="chev" aria-hidden="true"></span>Important Terms</button></h3><div class="season-body" id="season-terms"><p class="hint terms-sub">Words you may not know yet.</p>
+  return `<h3 class="sec season-h"><button type="button" class="season-toggle" data-season="terms" aria-expanded="true" aria-controls="season-terms"><span class="chev" aria-hidden="true"></span>Important terms</button></h3><div class="season-body" id="season-terms"><p class="hint terms-sub">Words you may not know yet.</p>
   <div class="tl-filter term-filter" role="group" aria-label="Filter terms">${cats.map(c=>`<button type="button" data-termf="${c}" aria-pressed="${c===termFilter}">${c}</button>`).join("")}</div>
-  <section class="term-group"><div class="term-grid">${TERMS.map((t,i)=>`<button type="button" class="flip" data-tg="${t[2]}" aria-pressed="false" aria-label="${esc(t[0])}. Tap to see the meaning."><span class="flip-in"><span class="face f-front"><b>${esc(t[0])}</b><i class="flip-hint" aria-hidden="true">Tap to flip</i></span><span class="face f-back"><b>${esc(t[0])}</b><span class="def">${t[1]}</span><i class="flip-hint" aria-hidden="true">Tap to flip</i></span></span></button>`).join("")}</div></section></div>`;
+  <section class="term-group"><div class="term-grid">${TERMS.map((t,i)=>`<button type="button" class="flip" data-tg="${t[2]}" aria-pressed="false" aria-label="${esc(t[0])}. Select to see the meaning."><span class="flip-in"><span class="face f-front"><b>${esc(t[0])}</b><i class="flip-hint" aria-hidden="true">Flip</i></span><span class="face f-back"><b>${esc(t[0])}</b><span class="def">${t[1]}</span><i class="flip-hint" aria-hidden="true">Flip</i></span></span></button>`).join("")}</div></section></div>`;
 }
 document.addEventListener("click",e=>{
-  const f=e.target.closest(".flip"); if(f){ const on=f.getAttribute("aria-pressed")!=="true"; f.setAttribute("aria-pressed",String(on)); f.setAttribute("aria-label",f.querySelector(".f-front b").textContent+(on?". "+f.querySelector(".def").textContent:". Tap to see the meaning.")); setTimeout(sizeTerms,0); return; }
+  const f=e.target.closest(".flip"); if(f){ const on=f.getAttribute("aria-pressed")!=="true"; f.setAttribute("aria-pressed",String(on)); f.setAttribute("aria-label",f.querySelector(".f-front b").textContent+(on?". "+f.querySelector(".def").textContent:". Select to see the meaning.")); setTimeout(sizeTerms,0); return; }
   const c=e.target.closest("[data-termf]"); if(c){ holdPlace(c.closest(".term-filter"),()=>{ termFilter=c.dataset.termf; document.querySelectorAll("[data-termf]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.termf===termFilter))); document.querySelectorAll(".term-grid .flip").forEach(fl=>fl.hidden=!(termFilter==="All"||fl.dataset.tg===termFilter)); }); }
 });
 function startPanel(){
@@ -2306,19 +2411,19 @@ function startPanel(){
   <section class="band">
     <h2>How to use this</h2>
     <ol class="steps">
-      <li>Go to <strong>Select Your Schools</strong> and read about each one.</li>
+      <li>Go to <strong>Schools</strong> and read about each one.</li>
       <li>On a school you like, write your answers to <strong>questions 7 and 9</strong>.</li>
       <li>Press <strong>Add to my top 2</strong> at the bottom of that page.</li>
       <li>Do this for 2 schools of 2 different types, like one trade school and one university. Your favorite goes in front.</li>
       <li>Come back here and write your wrap up about your first-place school.</li>
     </ol>
   </section>
-  <h3 class="sec">Season 1: High School</h3>
+  <h3 class="sec">Season 1: High school</h3>
   <div data-senior></div>
-  <h3 class="sec">Season 2: After Graduation</h3>
+  <h3 class="sec">Season 2: After graduation</h3>
   <div class="tracker-slot" id="picklist"></div>
 
-  <h3 class="sec">Important Terms</h3><p class="hint terms-sub">Words you may not know yet.</p>
+  <h3 class="sec">Important terms</h3><p class="hint terms-sub">Words you may not know yet.</p>
   <div class="grid2">
     <div class="card"><dl class="words">
       <dt>Tuition</dt><dd>The price you pay to take classes.</dd>
@@ -2350,7 +2455,7 @@ function financePanel(){
     return `<li class="${on?'done':''}"><label><input type="checkbox" data-step="${k}" ${on?'checked':''}><span class="when">${esc(s[0])}</span><span class="what">${esc(s[1])} <a href="${s[2]}" target="_blank" rel="noopener">${esc(s[3])}</a></span></label></li>`;
   }).join("");
   return `
-  <h2 class="fin-h">Financial Planning</h2>
+  <h2 class="fin-h">Financial planning</h2>
   <h3 class="sec gpa-sec">Your GPA so far</h3>
   <div class="card gpa-card">
     <div class="gpa-row"><div class="gpa-medal"><svg class="gpa-medal-svg" viewBox="0 0 120 150" aria-hidden="true" focusable="false">
@@ -2422,7 +2527,7 @@ function financePanel(){
   </section></div>
 
   <h3 class="sec season-h"><button type="button" class="season-toggle" data-season="moneydl" aria-expanded="true" aria-controls="season-moneydl"><span class="chev" aria-hidden="true"></span>Money deadlines</button></h3><div class="season-body" id="season-moneydl">
-  <div class="desc-row"><p class="hint">These also appear in Important Dates. Checking one off here checks it there too.</p><button type="button" class="btn2 seeall-top" data-seeall>See all deadlines <span aria-hidden="true">→</span></button></div>
+  <div class="desc-row"><p class="hint">These also appear in Important dates. Checking one off here checks it there too.</p><button type="button" class="btn2 seeall-top" data-seeall>See all deadlines <span aria-hidden="true">→</span></button></div>
   <ul class="todo">${EVENTS.filter(e=>e[5]==="Money").map(e=>{const on=store.get(e[6])==="1"; return `<li class="${on?'done':''}"><label><input type="checkbox" data-step="${e[6]}" ${on?'checked':''}><span class="when">${esc(e[1])} ${e[2]}${e[7]?' <span class="check">Estimate</span>':''}</span><span class="what">${esc(e[3])}</span><a href="#" class="jr-view" data-tljump="${e[6]}">View task</a></label></li>`;}).join("")}</ul></div>
 `;
 }
@@ -2480,9 +2585,9 @@ document.querySelectorAll(".money-group .card[data-mid]").forEach(c=>{
   if(amt) front.appendChild(amt);
   if(est){ const w=document.createElement("div"); w.className="m-est"; w.appendChild(est); front.appendChild(w); }
   const nm=(h3.textContent||"").trim();
-  front.insertAdjacentHTML("beforeend",`<button type="button" class="flip-hint m-flipbtn" data-mflip aria-pressed="false" aria-label="More info about ${esc(nm)}">Tap for more info</button>`);
+  front.insertAdjacentHTML("beforeend",`<button type="button" class="flip-hint m-flipbtn" data-mflip aria-pressed="false" aria-label="More info about ${esc(nm)}">More info</button>`);
   back.appendChild(h3); rest.forEach(el=>back.appendChild(el));
-  back.insertAdjacentHTML("beforeend",`<button type="button" class="flip-hint m-flipbtn" data-mflip aria-label="Back to ${esc(nm)} summary">Tap to flip</button>`);
+  back.insertAdjacentHTML("beforeend",`<button type="button" class="flip-hint m-flipbtn" data-mflip aria-label="Back to ${esc(nm)} summary">Back</button>`);
   back.setAttribute("aria-hidden","true"); back.inert=true;
   inner.appendChild(front); inner.appendChild(back); c.appendChild(inner); if(x) c.appendChild(x);
   c.classList.add("mflip"); c.setAttribute("data-flipped","false");
@@ -2543,7 +2648,7 @@ function makeTab(s){
 const groupsIn=[GROUPS[0],["Compare",["all"]],GROUPS[1],GROUPS[2]];
 const navRows=[document.createElement("div"),document.createElement("div")];
 navRows[0].className="navtop"; navRows[1].className="navcars";
-{const hint=document.createElement("p");hint.className="drag-note pick-hint top-hint";hint.textContent="Click on a car to see information about that school.";navRows[0].insertBefore(hint,navRows[0].firstChild);}
+{const hint=document.createElement("p");hint.className="drag-note pick-hint top-hint";hint.textContent="Select a car to see that school's details.";navRows[0].insertBefore(hint,navRows[0].firstChild);}
 tabsEl.appendChild(navRows[1]); tabsEl.appendChild(navRows[0]);
 function addGroup(g,row,cls){
   const wrap=document.createElement("div"); wrap.className="group"+(cls?" "+cls:"");
@@ -2617,7 +2722,7 @@ function smFill(id){
   // return any panel currently in the modal to its home, then bring this one in
   body.querySelectorAll(".panel").forEach(p=>{ p.classList.remove("on"); panelsEl.appendChild(p); });
   const pn=document.getElementById("panel-"+id); if(pn){ body.appendChild(pn); pn.classList.add("on"); }
-  m.querySelector("#smodal-title").textContent=id==="all"?"Compare All Schools":(s&&s.name)||"";
+  m.querySelector("#smodal-title").textContent=id==="all"?"Compare all schools":(s&&s.name)||"";
   const k=SM_ORDER.indexOf(id), prev=m.querySelector(".sm-prev"), next=m.querySelector(".sm-next"), cmp=m.querySelector(".sm-compare");
   const inList=k>=0;
   prev.hidden=next.hidden=!inList; cmp.hidden=id==="all";
@@ -2718,9 +2823,9 @@ function arrows(el,ids,fn,prefix){
 arrows(chapEl,CHAPTERS.map(c=>c[0]),showChapter,"chap-");
 arrows(tabsEl,groupsIn.flatMap(g=>g[1]),id=>{const t=document.getElementById("tab-"+id); if(t) t.focus();},"tab-");
 
-const reduce=window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches;
+let reduce=window.__ahsReduce?window.__ahsReduce():(window.matchMedia&&matchMedia("(prefers-reduced-motion: reduce)").matches);
 function burst(el,word){
-  if(reduce||!el)return;
+  if(reduce||!el||window.__ahsNoCelebrate&&window.__ahsNoCelebrate())return;
   const r=el.getBoundingClientRect(), x=r.left+r.width/2, y=r.top+r.height/2;
   const cols=["var(--red)","var(--pink)","var(--gold)","#fff"];
   for(let i=0;i<10;i++){
@@ -2782,7 +2887,7 @@ function trackerHTML(){
   let warn="";
 
   const controls=`<div class="lane-ctl">${n>2?`<button type="button" class="linkbtn plain" data-lanes="-1">Remove lane</button>`:""}${n<4?`<button type="button" class="btn2" data-lanes="1">Add a lane</button>`:""}</div>`;
-  return `<div class="tracker"><div class="t-head"><b>Continued Education: Let's explore your options</b>${controls}</div><p class="drag-note t-note"><span class="dn-mouse">Drag a school's car onto the track to pick your winners.</span><span class="dn-touch">Press and hold a school's car, then drag it onto the track to pick your winners.</span> Tap the ✕ to pull one out of the race.</p><div class="track">${Array.from({length:n},(_,i)=>lane(i)).join("")}<div class="finish" aria-hidden="true"></div></div>${warn}</div>`;
+  return `<div class="tracker"><div class="t-head"><b>Continued education: Let's explore your options</b>${controls}</div><p class="drag-note t-note"><span class="dn-mouse">Drag a school's car onto the track to pick your winners.</span><span class="dn-touch">Press and hold a school's car, then drag it onto the track to pick your winners.</span> Select ✕ to pull one out of the race.</p><div class="track">${Array.from({length:n},(_,i)=>lane(i)).join("")}<div class="finish" aria-hidden="true"></div></div>${warn}</div>`;
 }
 let jrOpen=(store.get("chase-jr-open")??"1")==="1"; /* open on first visit, then remembered */
 const JR_KEYS=["chase-fin-step-0","chase-fin-step-1","chase-tl-ctecpick","chase-fin-step-2","chase-tl-iep27","chase-tl-solid"];
@@ -2816,7 +2921,7 @@ function juniorHTML(){
   const items=keys.map(k=>EVENTS.find(e=>e[6]===k)).filter(Boolean);
   const done=items.filter(e=>store.get(e[6])==="1").length, next=items.find(e=>store.get(e[6])!=="1");
   const yp=yearProgress(items,"2026-08-15","2027-06-01"); const pct=yp.p;
-  return `<div class="tracker junior"><div class="t-head"><div class="yr-title"><b>Junior Year</b><span class="yr-sub">Get ready for CTEC</span></div><button type="button" class="linkbtn jr-toggle2" data-jrtoggle aria-expanded="${jrOpen}">${jrOpen?"Hide full year":"Show full year"}<span class="chev sm" aria-hidden="true"></span></button></div>
+  return `<div class="tracker junior"><div class="t-head"><div class="yr-title"><b>Junior year</b><span class="yr-sub">Get ready for CTEC</span></div><button type="button" class="linkbtn jr-toggle2" data-jrtoggle aria-expanded="${jrOpen}">${jrOpen?"Hide full year":"Show full year"}<span class="chev sm" aria-hidden="true"></span></button></div>
   <div class="track"><div class="lane"><div class="lane-label"><div><span class="ll">Getting<br>ready</span></div></div>
     <div class="lane-road junior-road" style="--p:${pct.toFixed(3)}"><div class="yr-ticks">${yp.ticks}</div><div class="lanetags"><span class="lanetag alta-tag">Alta High School</span></div>
       <div class="car rc junior-car">${carSVG("ctec","cool")}</div></div></div>
@@ -2824,7 +2929,7 @@ function juniorHTML(){
   <div class="jr-next">${jrNextHTML(next)}</div>
   <div class="jr-list" ${jrOpen?"":"hidden"}>
     <p class="yr-list-label">Next steps</p><ul class="todo jr">${items.map(e=>{const on=store.get(e[6])==="1"; return `<li class="${on?"done":""}"><label><input type="checkbox" data-step="${e[6]}" ${on?"checked":""}><span class="when">${esc(e[1])} ${e[2]}${e[7]?' <span class="check">Estimate</span>':""}</span><span class="what">${esc(e[3])}</span><a href="#" class="jr-view" data-tljump="${e[6]}">View task</a></label></li>`;}).join("")}</ul>
-    <p class="jr-link">See everything in <a href="#" class="tl-jump" data-tljump="chase-fin-step-2">Important Dates</a></p></div></div>`;
+    <p class="jr-link">See everything in <a href="#" class="tl-jump" data-tljump="chase-fin-step-2">Important dates</a></p></div></div>`;
 }
 const SEASONS=["s1","s2"];
 function seasonDefault(s){
@@ -2848,14 +2953,14 @@ function seniorHTML(){
   const gi=EVENTS.findIndex(e=>e[6]==="chase-tl-grad");
   const sItems=seniorItems();
   const syp=yearProgress(sItems,"2027-08-01","2028-05-28");
-  return `<div class="tracker senior"><div class="t-head"><div class="yr-title"><b>Senior Year</b><span class="yr-sub">Earn college credit at CTEC</span></div><button type="button" class="linkbtn jr-toggle2" data-srtoggle aria-expanded="${srOpen}">${srOpen?"Hide full year":"Show full year"}<span class="chev sm" aria-hidden="true"></span></button></div>
+  return `<div class="tracker senior"><div class="t-head"><div class="yr-title"><b>Senior year</b><span class="yr-sub">Earn college credit at CTEC</span></div><button type="button" class="linkbtn jr-toggle2" data-srtoggle aria-expanded="${srOpen}">${srOpen?"Hide full year":"Show full year"}<span class="chev sm" aria-hidden="true"></span></button></div>
   <div class="track"><div class="lane"><div class="lane-label"><div><span class="ll">Earn<br>college<br>credit</span></div></div>
   <div class="lane-road senior-road" style="--p:${syp.p.toFixed(3)}"><div class="yr-ticks">${syp.ticks}</div><div class="lanetags"><button class="go lanetag" data-go="ctec" style="--tag:${CARCOLOR.ctec}">${esc(s.short)}</button></div><div class="car rc senior-car ${v?'viewing':''}" data-go="ctec" title="Open CTEC">${carSVG("ctec","senior")}</div></div></div>
   <div class="finish" aria-hidden="true"></div></div>
   <div class="jr-next sr-next">${srNextHTML()}</div>
   <div class="jr-list sr-list" ${srOpen?"":"hidden"}>
     <p class="yr-list-label">Next steps</p><ul class="todo jr">${sItems.map(e=>{const on=store.get(e[6])==="1"; return `<li class="${on?"done":""}"><label><input type="checkbox" data-step="${e[6]}" ${on?"checked":""}><span class="when">${esc(e[1])} ${e[2]}${e[7]?' <span class="check">Estimate</span>':""}</span><span class="what">${esc(e[3])}</span><a href="#" class="jr-view" data-tljump="${e[6]}">View task</a></label></li>`;}).join("")}</ul>
-    <div class="sr-foot"><p class="jr-link">See everything in <a href="#" class="tl-jump" data-tljump="chase-tl-grad">Important Dates</a></p>${srCtecFoot()}</div></div></div>`;
+    <div class="sr-foot"><p class="jr-link">See everything in <a href="#" class="tl-jump" data-tljump="chase-tl-grad">Important dates</a></p>${srCtecFoot()}</div></div></div>`;
 }
 const CTEC_LINK=`<a href="https://ctec.canyonsdistrict.org/" target="_blank" rel="noopener">Canyons Technical Education Center</a>`;
 function srJrDone(){ return JR_KEYS.every(k=>store.get(k)==="1"); }
@@ -2901,7 +3006,7 @@ function chooseHTML(s){
 }
 
 function celebrate(){
-  if(reduce)return;
+  if(reduce||window.__ahsNoCelebrate&&window.__ahsNoCelebrate())return;
   const box=document.getElementById("petals"), cols=["var(--red)","var(--gold)","#fff","var(--pink)"];
   for(let i=0;i<42;i++){
     const s=document.createElement("span");
@@ -3105,11 +3210,11 @@ function syncKey(){
 }
 const pill=document.createElement("div"); pill.className="savepill"; pill.setAttribute("role","status"); document.body.appendChild(pill);
 let pillT;
-function showPill(t,cls,stay){pill.innerHTML="";pill.textContent=t;pill.className="savepill show "+(cls||"");clearTimeout(pillT);if(!stay)pillT=setTimeout(()=>pill.classList.remove("show"),2200);}
+function showPill(t,cls,stay){return;pill.innerHTML="";pill.textContent=t;pill.className="savepill show "+(cls||"");clearTimeout(pillT);if(!stay)pillT=setTimeout(()=>pill.classList.remove("show"),2200);}
 const dirty={get(){try{return localStorage.getItem("ahs-dirty")==="1"}catch(e){return false}},set(v){try{v?localStorage.setItem("ahs-dirty","1"):localStorage.removeItem("ahs-dirty")}catch(e){}}};
 let unsavedHidden=false;
 function showUnsaved(){
-  if(unsavedHidden) return;
+  return;
   clearTimeout(pillT);
   pill.className="savepill show bad";
   pill.innerHTML=(KEY?`<span>Not saved online yet.</span> <button type="button" class="refresh">Try again</button>`
@@ -3153,8 +3258,8 @@ document.addEventListener("click",async e=>{
   const key=b.dataset.saveKey, ta=document.querySelector(`textarea[data-key="${key}"]`);
   if(ta) _set(key,ta.value);
   b.disabled=true; b.textContent="Saving…";
-  if(!KEY){ slideNote("✓ Saved on this device. Open your personal link to save everywhere.","ok"); }
-  else { const ok=await pushNow(true); slideNote(ok?"✓ Saved! Your answer is safe.":"Couldn't save online. Check the internet and tap Save again.",ok?"ok":"bad"); }
+  if(!KEY){ slideNote("Saved on this device only","ok"); }
+  else { const ok=await pushNow(true); slideNote(ok?"Saved":"Saved on this device only","ok"); }
   b.disabled=false; b.textContent="Save";
 });
 pill.addEventListener("click",async e=>{
@@ -3222,7 +3327,7 @@ window.addEventListener("pageshow",e=>{ if(e.persisted) retryIfDirty(); });
     if(!same) _show(id,false);
     mark(id);
     // Always land on the episode's title, so Chase can see he's on the right page.
-    const ch=document.getElementById("ch-"+id), reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
+    const ch=document.getElementById("ch-"+id), reduce=window.__ahsReduce?window.__ahsReduce():matchMedia("(prefers-reduced-motion:reduce)").matches;
     window.scrollTo({top:Math.max(0,ch.getBoundingClientRect().top+scrollY-12),behavior:(same&&!reduce)?"smooth":"auto"});
     setTimeout(()=>{ try{sizeMoney();}catch(_){} try{sizeTerms();}catch(_){} },60);
   });
@@ -3383,6 +3488,39 @@ window.addEventListener("pageshow",e=>{ if(e.persisted) retryIfDirty(); });
   new MutationObserver(ms=>{ if(ms.some(m=>m.addedNodes.length)) upgrade(document); }).observe(document.body,{childList:true,subtree:true});
 })();
 
+</script>
+<script>
+(function(){
+  var K="ahs-settings",dlg=document.getElementById("settings"),openB=document.getElementById("set-open");
+  if(!dlg||!openB) return;
+  function get(){return window.__ahsGet()}
+  function save(k,v){var g=get();g[k]=v;try{localStorage.setItem(K,JSON.stringify(g))}catch(e){}window.__ahsApply();}
+  function load(){
+    var g=get();
+    dlg.querySelectorAll('input[type=radio]').forEach(function(r){var v=g[r.name];r.checked=v?r.value===v:r.hasAttribute("data-default");});
+    dlg.querySelector('#set-textsize').value=g.textsize||"100";
+    dlg.querySelector('#set-underline').checked=g.underline!=="off";
+  }
+  dlg.addEventListener("change",function(e){var t=e.target;
+    if(t.type==="radio") save(t.name,t.value);
+    else if(t.id==="set-textsize") save("textsize",t.value);
+    else if(t.id==="set-underline") save("underline",t.checked?"on":"off");
+  });
+  openB.addEventListener("click",function(){load();dlg.showModal();var h=document.getElementById("set-title");h.focus();});
+  document.getElementById("set-close").addEventListener("click",function(){dlg.close();});
+  dlg.addEventListener("close",function(){openB.focus();});
+  var panes=document.getElementById("set-panes"),nav=dlg.querySelectorAll("[data-set-go]");
+  function showSec(id){nav.forEach(function(x){var on=x.dataset.setGo===id;x.setAttribute("aria-current",String(on));document.getElementById(x.dataset.setGo).hidden=!on;});panes.scrollTop=0;}
+  nav.forEach(function(b){b.addEventListener("click",function(){showSec(b.dataset.setGo);});});
+  (function(){var header=document.querySelector("header.top");if(!header)return;var SRC={x:1.16,y:.39},DEG=180/Math.PI,ease=function(t){return t*t*(3-2*t)};
+    function paint(){var s=openB.querySelector(":scope > .glass-rim");if(!s){s=document.createElement("span");s.className="glass-rim";s.setAttribute("aria-hidden","true");openB.appendChild(s);}
+      var hb=header.getBoundingClientRect(),b=openB.getBoundingClientRect(),sx=hb.left+SRC.x*hb.width,sy=hb.top+SRC.y*hb.height,cx=b.left+b.width/2,cy=b.top+b.height/2;
+      var dir=((Math.atan2(sx-cx,cy-sy)*DEG)+360)%360,PEAK=.8,BACK=PEAK*.35,HALF=70,st=[];
+      for(var d=0;d<=360;d+=6){var diff=Math.abs(((d-dir+540)%360)-180),front=diff<HALF?ease(1-diff/HALF):0,back=diff>180-HALF*.6?ease((diff-(180-HALF*.6))/(HALF*.6)):0;st.push("rgba(255,255,255,"+(PEAK*front+BACK*back).toFixed(3)+") "+d+"deg");}
+      s.style.background="conic-gradient(from 0deg at 50% 50%, "+st.join(", ")+")";}
+    paint();if(window.ResizeObserver)new ResizeObserver(paint).observe(header);})();
+  ["(prefers-reduced-motion: reduce)","(prefers-contrast: more)","(prefers-reduced-transparency: reduce)"].forEach(function(q){try{matchMedia(q).addEventListener("change",window.__ahsApply)}catch(e){}});
+})();
 </script>
 </body>
 </html>
