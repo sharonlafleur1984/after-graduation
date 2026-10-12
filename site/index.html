@@ -3194,11 +3194,11 @@ function syncKey(){
 }
 const pill=document.createElement("div"); pill.className="savepill"; pill.setAttribute("role","status"); document.body.appendChild(pill);
 let pillT;
-function showPill(t,cls,stay){pill.innerHTML="";pill.textContent=t;pill.className="savepill show "+(cls||"");clearTimeout(pillT);if(!stay)pillT=setTimeout(()=>pill.classList.remove("show"),2200);}
+function showPill(t,cls,stay){return;pill.innerHTML="";pill.textContent=t;pill.className="savepill show "+(cls||"");clearTimeout(pillT);if(!stay)pillT=setTimeout(()=>pill.classList.remove("show"),2200);}
 const dirty={get(){try{return localStorage.getItem("ahs-dirty")==="1"}catch(e){return false}},set(v){try{v?localStorage.setItem("ahs-dirty","1"):localStorage.removeItem("ahs-dirty")}catch(e){}}};
 let unsavedHidden=false;
 function showUnsaved(){
-  if(unsavedHidden) return;
+  return;
   clearTimeout(pillT);
   pill.className="savepill show bad";
   pill.innerHTML=(KEY?`<span>Not saved online yet.</span> <button type="button" class="refresh">Try again</button>`
@@ -3242,8 +3242,8 @@ document.addEventListener("click",async e=>{
   const key=b.dataset.saveKey, ta=document.querySelector(`textarea[data-key="${key}"]`);
   if(ta) _set(key,ta.value);
   b.disabled=true; b.textContent="Saving…";
-  if(!KEY){ slideNote("✓ Saved on this device. Open your personal link to save everywhere.","ok"); }
-  else { const ok=await pushNow(true); slideNote(ok?"✓ Saved! Your answer is safe.":"Couldn't save online. Check the internet and tap Save again.",ok?"ok":"bad"); }
+  if(!KEY){ slideNote("Saved on this device only","ok"); }
+  else { const ok=await pushNow(true); slideNote(ok?"Saved":"Saved on this device only","ok"); }
   b.disabled=false; b.textContent="Save";
 });
 pill.addEventListener("click",async e=>{
