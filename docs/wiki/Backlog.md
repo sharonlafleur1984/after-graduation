@@ -26,7 +26,7 @@ Every idea starts with the problem. For competitor features we asked: what probl
 | 11 | Picking a rank that's already taken is confusing | Swap the two schools, show names, add Undo | Ready for your decision |
 | 12 | The same kind of thing looks different in different places | Fix it once in the design tokens while building the product | Ready for your decision |
 | 13 | The big title pushes the content down | Title size that adjusts to the screen | Ready for your decision |
-| 14 | Hiring managers have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
+| 14 | Stakeholders have little time to see the work | A short case study with a short video, after the usability round | Ready for your decision |
 | 15 | Students thinking of skipping school can't see what it means for their pay | Show a few jobs that need only a diploma, with pay, next to their other paths | Needs research. Not for the first release. |
 | 16 | Students who want to study abroad can't plan for schools outside the US | Add international schools as a third choice after "Only my state" and "Open to other states" | Needs research. Not for the first release. |
 | 17 | Middle schoolers who want to get ahead have nothing to plan | Optional extras: extracurriculars, volunteering, internships | Needs research. Not for the first release. |
@@ -183,9 +183,9 @@ Open an idea below for the full reasoning and sources.
 </details>
 
 <details>
-<summary>💡 <b>14. Problem: hiring managers have little time to see the work</b></summary>
+<summary>💡 <b>14. Problem: stakeholders have little time to see the work</b></summary>
 
-- **Why it matters:** hiring managers have little time per candidate, so a portfolio should be easy to scan and show problem, role, research, solution and impact ([Nielsen Norman Group](https://www.nngroup.com/articles/ux-design-portfolios/)).
+- **Why it matters:** stakeholders have little time per candidate, so a portfolio should be easy to scan and show problem, role, research, solution and impact ([Nielsen Norman Group](https://www.nngroup.com/articles/ux-design-portfolios/)).
 - **Options:**
   - A. A walkthrough video only
   - B. A written case study only
