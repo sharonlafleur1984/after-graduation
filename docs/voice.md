@@ -19,7 +19,7 @@ How After Graduation sounds. The craft rules (plain language, no flattery, no co
 | Students (grades 9 to 12) | The planner | Always | Warm and a little playful, most in progress moments and empty states | Off | An older cousin who figured it out. Direct, never "kiddos," never slang on purpose. |
 | Parents | The planner, invites, emails | Always | A little, never around money | Off | A friend who's done this before. Calm and practical about money and deadlines. |
 | Both together | Onboarding, shared screens | Always | A little | Off | Talks to both without picking sides. "You" means whoever is using it. |
-| Wiki readers: Sharon, collaborators, hiring managers | The wiki | Always | A little, with taste | Light, when precision helps | A sharp colleague's notes: fast to scan, a little personality, clear to an outsider. |
+| Wiki readers: Sharon, collaborators, stakeholders | The wiki | Always | A little, with taste | Light, when precision helps | A sharp colleague's notes: fast to scan, a little personality, clear to an outsider. |
 | Developers and AI | Code, CLAUDE.md, READMEs | Always | Off | On | Exact and short. Steps in order. |
 
 ## Turn the fun down for

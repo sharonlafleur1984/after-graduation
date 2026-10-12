@@ -8,7 +8,7 @@ Every big choice, newest first. Open one to see why. Design system decisions (co
 <summary><b>Oct 11, 2026:</b> Link the latest prototype publicly</summary>
 
 - **Decided by:** Sharon
-- **Decision:** the portfolio links to the latest prototype at [afterhighschool.netlify.app](https://afterhighschool.netlify.app/), so hiring managers see the newest work in one click. This replaces the Sep 25 lock-down.
+- **Decision:** the portfolio links to the latest prototype at [afterhighschool.netlify.app](https://afterhighschool.netlify.app/), so stakeholders see the newest work in one click. This replaces the Sep 25 lock-down.
 - **Checked:** The live site was accessible without a password and returned its normal page, with no password prompt, when checked on October 11, 2026.
 - **Trade-off:** the latest prototype is public. The older sample-data version stays on [GitHub Pages](https://sharonlafleur1984.github.io/after-graduation/prototype/) as a "before."
 
