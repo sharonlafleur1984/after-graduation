@@ -1713,6 +1713,21 @@ ul.todo li .acc-panel p:last-child{margin-bottom:8px}
 :is(.tracker.junior,.tracker.senior,.chapter) ul.todo li label > button.jr-acc{height:21px!important;width:32px!important;padding:0!important}
 :is(.tracker.junior,.tracker.senior,.chapter) ul.todo li label > button.jr-acc::after{inset:-12px -6px!important}
 
+/* One continuous scene: the header's red, rays and light run behind the whole page (Oct 11 2026) */
+html{background:var(--red-deep)!important}
+body{background:transparent!important}
+body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:radial-gradient(ellipse 125% 140% at 116% 39%,rgba(60,0,15,0) 0%,rgba(60,0,15,.08) 35%,rgba(60,0,15,.28) 65%,rgba(60,0,15,.46) 100%),
+  linear-gradient(165deg,#D63A48 0%,var(--red) 42%,var(--red-deep) 100%)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.82;
+  background:repeating-conic-gradient(from 0deg at 116% 124px,rgba(255,255,255,.13) 0 2deg,transparent 2deg 7deg);
+  -webkit-mask-image:radial-gradient(ellipse 130% 90% at 116% 124px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%);mask-image:radial-gradient(ellipse 130% 90% at 116% 124px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%)}
+@media (max-width:599px){body::after{background:repeating-conic-gradient(from 0deg at 116% 55px,rgba(255,255,255,.13) 0 2deg,transparent 2deg 7deg);-webkit-mask-image:radial-gradient(ellipse 130% 90% at 116% 55px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%);mask-image:radial-gradient(ellipse 130% 90% at 116% 55px,#000 0%,rgba(0,0,0,.55) 45%,rgba(0,0,0,.2) 100%)}}
+header.top{background:transparent!important}
+header.top::before{content:none!important}
+header.top > .falloff{display:none!important}
+html[data-reduce-motion] body::after{opacity:.6}
+
 /* Settings: the look each setting changes */
 html[data-reduce-motion] *,html[data-reduce-motion] *::before,html[data-reduce-motion] *::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
 html[data-reduce-motion] .petals{display:none!important}
