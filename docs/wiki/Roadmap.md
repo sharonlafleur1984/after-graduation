@@ -1,6 +1,6 @@
 # Roadmap
 
-**Last updated:** October 7, 2026
+**Last updated:** October 13, 2026
 
 | Now | Next | Later |
 |---|---|---|
@@ -12,12 +12,14 @@
 
 Each milestone is the finish line for something in Now or Next, or a point where we make a big decision.
 
+Each milestone is one parent issue on the [project board](https://github.com/users/sharonlafleur1984/projects/3). Its steps are the sub-issues underneath it.
+
 | Milestone | Done when | Timing |
 |---|---|---|
-| Usability round done | 6 to 8 sessions run and the top problems listed | Aiming for Oct 2026 |
-| Family test done | 10 families offered a paid extra, and the results counted | Aiming for Jan 2027 |
-| **Decision gate** | Test results are in, and we decide: build one route, or stop. | **As soon as the family test reports.** Latest: Feb 2027 |
-| Beta ready | Onboarding, accounts, privacy and consent in place, and families using it for real | After the decision gate |
+| [Usability round done](https://github.com/sharonlafleur1984/after-graduation/issues/50) | 6 to 8 sessions run and the top problems listed | Aiming for Oct 2026 |
+| [Family test done](https://github.com/sharonlafleur1984/after-graduation/issues/51) | 10 families offered a paid extra, and the results counted | Aiming for Jan 2027 |
+| **[Decision gate](https://github.com/sharonlafleur1984/after-graduation/issues/53)** | Test results are in, and we decide: build one route, or stop. | **As soon as the family test reports.** Latest: Feb 2027 |
+| [Beta ready](https://github.com/sharonlafleur1984/after-graduation/issues/54) | Onboarding, accounts, privacy and consent in place, and families using it for real | After the decision gate |
 
 The decision gate is the point where the test results decide whether we build.
 
@@ -28,7 +30,7 @@ The decision gate is the point where the test results decide whether we build.
 
 - ✅ Personal site locked (Sep 2026)
 - ✅ Copy of the code in GitHub with sample data (Sep 2026)
-- ✅ Foundation ready: React, TypeScript, Storybook and tests set up on the design system ([#35](https://github.com/sharonlafleur1984/after-graduation/pull/35), Oct 2026)
+- ✅ [Foundation ready](https://github.com/sharonlafleur1984/after-graduation/issues/52): React, TypeScript, Storybook and tests set up on the design system ([#35](https://github.com/sharonlafleur1984/after-graduation/pull/35), Oct 2026)
 
 </details>
 
