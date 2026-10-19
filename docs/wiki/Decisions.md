@@ -2,7 +2,7 @@
 
 **Last updated:** October 11, 2026
 
-Every big choice, newest first. Open one to see why. Design system decisions (colors, type, motion, components, dark mode, React Aria) live on the [design system's Decisions page](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), not here.
+Every big choice, newest first. Open one to see why. Design system decisions (colors, type, motion, components, dark mode, React Aria) live on the [design system's Decisions page](https://github.com/sharonlafleur1984/lantern-design-system/wiki/Decisions), not here.
 
 <details>
 <summary><b>Oct 11, 2026:</b> Link the latest prototype publicly</summary>
@@ -21,7 +21,7 @@ Every big choice, newest first. Open one to see why. Design system decisions (co
 - **Decision:** this app installs the design system straight from GitHub, pinned to a version. Updating it is its own pull request. Every component is built in the design system first; this repo only arranges components on a page and owns the data.
 - **Why:** it builds the same on a laptop, in tests and on Netlify, and the app always knows which version it was built on.
 - **Other options considered:** pointing at the folder next door (only works on one laptop); publishing to npm (a release step for every change).
-- **Details:** [design system Decisions](https://github.com/sharonlafleur1984/design-system-skeleton/blob/main/docs/wiki/Decisions.md), [#36](https://github.com/sharonlafleur1984/after-graduation/pull/36) (pinned to v0.2.0)
+- **Details:** [design system Decisions](https://github.com/sharonlafleur1984/lantern-design-system/wiki/Decisions), [#36](https://github.com/sharonlafleur1984/after-graduation/pull/36) (pinned to v0.2.0)
 
 </details>
 

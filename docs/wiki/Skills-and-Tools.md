@@ -23,7 +23,7 @@ The full skills, Sharon's process and project templates live in **[How I work](h
 | GitHub | Stores the code and this wiki | [Repository](https://github.com/sharonlafleur1984/after-graduation) |
 | Claude Code | Builds the product on Sharon's own computer, so the app and Storybook run locally | [Claude Code](https://claude.com/claude-code) |
 | Netlify | Will host the product, with a preview for every pull request | Set up while building the product |
-| Storybook | A page for every component, like a living design system. Lives in the design system repo. | [Design system Storybook](https://designsystemskeleton.netlify.app/) |
+| Storybook | A page for every component, like a living design system. Lives in the design system repo. | [Design system Storybook](https://lanterndesignsystem.netlify.app/) |
 | Figma | Designs, synced with the code's design tokens | Link added once connected |
 | Supabase | Accounts and saved progress (later phase) | Set up when accounts are built |
 | PostHog | Shows how often families log in, come back and share, for the beta ([Research Plan](Research-Plan#study-3-beta-with-accounts)) | Set up with accounts |

@@ -33,8 +33,8 @@ Where we're going: [Roadmap](Roadmap). Every idea: [Backlog](Backlog). Every tas
 | Prototype | [Live prototype](https://afterhighschool.netlify.app/), sample data |
 | Code repository | [sharonlafleur1984/after-graduation](https://github.com/sharonlafleur1984/after-graduation) |
 | Tasks | [Project](https://github.com/users/sharonlafleur1984/projects/3), with tasks from this repo and the design system |
-| Storybook | [Design system Storybook](https://designsystemskeleton.netlify.app/) |
-| Design system | [sharonlafleur1984/design-system-skeleton](https://github.com/sharonlafleur1984/design-system-skeleton) |
+| Storybook | [Design system Storybook](https://lanterndesignsystem.netlify.app/) |
+| Design system | [sharonlafleur1984/lantern-design-system](https://github.com/sharonlafleur1984/lantern-design-system) |
 | Project files (private) | [Google Drive](https://drive.google.com/drive/folders/1KV3qijRzc-j42pj-1_vRv-1etwju2hLs) |
 | Project entry (private) | [Notion, Life Hub Projects](https://app.notion.com/p/3e78df3da83881bea679dac568d42b74) |
 
