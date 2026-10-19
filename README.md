@@ -8,7 +8,7 @@ It leans heavily toward students with IEP and 504 accommodations, because most p
 
 > **This is a work in progress.** In this day of AI design, things are moving fast, and I'm moving a million miles a minute to get relevant design experience for this new age as I look for my next career opportunity. I'd love to share what I'm learning with whoever I end up with next. You can see the whole thing in all its messy glory, but don't expect it to be polished.
 
-> **Status:** building the product has started. The working planner is still the single-file prototype in `prototype/`, with sample data. The product is being built in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/design-system-skeleton).
+> **Status:** building the product has started. The working planner is still the single-file prototype in `prototype/`, with sample data. The product is being built in React, one page at a time, from the [design system](https://github.com/sharonlafleur1984/lantern-design-system).
 
 ## What's inside
 
@@ -33,7 +33,7 @@ npm test            # tests
 
 After updating the design system version, stop and restart `npm run dev` and `npm run storybook`. A running app keeps the version it started with.
 
-Every component comes from the design system and is documented in [its Storybook](https://designsystemskeleton.netlify.app/). This repo only puts components together into pages.
+Every component comes from the design system and is documented in [its Storybook](https://lanterndesignsystem.netlify.app/). This repo only puts components together into pages.
 
 ## Sample data
 

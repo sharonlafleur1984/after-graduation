@@ -13,6 +13,10 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Let npm fetch the private design system (lantern-code)
+        run: git config --global url."https://x-access-token:${LANTERN_CODE_TOKEN}@github.com/".insteadOf "ssh://git@github.com/"
+        env:
+          LANTERN_CODE_TOKEN: ${{ secrets.LANTERN_CODE_TOKEN }}
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
